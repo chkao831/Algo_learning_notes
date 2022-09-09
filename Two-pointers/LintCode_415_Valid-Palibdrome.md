@@ -1,6 +1,6 @@
 https://www.lintcode.com/problem/415/description
 
-```
+```python
 class Solution:
     """
     @param s: A string
