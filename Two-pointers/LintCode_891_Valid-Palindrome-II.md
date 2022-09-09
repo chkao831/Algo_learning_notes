@@ -54,3 +54,6 @@ Submissions
 ```
 #### Remark:
 - hesitant about function splitting design, inputs and returns
+#### Complexity
+- Time: O(n)
+- Space: No extra memory
