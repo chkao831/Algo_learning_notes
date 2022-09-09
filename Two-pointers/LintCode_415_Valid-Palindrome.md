@@ -39,3 +39,6 @@ Submissions
 - used **<=** instead of **<**
 - forgot **.lower()** conversion
 - isalpha() **or** isdigit(), not **and**
+#### Complexity
+- Time: O(n)
+- Space: No extra memory
