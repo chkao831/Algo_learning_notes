@@ -13,7 +13,7 @@ class Solution:
         while left < right:
             if sorted_pair[left][1] + sorted_pair[right][1] == target:
                 return [sorted_pair[left][0], sorted_pair[right][0]] # in any order
-            if sorted_pair[left][1] + sorted_pair[right][1] < target:
+            elif sorted_pair[left][1] + sorted_pair[right][1] < target:
                 left += 1
             else:
                 right -= 1
@@ -32,8 +32,8 @@ class Solution:
 - if indices should be returned in ascending order, the return argument would instead become `return [min(sorted_pair[left][0], sorted_pair[right][0]), max(sorted_pair[left][0], sorted_pair[right][0])]`
 #### Submission:
 ```
-Runtime: 160 ms, faster than 36.96% of Python3 online submissions for Two Sum.
-Memory Usage: 15.8 MB, less than 8.73% of Python3 online submissions for Two Sum.
+Runtime: 112 ms, faster than 53.77% of Python3 online submissions for Two Sum.
+Memory Usage: 15.4 MB, less than 13.72% of Python3 online submissions for Two Sum.
 ```
 #### Complexity:
 - Time: O(nlogn)
