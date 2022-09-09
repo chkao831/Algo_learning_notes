@@ -23,7 +23,18 @@ class Solution:
         return char.isalpha() or char.isdigit()
 
 ```
-
+#### Submission
+```
+102 ms
+time cost
+·
+5.92 MB
+memory cost
+·
+Your submission beats
+20.20 %
+Submissions
+```
 #### Remark
 - used **<=** instead of **<**
 - forgot **.lower()** conversion
