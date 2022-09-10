@@ -34,14 +34,15 @@ class Solution:
             hashmap[nums[i]] = i
 ```
 #### Remark:
-- For the one-pass approach, I originally misplaced the addition line `hashmap[nums[i]] = i` immediately after entering the for loop. It doesn't work because of the nature of hashmap, this overwrites the value corresponding to a key when we're looking for its complement. Hence, as an example, we wouldn't find a solution in such a case: `[3, 3], target = 6`. 
+- For the one-pass approach, I originally misplaced the addition line `hashmap[nums[i]] = i` immediately after entering the for loop. It doesn't work because of the nature of hashmap, such an arrangement overwrites the value corresponding to a key when we're looking for its complement. Hence, as an example, we wouldn't find a solution in such a case: `[3, 3], target = 6`. 
 #### Submission:
 ```
 Runtime: 124 ms, faster than 45.61% of Python3 online submissions for Two Sum.
 Memory Usage: 15.2 MB, less than 24.03% of Python3 online submissions for Two Sum.
 ```
 ```
-
+Runtime: 121 ms, faster than 47.40% of Python3 online submissions for Two Sum.
+Memory Usage: 15.1 MB, less than 63.71% of Python3 online submissions for Two Sum.
 ```
 #### Complexity:
 - Time: O(n)
