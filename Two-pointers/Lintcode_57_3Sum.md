@@ -1,5 +1,11 @@
 https://www.lintcode.com/problem/57/
 
+```
+[0, 1, 2, 2, 2, 3]
+ ^  ^           ^
+ b  l           r where b=basis, l=left, r=right
+```
+
 ```python
 from typing import (
     List,
