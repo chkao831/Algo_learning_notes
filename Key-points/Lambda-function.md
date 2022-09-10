@@ -21,7 +21,7 @@ sorted(iterable, key=lambda parameter: expression)
 ```
 
 ### Example
-```
+```python
 from functools import reduce
 
 numbers = [50, 2, 12, 30, 27, 4]
