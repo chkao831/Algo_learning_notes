@@ -1,3 +1,5 @@
+## HashMap
+
 > HashMap has complexity of O(1) for insertion and lookup.
 
 | Item | Topic | Remark | Link(s) |
