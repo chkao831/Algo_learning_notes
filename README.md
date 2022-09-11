@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Study Progress since Sep 10, 2022\
-> Last Updated on Sep 11, 2022
+> Last Updated on Sep 12, 2022
 
 ## Language
 Python3
