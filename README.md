@@ -34,13 +34,15 @@ Python3
 | 143 | Sort Colors II | Medium | Two pointers | 
 | 144 | Interleaving Positive and Negative Numbers | Medium | Two pointers |
 | 148 | Sort Colors | Medium | Two pointers | 
-| 373 | Partition Array by Odd and Even | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) |
+| 373* | Partition Array by Odd and Even | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) |
 | 415 | Valid Palindrome | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_415_Valid-Palindrome.md) |
 | 464 | Sort Integers II | Easy | [Sorting](https://github.com/chkao831/Algo_learning_notes/blob/main/Sorting/LintCode_464_Sort-Integers-II_QuickSort.md) 
 | 539 | Move Zeroes | Medium | Two pointers | 
 | 607 | Two Sum III - Data structure design | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_607_Two-Sum-III-Data-structure-design.md); [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_607_Two-Sum-III-Data-structure-design.md) |
-| 609 | Two sum - Less than or equal to target | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) |
+| 609* | Two sum - Less than or equal to target | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) |
 | 891 | Valid Palindrome II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) |
+
+(*: LintCode VIP only)
 
 ## Problems (chronologically ordered)
 | Source |  Index  | Topic  |  Link | Difficulty | Submission Date |
@@ -55,13 +57,13 @@ Python3
 | Leet | 147 | Insertion Sort List | Sorting | Medium | 20220911 |
 | Lint | 57 | 3Sum | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_57_3Sum.md) | Medium | 20220911 |
 | Leet | 611 | Valid Triangle Number | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_611_Valid-Triangle-Number.md) | Medium | 20220911 |
-| Lint | 609 | Two sum - Less than or equal to target | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) | Medium | 20220911 |
+| Lint | 609* | Two sum - Less than or equal to target | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) | Medium | 20220911 |
 | Leet | 259 | 3Sum Smaller | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_259_3Sum-Smaller.md) | Medium | 20220911 |
 | Leet | 18 | 4Sum | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_18_4Sum.md) | Medium | 20220911 |
 | Lint | 464 | Sort Integers II | [Sorting](https://github.com/chkao831/Algo_learning_notes/blob/main/Sorting/LintCode_464_Sort-Integers-II_QuickSort.md) | Easy | 20220912 |
 | Lint | 31 | Partition Array | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md) | Medium | 20220912 | 
 | Lint | 144 | Interleaving Positive and Negative Numbers | Two pointers | Medium | 20220912 |
-| Lint | 373 | Partition Array by Odd and Even | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) | Medium | 20220912 |
+| Lint | 373* | Partition Array by Odd and Even | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) | Medium | 20220912 |
 | Lint | 49 | Sort Letters by Case | Two pointers | Medium | 20220912 |
 | Lint | 148 | Sort Colors | Two pointers | Medium | 20220912 |
 | Lint | 143 | Sort Colors II | Two pointers | Medium | 20220912 |
