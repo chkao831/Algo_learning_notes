@@ -28,7 +28,7 @@ Python3
 | 609 | Two sum - Less than or equal to target | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) |
 | 891 | Valid Palindrome II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) |
 
-## Problems (chronogogically ordered)
+## Problems (chronologically ordered)
 | Source |  Index  | Topic  |  Link | Difficulty | Submission Date |
 |  ----  |  ----  | ----  | ----  | ----  | ----  | 
 | Lint | 415 | Valid Palindrome | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_415_Valid-Palindrome.md) | Medium | 20220910 |
