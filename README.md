@@ -12,7 +12,7 @@ Python3
   | Type | Average Time | Space | Algorithm Demo | Application | 
   |  ----  | ----  | ----  | ----  | ----  | 
   | Insertion Sort | O(n^2) | O(1) |  | 1. [[Lint607](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_607_Two-Sum-III-Data-structure-design.md)] Add number with Insertion Sort to the last, then swap to front with O(n) time. |
-  | Quick Sort | O(nlogn) | O(logn) | [Lint464]() | |
+  | Quick Sort | O(nlogn) | O(logn) | [Lint464](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_464_Sort-Integers-II_QuickSort.md) | 1. [[Lint31](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md)] Partition highly resembles Quick Sort, except that the left-right partition is strict. |
 
 ## Problems (indexed)
 #### LeetCode
