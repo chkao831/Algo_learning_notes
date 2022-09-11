@@ -1,8 +1,31 @@
-# Leetcode_learning_notes
+# Algorithm Learning Notes
+> Study Progress since Sep 10, 2022\
+> Last Updated on Sep 11, 2022
 
-|  Index   | Topic  |  code | pdf | Difficulty | Acceptance Date |
-|  ----  | ----  | ----  | ----  | ----  | --- |
-|  [727](https://leetcode.com/problems/minimum-window-subsequence/) | Minimum Window Subsequence | [Python](https://github.com/chkao831/Leetcode_learning_notes/blob/main/src/727_minimum-window-subsequence.py) | [link](https://github.com/chkao831/Leetcode_learning_notes/blob/main/pdf/727_minimum-window-subsequence.pdf) | Hard | 2022/01/30 |
-|  [724](https://leetcode.com/problems/find-pivot-index/) | Find Pivot Index | [Python]() | [link]() | Easy | 2022/01/31 |
-|  [747](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | Largest Number At Least Twice of Others | [Python]() | [link]() | Easy | 2022/01/31 |
-|  [66](https://leetcode.com/problems/plus-one/) | Plus One | [Python]() | [link]() | Easy | 2022/01/31 |
+## Language
+Python3
+
+## Categories
+- [Two pointers (雙指針)](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers)
+- [Hashmap (哈希表)](https://github.com/chkao831/Algo_learning_notes/tree/main/Hashmap)
+
+## Problems
+### LeetCode
+|  Index   | Topic  |  Link | Difficulty | Submission Date |
+|  ----  | ----  | ----  | ----  | ----  | 
+| 1 | Two Sum | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_1_Two-Sum.md) | Easy | 20220910 |
+| 1 | Two Sum | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_1_Two-sum.md) | Easy | 20220910 |
+| 454 | 4Sum II | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_454_4Sum-II.md) | Medium | 20220910 |
+| 611 | Valid Triangle Number | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_611_Valid-Triangle-Number.md) | Medium | 20220911 |
+| 259 | 3Sum Smaller | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_259_3Sum-Smaller.md) | Medium | 20220911 |
+| 18 | 4Sum | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_18_4Sum.md) | Medium | 20220911 |
+
+### LintCode
+|  Index   | Topic  |  Link | Difficulty | Submission Date |
+|  ----  | ----  | ----  | ----  | ----  | 
+| 415 | Valid Palindrome | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_415_Valid-Palindrome.md) | Medium | 20220910 |
+| 891 | Valid Palindrome II | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) | Medium | 20220910 |
+| 607 | Two Sum III - Data structure design | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_607_Two-Sum-III-Data-structure-design.md) | Easy | 20220910 |
+| 607 | Two Sum III - Data structure design | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_607_Two-Sum-III-Data-structure-design.md) | Easy | 20220910 |
+| 57 | 3Sum | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_57_3Sum.md) | Medium | 20220911 |
+| 609 | Two sum - Less than or equal to target | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) | Medium | 20220911 |
