@@ -75,7 +75,7 @@ Python3
 | Lint | 31 | Partition Array | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md) | Medium | 20220912 | 
 | Lint | 144 | Interleaving Positive and Negative Numbers | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_144_Interleaving-Positive-and-Negative-Numbers.md) | Medium | 20220912 |
 | Lint | 373* | Partition Array by Odd and Even | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) | Medium | 20220912 |
-| Lint | 49 | Sort Letters by Case | [Two pointers](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers) | Medium | 20220912 |
+| Lint | 49 | Sort Letters by Case | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_49_Sort-Letters-by-Case.md) | Medium | 20220912 |
 | Lint | 148 | Sort Colors | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_148_Sort-Colors.md) | Medium | 20220912 |
 | Lint | 143 | Sort Colors II | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_143_Sort-Colors-II.md) | Medium | 20220912 |
 | Lint | 539 | Move Zeroes | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_539_move-zeroes.md) | Medium | 20220912 |
