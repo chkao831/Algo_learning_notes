@@ -1,8 +1,10 @@
 ### Sort Colors II
 https://www.lintcode.com/problem/143/
->
-![My animated logo](../images/143_Sort-Colors-II.png)
+> question
+<img src="../images/143_Sort-Colors-II.png" width="100px" />
+
 ```python
+![My animated logo](../images/143_Sort-Colors-II.png)
 ```
 #### Remark:
 - 
