@@ -6,13 +6,17 @@
 Python3
 
 ## Categories
+#### Algorithms
 - [Two pointers (雙指針)](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers)
-- [Hashmap (哈希表)](https://github.com/chkao831/Algo_learning_notes/tree/main/Hashmap)
 - [Sorting](https://github.com/chkao831/Algo_learning_notes/tree/main/Sorting)
   | Type | Average Time | Space | Algorithm Demo | Application | 
   |  ----  | ----  | ----  | ----  | ----  | 
   | Insertion Sort | O(n^2) | O(1) | Leet147 | 1. [[Lint607](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_607_Two-Sum-III-Data-structure-design.md)] Add number with Insertion Sort to the last, then swap to front with O(n) time. |
   | Quick Sort | O(nlogn) | O(logn) | [Lint464](https://github.com/chkao831/Algo_learning_notes/blob/main/Sorting/LintCode_464_Sort-Integers-II_QuickSort.md) | 1. [[Lint31](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md)] Partition highly resembles Quick Sort, except that the left-right partition is strict. |
+  
+ #### Data Structures
+- [Hashmap (哈希表)](https://github.com/chkao831/Algo_learning_notes/tree/main/Hashmap)
+- [Array (數組)](https://github.com/chkao831/Algo_learning_notes/tree/main/Array)
 
 ## Problems (indexed)
 #### LeetCode
@@ -35,6 +39,7 @@ Python3
 | 144 | Interleaving Positive and Negative Numbers | Medium | Two pointers |
 | 148 | Sort Colors | Medium | Two pointers | 
 | 373* | Partition Array by Odd and Even | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) |
+| 407 | Plus One | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_407_Plus-One.md) |
 | 415 | Valid Palindrome | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_415_Valid-Palindrome.md) |
 | 464 | Sort Integers II | Easy | [Sorting](https://github.com/chkao831/Algo_learning_notes/blob/main/Sorting/LintCode_464_Sort-Integers-II_QuickSort.md) 
 | 539 | Move Zeroes | Medium | Two pointers | 
@@ -68,3 +73,4 @@ Python3
 | Lint | 148 | Sort Colors | Two pointers | Medium | 20220912 |
 | Lint | 143 | Sort Colors II | Two pointers | Medium | 20220912 |
 | Lint | 539 | Move Zeroes | Two pointers | Medium | 20220912 |
+| Lint | 407 | Plus One | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_407_Plus-One.md) | Easy | 20220912 |
