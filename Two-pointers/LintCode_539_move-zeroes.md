@@ -1,7 +1,9 @@
 ### Move Zeroes
 https://www.lintcode.com/problem/539/
 >Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
 <img src="../images/539_Move-Zeroes.png" width="700px" />
+
 ```python
 from typing import (
     List,
@@ -27,4 +29,22 @@ class Solution:
             if(nums[fill_ptr]!=0):
                 nums[fill_ptr] = 0
             fill_ptr += 1
+
 ```
+
+#### Remark:
+- Method is tricky. Need to review. 
+#### Submission:
+```
+101ms
+Time Cost
+
+7.26MB
+Memory Cost
+
+93.20%
+Beats
+```
+#### Complexity:
+- Time: O(n)
+- Space: O(1)
