@@ -15,24 +15,35 @@ https://leetcode.com/problems/partition-list/
 class Solution:
     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
         
-        former = former_head = ListNode(0)
-        latter = latter_head = ListNode(0)
+        """
+        (1) former_dummy -> null
+        (2) latter_dummy -> null
+        """
+        former = former_dummy = ListNode(0)
+        latter = latter_dummy = ListNode(0)
         
         while head:
-            curr_next = head.next
+            '''
+            (3) make sure curr.next is captured
+            (4) link current tail
+            (5) link current head
+            (6) move (shift) to next
+            '''
+            curr_next = head.next              # (3)
             if head.val < x:
-                former.next = head
-                former = former.next
-            else: # head.val >= x
-                latter.next = head
-                latter = latter.next
-            head = curr_next
+                # head.next = former.next        # (4) link tail to null, can be skipped
+                former.next = head             # (5)
+                former = former.next           # (6)
+            else: # head.val >= x 
+                head.next = latter.next        # (4) link tail to null
+                latter.next = head             # (5)
+                latter = latter.next           # (6)
+            head = curr_next                   # (6')
         
-        # print(latter_head.next)
-        latter.next = None
-        former.next = latter_head.next
+        former.next = latter_dummy.next
         
-        return former_head.next
+        return former_dummy.next
+        
 ```
 #### Remark:
 - Remember `latter.next = None`, since the last node of "after" list would also be ending node of the reformed list. 
