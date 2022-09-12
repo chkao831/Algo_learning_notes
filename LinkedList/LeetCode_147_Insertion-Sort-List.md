@@ -46,7 +46,7 @@ class Solution:
         return dummy.next
 ```
 #### Remark:
-- miswrote `prev.next.val < curr.val` as prev.next < curr.val
+- miswrote `prev.next.val < curr.val` as `prev.next < curr.val`
 #### Submission:
 ```
 Runtime: 1677 ms, faster than 48.46% of Python3 online submissions for Insertion Sort List.
