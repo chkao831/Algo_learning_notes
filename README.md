@@ -7,7 +7,7 @@ Python3
 
 ## Categories
 #### Algorithms
-- [Two pointers (雙指針)](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers)
+- [Two pointers（雙指針）](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers)
 - [Divide-and-Conquer（DnC, 分治）](https://github.com/chkao831/Algo_learning_notes/tree/main/DnC)
 - Sorting（排序）
   | Type | Average Time | Space | Algorithm Demo | Application | 
