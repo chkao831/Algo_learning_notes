@@ -36,7 +36,7 @@ Python3
 | 49 | Sort Letters by Case | Medium | Two pointers |
 | 57 | 3Sum | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_57_3Sum.md) |
 | 143 | Sort Colors II | Medium | Two pointers | 
-| 144 | Interleaving Positive and Negative Numbers | Medium | Two pointers |
+| 144 | Interleaving Positive and Negative Numbers | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_144_Interleaving-Positive-and-Negative-Numbers.md) |
 | 148 | Sort Colors | Medium | Two pointers | 
 | 373* | Partition Array by Odd and Even | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) |
 | 407 | Plus One | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_407_Plus-One.md) |
@@ -67,7 +67,7 @@ Python3
 | Leet | 18 | 4Sum | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_18_4Sum.md) | Medium | 20220911 |
 | Lint | 464 | Sort Integers II | [Sorting](https://github.com/chkao831/Algo_learning_notes/blob/main/Sorting/LintCode_464_Sort-Integers-II_QuickSort.md) | Easy | 20220912 |
 | Lint | 31 | Partition Array | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md) | Medium | 20220912 | 
-| Lint | 144 | Interleaving Positive and Negative Numbers | Two pointers | Medium | 20220912 |
+| Lint | 144 | Interleaving Positive and Negative Numbers | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_144_Interleaving-Positive-and-Negative-Numbers.md) | Medium | 20220912 |
 | Lint | 373* | Partition Array by Odd and Even | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) | Medium | 20220912 |
 | Lint | 49 | Sort Letters by Case | Two pointers | Medium | 20220912 |
 | Lint | 148 | Sort Colors | Two pointers | Medium | 20220912 |
