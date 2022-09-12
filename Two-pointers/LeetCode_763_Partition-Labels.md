@@ -26,6 +26,7 @@ class Solution:
 - Figure out the rightmost index first and use it to denote the start of the next section.
 - Reset the left pointer at the start of each new section.
 - Store the difference of right and left pointers + 1 as in the result for each section.
+- **Key**: `right = max(right, hashmap[letter])`
 #### Submission:
 ```
 Runtime: 92 ms, faster than 13.52% of Python3 online submissions for Partition Labels.
