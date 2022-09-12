@@ -4,7 +4,7 @@ https://leetcode.com/problems/partition-list/
 >
 >You should preserve the original relative order of the nodes in each of the two partitions.
 
-<img src="../images/86_Partition_List.png" width="500px" />
+<img src="../images/86_Partition_List.png" width="600px" />
 
 ```python
 # Definition for singly-linked list.
