@@ -8,7 +8,7 @@ Python3
 ## Categories
 #### Algorithms
 - [Two pointers (雙指針)](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers)
-- [Sorting](https://github.com/chkao831/Algo_learning_notes/tree/main/Sorting)
+- [Sorting（排序）](https://github.com/chkao831/Algo_learning_notes/tree/main/Sorting)
   | Type | Average Time | Space | Algorithm Demo | Application | 
   |  ----  | ----  | ----  | ----  | ----  | 
   | Insertion Sort | O(n^2) | O(1) | Leet147 | 1. [[Lint607](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_607_Two-Sum-III-Data-structure-design.md)] Add number with Insertion Sort to the last, then swap to front with O(n) time. |
