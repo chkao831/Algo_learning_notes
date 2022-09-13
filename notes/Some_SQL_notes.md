@@ -26,3 +26,6 @@ UNLOCK TABLES;
 INSERT INTO teachers (name, email, age, country)
 VALUES('Feng Qingyang', 'feng.qingyang@163.com' ,37, 'CN');
 ```
+Remark:
+- LOCK & UNLOCK: https://support.unicomsi.com/manuals/soliddb/100/index.html#page/SQL_Guide/A_SQLStatements.09.126.html
+- INSERT: https://support.unicomsi.com/manuals/soliddb/100/index.html#page/SQL_Guide%2FA_SQLStatements.09.081.html%23
