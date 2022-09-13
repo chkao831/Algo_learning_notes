@@ -1,7 +1,7 @@
 ## Two Pointers
 
 > a: →← (opposite direction, 相向)\
-> b: →→ (same direction, 同向)\
+> b: →→ (same direction, 同向; aka 快慢雙指針)\
 > c: ←→ (背向）
 
 | Item | Type | Topic | Remark | Link(s) |
