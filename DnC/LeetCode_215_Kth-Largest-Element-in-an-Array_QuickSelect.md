@@ -7,7 +7,7 @@ https://leetcode.com/problems/kth-largest-element-in-an-array/
 >You must solve it in O(n) time complexity.
 
 <img src="../images/QuickSelect_Note2.png" width="800px" />
-<img src="../images/QuickSelect_Note1.png" width="800px" />
+<img src="../images/QuickSelect_Note1.png" width="900px" />
 ```python
 ```
 #### Remark:
