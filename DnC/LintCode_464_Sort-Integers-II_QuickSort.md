@@ -33,7 +33,9 @@ class Solution:
         self.quickSort(nums=nums, start=left, end=end)
 ```
 #### Remark:
-- the `while` loop highly resembles [Partition](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md), except that the partition is **not strict**. This is because if we strictly partition the `==pivot` numbers into left or right, we would easily jump to the worst case of quick sort (O(n^2) time). An example of this: `[1, 1, 1, 1, 1]`.
+- the `while` loop highly resembles [Partition](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md), except that the partition is **not strict**. This is to avoid falling into forever loop. If we strictly partition the `==pivot` numbers into left or right, we would easily jump to the worst case of quick sort (O(n^2) time). 
+    - An example of this: `[1, 1, 1]`. The pivot is `1`. With `nums[left] <= pivot`, ending `left=3` and `right=2`, and we do nothing in this round before entering the next recursive run with same array (infinite loop}. 
+    - ideal pivot: 均勻劃分; worst pivot: 最大/小值
 - `left <= right`, not `left < right`. 
   - Reason: Under the following scenario, if it were `<`, would directly jump out of all while loops. Then we wouldn't know if `n2` belongs to left or right partition. With `<=`, one of the inner while loop would agree and the pointer would be moved by a step. Hence, the left pointer would ***always*** point to the first index of the right partition. 
   ```
@@ -54,5 +56,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(nlogn)
+- Time: O(nlogn) (n: partition; logn: depth)
 - Space: O(logn)
