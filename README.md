@@ -92,4 +92,4 @@ Python3
 | Lint | 80 | Median | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_80_Median.md) | Medium | 20220913 |
 | Lint | 65 | Median of two Sorted Arrays | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_65_Median-of-two-Sorted-Arrays.md) | Hard | 20220913 |
 
-Todo: Lint1226, Lint276, Lint625
+Todo: Lint1226, Lint625, Lint479
