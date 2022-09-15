@@ -69,6 +69,7 @@ class Solution:
   - Reason: Every time, Merge Sort guarantees to partition into two
   - Divide O(n) + Conquer O(nlogn) = O(nlogn)
 - 在歸併兩個數列時，需要額外空間。
+- Reference: https://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html
 #### Submission:
 ```
 Runtime: 4637 ms, faster than 5.02% of Python3 online submissions for Sort an Array.
