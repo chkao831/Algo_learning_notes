@@ -44,6 +44,14 @@ class Solution:
   - `pivot = nums[(left + right)//2]`, not `(left + right)//2`
   - forgot the `return nums[k]` at the bottom of `def QuickSelect(self)` and function call within `def findKthLargest()`.
 - QuickSelect highly resembles [QuickSort](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_464_Sort-Integers-II_QuickSort.md), except that to choose the k-th largest, one wouldn't proceed recursively to use quicksort for the both parts that would result in O(nlogn) time complexity. In this case, there is no need to deal with both parts since now one knows in which part to search for N - kth smallest element, and that reduces average time complexity to O(n).
+    - ```
+      T(n) = T(n/2) + O(n)
+           = T(n/4) + 2*O(n)
+           = T(n/8) + 3*O(n)
+           = ...
+           = T(1) + log(n)*O(n)
+           = O(n)
+      ``` 
 
 #### Submission:
 ```
