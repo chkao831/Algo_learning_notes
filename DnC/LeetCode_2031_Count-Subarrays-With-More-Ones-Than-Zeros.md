@@ -54,8 +54,15 @@ class Solution:
         middle = (start+end)//2
         left, right = start, middle+1
         while left <= middle and right <= end:
-            #prefixSum切左右兩半，每個prefixSum的值implies an array, which sums from nums[0] to nums[i] (after transition)
-            #想要確認右邊目前指向的項, 究竟能跟左邊目前的項（及其左）做多少搭配（組成幾種砍法）。條件：右邊該prefixSum值>左邊。
+            """
+            prefixSum切左右兩半，每個prefixSum的值implies an array, which sums from nums[0] to nums[i] (after transition)
+            想要確認右邊目前指向的項, 究竟能跟左邊目前的項（及其左）做多少搭配（組成幾種砍法）。條件：右邊該prefixSum值>左邊。
+                  L              R
+                  v              v
+            | 0 | 1 | ...| vs. | 2 | ...|
+                <       add        >
+            <         add          >
+            """
             if self.prefixSum[left] < self.prefixSum[right]:
                 temp[index] = self.prefixSum[left]
                 left, index = left+1, index+1
