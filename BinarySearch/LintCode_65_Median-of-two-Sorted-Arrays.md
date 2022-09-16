@@ -25,6 +25,7 @@ class Solution:
             n2 = self.findkth(a, b, k2)
             return (n1 + n2)/2.0
     
+    ### Quick Select ###
     def findkth(self, a: List[int], b: List[int], k: int) -> int:
         if len(a) == 0:
             return b[k-1]
@@ -45,12 +46,14 @@ class Solution:
                 end = mid # left shift
             else:
                 start = mid # right shift
-        # start and end off by 1
+        # start and end off by 1, 由於循環退出條件是 start + 1 < end
+        # 需要再單獨判斷start, end哪一個才是答案
         if self.countSmaller(a, start) + self.countSmaller(b, start) >= k:
             return start
         else:
             return end
-
+    
+    ### Binary Search ###
     def countSmaller(self, arr: List[int], mid_val: int) -> int:
         left, right = 0, len(arr)-1
         while left + 1 < right:
@@ -59,7 +62,8 @@ class Solution:
                 left = mid
             else: # arr[mid] > mid_val
                 right = mid
-        # return the position at which its value is bigger than mid_val
+        # left and right off by 1, 由於循環退出條件是 left + 1 < right
+        # 需要再單獨判斷left, right哪一個才 return the position at which its value is bigger than mid_val
         if arr[left] > mid_val:
             return left
         if arr[right] > mid_val:
