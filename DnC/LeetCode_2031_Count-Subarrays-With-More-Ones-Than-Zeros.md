@@ -28,7 +28,7 @@ class Solution:
                 self.prefixSum[i] = nums[i]
             else: # second and so on
                 self.prefixSum[i] = self.prefixSum[i-1]+nums[i]
-            # (3)
+            # (3) add prefixSum[0, index] as a solution, where prefixSum[index]>0
             if self.prefixSum[i] > 0:
                 self.res += 1
         
@@ -54,6 +54,8 @@ class Solution:
         middle = (start+end)//2
         left, right = start, middle+1
         while left <= middle and right <= end:
+            #prefixSum切左右兩半，每個prefixSum的值implies an array, which sums from nums[0] to nums[i] (after transition)
+            #想要確認右邊目前指向的項, 究竟能跟左邊目前的項（及其左）做多少搭配（組成幾種砍法）。條件：右邊該prefixSum值>左邊。
             if self.prefixSum[left] < self.prefixSum[right]:
                 temp[index] = self.prefixSum[left]
                 left, index = left+1, index+1
@@ -64,6 +66,8 @@ class Solution:
         while left <= middle:
             temp[index] = self.prefixSum[left]
             left, index = left+1, index+1
+        # 左邊已經全部加進去了（都小於右邊的值）(guaranteed prefixSum[left_part_last_element] < prefixSum[right])
+        # 把右邊的項跟左邊做搭配
         while right <= end:
             self.res += (left - start) # prefixSum[left_part_last_element] < prefixSum[right]
             temp[index] = self.prefixSum[right]
