@@ -22,6 +22,12 @@ Python3
 - [Array (數組)](https://github.com/chkao831/Algo_learning_notes/tree/main/Array)
 - [Linked List (鏈表)](https://github.com/chkao831/Algo_learning_notes/tree/main/LinkedList)
 
+#### Notes
+- Stack Space vs. Heap Space
+- Complexity Analyses
+- Lambda Function Application
+- <a href="//github.com/chkao831/Algo_learning_notes/blob/main/notes/Some_complexity_analyses.pdf">Test PDF</a>
+
 ## Problems (indexed)
 #### LeetCode
 | Index | Topic | Difficulty | Link(s) |
