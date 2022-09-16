@@ -23,10 +23,9 @@ Python3
 - [Linked List (鏈表)](https://github.com/chkao831/Algo_learning_notes/tree/main/LinkedList)
 
 #### Notes
-- Stack Space vs. Heap Space
-- Complexity Analyses
-- Lambda Function Application
-- <a href="//github.com/chkao831/Algo_learning_notes/blob/main/notes/Some_complexity_analyses.pdf">Test PDF</a>
+- [Stack Space vs. Heap Space](https://chkao831.github.io/files/algo/StackVSHeap.pdf)
+- [Complexity Analyses](https://chkao831.github.io/files/algo/Some_complexity_analyses.pdf)
+- [Lambda Function Application](https://github.com/chkao831/Algo_learning_notes/blob/main/notes/Lambda-function-application.md)
 
 ## Problems (indexed)
 #### LeetCode
