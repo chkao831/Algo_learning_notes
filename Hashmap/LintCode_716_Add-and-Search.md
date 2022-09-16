@@ -1,4 +1,4 @@
-### Topic
+### Add and Search
 https://www.lintcode.com/problem/716/description/
 > Given two integer arrays `inputs` and `tests`, write a function that will return TRUE if there exists any pair in `inputs`, whose sum could be found in `tests`. Otherwise, return FALSE.
 #### Hashmap Approach: O(n^2) time, O(n) space
@@ -24,7 +24,7 @@ class Solution:
         return False
 ```
 #### TwoPointer Approach: O(nlogn)+O(n^2) time, O(1) space
-```
+```python
 from typing import (
     List,
 )
@@ -48,7 +48,7 @@ class Solution:
         return False
 ```
 #### Remark:
-- 
+- Remember it's `while left < right` without equal sign in TwoPointer Approach, because oneself cannot sum up with itself.
 #### Submission:
 ```
 81 ms
