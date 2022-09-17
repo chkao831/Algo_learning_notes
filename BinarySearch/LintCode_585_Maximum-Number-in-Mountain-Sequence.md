@@ -25,7 +25,11 @@ class Solution:
 
 ```
 #### Remark:
-- 
+```
+1 2 3 4 5 4 3 2 1
+O O O O X X X X X
+condition: nums[i] > nums[i+1], when found, give it X (end)
+```
 #### Submission:
 ```
 204 ms
