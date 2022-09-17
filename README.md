@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Sep 15, 2022
+> Last Updated on Sep 17, 2022
 
 ## Language
 Python3
@@ -109,4 +109,5 @@ Python3
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
  
-Lint716, Lint457, Lint458, Lint585, Lint75
+Lint716, Lint457, Lint458, Lint585, Lint75\
+Lint1144
