@@ -28,7 +28,7 @@ class Solution:
             if a[end] >= target: return end
             return len(a) # not found
         
-        def left_closer(right: int, left: int) -> List[int]:
+        def left_closer(right: int, left: int) -> bool:
             # edge case
             if left < 0: # must be right closer
                 return False
