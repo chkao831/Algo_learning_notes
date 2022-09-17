@@ -8,5 +8,8 @@
   ```
   - Problem Type
     - 在排序的數組上進行二分 （OO.....OXXXX..., find X) 
+    - 建立OOXX模型
+      - 將左半邊有序數組看作O，右邊看作X
+      - 
  
 
