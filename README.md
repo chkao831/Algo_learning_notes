@@ -110,4 +110,4 @@ Python3
 (^: Attempted; partially resolved)
  
 Lint716, Lint457, Lint458, Lint585, Lint75\
-Lint1144
+Lint1144, Lint447, Lint460, Leet658
