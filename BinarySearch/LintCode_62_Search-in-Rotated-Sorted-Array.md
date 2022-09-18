@@ -57,6 +57,10 @@ class Solution:
         trough = trough_binary_search()
         return pivot_binary_search(trough)
 ```
+在`pivot_binary_search`, trough進來的時候犯了一個錯：\
+`input = [1, 2, 3, 4, 5, 9], target = 9`, 此時trough=0, \
+最初把判斷target落在該段的if-else對調，會報錯，因為trough-1不存在, \
+**記得因為`trough~end`這段是連續的, `start~trough`這段不是, 一定要讓連續段進到if-else的if!!!**
 #### Submission:
 ```
 81 ms
@@ -113,12 +117,12 @@ class Solution:
             while start+1 < end:
                 mid = (start+end)//2
                 if a[mid] >= a[start]: # upper left
-                    if a[start] <= target <= a[mid]: # further left
+                    if a[start] <= target <= a[mid]: # further left, 一定要讓連續段進到if-else的if!!!
                         end = mid
                     else:
                         start = mid
                 else: # a[mid] < a[start], falls in lower right portion
-                    if a[mid] <= target <= a[end]:
+                    if a[mid] <= target <= a[end]: # further right, 一定要讓連續段進到if-else的if!!!
                         start = mid
                     else:
                         end = mid
