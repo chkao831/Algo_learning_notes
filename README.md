@@ -52,7 +52,8 @@ Python3
 | 31 | Partition Array | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md) |
 | 49 | Sort Letters by Case | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers) |
 | 57 | 3Sum | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_57_3Sum.md) |
-| 65 | Median of two Sorted Arrays | Hard | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_65_Median-of-two-Sorted-Arrays.md) |
+| 65 | Median of two Sorted Arrays | Hard | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_65_Median-of-two-Sorted-Arrays.md) |
+| 75 | Find Peak Element | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_75_Find-Peak-Element.md) |
 | 80 | Median | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_80_Median.md) |
 | 143 | Sort Colors II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_143_Sort-Colors-II.md) | 
 | 144 | Interleaving Positive and Negative Numbers | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_144_Interleaving-Positive-and-Negative-Numbers.md) |
@@ -60,9 +61,12 @@ Python3
 | 373* | Partition Array by Odd and Even | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) |
 | 407 | Plus One | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_407_Plus-One.md) |
 | 415 | Valid Palindrome | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_415_Valid-Palindrome.md) |
+| 457 | Classical Binary Search | Easy | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_457_Classical-Binary-Search.md) |
+| 458 | Last Position of Target | Easy | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_458_Last-Position-of-Target.md) | 
 | 464 | Sort Integers II | Easy | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_464_Sort-Integers-II_QuickSort.md) 
 | 479 | Second Max of Array | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_479_Second-Max-of-Array.md) |
 | 539 | Move Zeroes | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_539_move-zeroes.md) | 
+| 585 | Maximum Number in Mountain Sequence | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_585_Maximum-Number-in-Mountain-Sequence.md) |
 | 607 | Two Sum III - Data structure design | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_607_Two-Sum-III-Data-structure-design.md); <br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_607_Two-Sum-III-Data-structure-design.md) |
 | 609* | Two sum - Less than or equal to target | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) |
 | 625 | Partition Array II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_625_Partition-Array-II.md) |
@@ -99,17 +103,20 @@ Python3
 | Leet | 763 | Partition Labels | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_763_Partition-Labels.md) | Medium | 20220913 |
 | Leet | 215 | Kth Largest Element in an Array | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_215_Kth-Largest-Element-in-an-Array_QuickSelect.md) | Medium | 20220913 |
 | Lint | 80 | Median | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_80_Median.md) | Medium | 20220913 |
-| Lint | 65 | Median of two Sorted Arrays | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_65_Median-of-two-Sorted-Arrays.md) | Hard | 20220913 |
+| Lint | 65 | Median of two Sorted Arrays | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_65_Median-of-two-Sorted-Arrays.md) | Hard | 20220913 |
 | Lint | 1226 | Minimum Moves to Equal Array Elements II | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_1226_Minimum-Moves-to-Equal-Array-Elements-II.md) | Medium | 20220914 |
 | Lint | 625 | Partition Array II | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_625_Partition-Array-II.md) | Medium | 20220914 |
 | Lint | 479 | Second Max of Array | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_479_Second-Max-of-Array.md) | Easy | 20220915 |
 | Leet | 913 | Sort an Array | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) | Medium | 20220915 |
 | Leet | 2031 | Count Subarrays With More Ones Than Zeros | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) | Medium | 20220915 |
 | Lint | 716 | Add and Search | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_716_Add-and-Search.md);<br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md) | Easy | 20220916 |
+| Lint | 457 | Classical Binary Search | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_457_Classical-Binary-Search.md) | Easy | 20220916 |
+| Lint | 458 | Last Position of Target | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_458_Last-Position-of-Target.md) | Easy | 20220916 | 
+| Lint | 585 | Maximum Number in Mountain Sequence | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_585_Maximum-Number-in-Mountain-Sequence.md) | Medium | 20220916 |
+| Lint | 75 | Find Peak Element | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_75_Find-Peak-Element.md) | Medium | 20220916 |
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
  
-Lint716, Lint457, Lint458, Lint585, Lint75\
 Lint1144, Lint447, Lint460, Leet658\
 Lint159, Lint160, Lint62, Lint63, Lint183
