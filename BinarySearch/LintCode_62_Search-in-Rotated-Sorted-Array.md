@@ -8,6 +8,8 @@ https://www.lintcode.com/problem/62/
 >
 >**You may assume no duplicate exists in the array.**
 
+<img src="../images/62_159_Rotated-Sorted-Array.jpg" width="500px" />
+
 ### 方法一：
 #### 思路:
 先用[Lint159](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_159_Find-Minimum-in-Rotated-Sorted-Array.md)方法做一次二分，找到低谷，然後擇一方繼續二次二分
