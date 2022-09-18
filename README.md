@@ -40,6 +40,7 @@ Python3
 | 259 | 3Sum Smaller | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_259_3Sum-Smaller.md)|
 | 454 | 4Sum II | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_454_4Sum-II.md)|
 | 611 | Valid Triangle Number | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_611_Valid-Triangle-Number.md)|
+| 658 | Find K Closest Elements | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_658_Find-K-Closest-Elements.md) | 
 | 763 | Partition Lables | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_763_Partition-Labels.md) |
 | 913 | Sort an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) |
 | 922 | Sort Array By Parity II | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_922_Sort-Array-By-Parity-II.md) |
@@ -61,8 +62,10 @@ Python3
 | 373* | Partition Array by Odd and Even | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) |
 | 407 | Plus One | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_407_Plus-One.md) |
 | 415 | Valid Palindrome | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_415_Valid-Palindrome.md) |
+| 447 | Search in a Big Sorted Array | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_447_Search-in-a-Big-Sorted-Array.md) |
 | 457 | Classical Binary Search | Easy | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_457_Classical-Binary-Search.md) |
 | 458 | Last Position of Target | Easy | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_458_Last-Position-of-Target.md) | 
+| 460 | Find K Closest Elements | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_460_Find-K-Closest-Elements.md) | 
 | 464 | Sort Integers II | Easy | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_464_Sort-Integers-II_QuickSort.md) 
 | 479 | Second Max of Array | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_479_Second-Max-of-Array.md) |
 | 539 | Move Zeroes | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_539_move-zeroes.md) | 
@@ -72,6 +75,7 @@ Python3
 | 625 | Partition Array II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_625_Partition-Array-II.md) |
 | 716 | Add and Search | Easy | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_716_Add-and-Search.md);<br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md) |
 | 891 | Valid Palindrome II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) |
+| 1144 | Range Addition II | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_1144_Range-Addition-II.md) |
 | 1226 | Minimum Moves to Equal Array Elements II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_1226_Minimum-Moves-to-Equal-Array-Elements-II.md) |
 
 ## Problems (chronologically ordered)
@@ -114,9 +118,12 @@ Python3
 | Lint | 458 | Last Position of Target | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_458_Last-Position-of-Target.md) | Easy | 20220916 | 
 | Lint | 585 | Maximum Number in Mountain Sequence | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_585_Maximum-Number-in-Mountain-Sequence.md) | Medium | 20220916 |
 | Lint | 75 | Find Peak Element | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_75_Find-Peak-Element.md) | Medium | 20220916 |
+| Lint | 1144 | Range Addition II | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_1144_Range-Addition-II.md) | Easy | 20220917 |
+| Lint | 447 | Search in a Big Sorted Array | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_447_Search-in-a-Big-Sorted-Array.md) | Medium | 20220917 |
+| Lint | 460 | Find K Closest Elements | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_460_Find-K-Closest-Elements.md) | Medium | 20220917 |
+| Leet | 658 | Find K Closest Elements | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_658_Find-K-Closest-Elements.md) | Medium | 20220917 |
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
  
-Lint1144, Lint447, Lint460, Leet658\
 Lint159, Lint160, Lint62, Lint63, Lint183
