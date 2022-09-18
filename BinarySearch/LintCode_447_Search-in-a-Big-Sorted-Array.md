@@ -8,6 +8,9 @@
 >Return -1, if the number doesn't exist in the array.
 >
  #### 倍增法 (Exponential Backoff，指數回退)
+ 
+ <img src="../images/447_Big-Sorted.jpg" width="700px" />
+ 
  ```
  [ 0, 1, 2, 3, ..., k, ...]
                     ^
