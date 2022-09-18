@@ -4,7 +4,7 @@ https://www.lintcode.com/problem/183/
 >The unit of length is centimeter. The length of the woods are all positive integers, **you couldn't cut wood into float length. If you couldn't get >= k pieces, return 0.**
 ```
 step1: 確定答案範圍 -> step 2: 驗證答案大小
-step1: 小木頭的長度不可能比最長原木更長; 小木頭的長度不可能比所有原木總合更長
+step1: 小木頭的長度不可能比最長原木更長; 小木頭的長度不可能比所有原木總合除以k更長
 
   可以二分的原因：
   如果能切出k段長度為length的小木頭，一定能切出k段比length更短的木頭。
