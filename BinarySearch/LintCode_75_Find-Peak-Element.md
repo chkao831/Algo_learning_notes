@@ -2,11 +2,15 @@
 https://www.lintcode.com/problem/75/
 >There is an integer array which has the following features:
 >
->The numbers in adjacent positions are different.\
+>**The numbers in adjacent positions are different.**\
 >`A[0] < A[1] && A[A.length - 2] > A[A.length - 1]`.\
 >We define a position P is a peak if:\
 >`A[P] > A[P-1] && A[P] > A[P+1]`\
 >Find a peak element in this array. Return the index of the peak.
+
+上升區間右側必有峰\
+下降區間左側必有峰\
+谷的兩邊都有峰
 
 ```python
 from typing import (
