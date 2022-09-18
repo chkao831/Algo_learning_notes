@@ -28,7 +28,7 @@ Python3
 - [Complexity Analyses](https://chkao831.github.io/files/algo/Some_complexity_analyses.pdf)
 - [Lambda Function Application](https://github.com/chkao831/Algo_learning_notes/blob/main/notes/Lambda-function-application.md)
 
-## Problems (indexed)
+## Problems (indexed in ascending order)
 #### LeetCode
 | Index | Topic | Difficulty | Link(s) |
 |  ----  | ----  | ----  | ----  |
@@ -53,12 +53,17 @@ Python3
 | 31 | Partition Array | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md) |
 | 49 | Sort Letters by Case | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers) |
 | 57 | 3Sum | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_57_3Sum.md) |
+| 62 | Search in Rotated Sorted Array | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_62_Search-in-Rotated-Sorted-Array.md) |
+| 63 | Search in Rotated Sorted Array II | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_63_Search-in-Rotated-Sorted-Array-II.md) |
 | 65 | Median of two Sorted Arrays | Hard | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_65_Median-of-two-Sorted-Arrays.md) |
 | 75 | Find Peak Element | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_75_Find-Peak-Element.md) |
 | 80 | Median | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_80_Median.md) |
 | 143 | Sort Colors II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_143_Sort-Colors-II.md) | 
 | 144 | Interleaving Positive and Negative Numbers | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_144_Interleaving-Positive-and-Negative-Numbers.md) |
 | 148 | Sort Colors | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_148_Sort-Colors.md) | 
+| 159 | Find Minimum in Rotated Sorted Array | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_159_Find-Minimum-in-Rotated-Sorted-Array.md) |
+| 160 | Find Minimum in Rotated Sorted Array II | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_160_Find-Minimum-in-Rotated-Sorted-Array-II.md) |
+| 183 | Wood Cut | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_183_Wood-Cut.md) |
 | 373* | Partition Array by Odd and Even | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) |
 | 407 | Plus One | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_407_Plus-One.md) |
 | 415 | Valid Palindrome | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_415_Valid-Palindrome.md) |
@@ -122,8 +127,11 @@ Python3
 | Lint | 447 | Search in a Big Sorted Array | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_447_Search-in-a-Big-Sorted-Array.md) | Medium | 20220917 |
 | Lint | 460 | Find K Closest Elements | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_460_Find-K-Closest-Elements.md) | Medium | 20220917 |
 | Leet | 658 | Find K Closest Elements | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_658_Find-K-Closest-Elements.md) | Medium | 20220917 |
+| Lint | 159 | Find Minimum in Rotated Sorted Array | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_159_Find-Minimum-in-Rotated-Sorted-Array.md) | Medium | 20220918 |
+| Lint | 160 | Find Minimum in Rotated Sorted Array II | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_160_Find-Minimum-in-Rotated-Sorted-Array-II.md) | Medium | 20220918 |
+| Lint | 62 | Search in Rotated Sorted Array | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_62_Search-in-Rotated-Sorted-Array.md) | Medium | 20220918 |
+| Lint | 63 | Search in Rotated Sorted Array II | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_63_Search-in-Rotated-Sorted-Array-II.md) | Medium | 20220918 |
+| Lint | 183 | Wood Cut | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_183_Wood-Cut.md) | Hard | 20220918 |
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
- 
-Lint159, Lint160, Lint62, Lint63, Lint183
