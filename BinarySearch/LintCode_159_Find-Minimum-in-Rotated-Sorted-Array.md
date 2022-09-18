@@ -7,6 +7,8 @@ https://www.lintcode.com/problem/159/
 >Find the minimum element.\
 >**You can assume no duplicate exists in the array.**
 
+<img src="../images/62_159_Rotated-Sorted-Array.jpg" width="500px" />
+
 ```
 [ 4567012 ]
 OO...OXX....X
