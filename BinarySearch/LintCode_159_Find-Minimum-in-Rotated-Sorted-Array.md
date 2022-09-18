@@ -3,6 +3,7 @@ https://www.lintcode.com/problem/159/
 >
 
 ```
+[ 4567012 ]
 OO...OXX....X
      ^^
   左上｜右下
