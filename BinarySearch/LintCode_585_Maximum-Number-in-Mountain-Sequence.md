@@ -1,6 +1,9 @@
 ### Maximum Number in Mountain Sequence
 https://www.lintcode.com/problem/585/
 >Given a mountain sequence of n integers which increase firstly and then decrease, find the mountain top(Maximum).
+
+<img src="../images/585_Mountain.jpg" width="600px" />
+
 ```python
 from typing import (
     List,
