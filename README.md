@@ -111,4 +111,4 @@ Python3
  
 Lint716, Lint457, Lint458, Lint585, Lint75\
 Lint1144, Lint447, Lint460, Leet658\
-Lint159, Lint160, Lint62, Lint63
+Lint159, Lint160, Lint62, Lint63, Lint183
