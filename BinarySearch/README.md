@@ -10,6 +10,13 @@
         start <= end
         mid = (start+end)//2
         ```
+      - Why judge twice at the end? Would better avoid dead cycle using such a neighboring method. And, need to judge twice since because both pointers are possible to point to the target...
+        ```
+        [1, 2, 3], target = 3; target is at right pointer
+            ^  ^
+        [1, 2, 3], target = 1; target is at left pointer
+         ^  ^ 
+        ```
     - b. 在排序的數組上進行二分 （OO.....OXXXX..., find X) 
       - 代表題：[Lint460](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_460_Find-K-Closest-Elements.md)
       - 建立OOXX模型：
