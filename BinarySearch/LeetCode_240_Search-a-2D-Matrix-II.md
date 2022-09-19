@@ -7,6 +7,17 @@ https://leetcode.com/problems/search-a-2d-matrix-ii/
 
 <img src="../images/240_Matrix-Search.jpg" width="650px" />
 
+```
+^
+^
+^
+corner <<<<<<
+
+because strictly increase/decrease,
+if corner < target, whole column off
+if corner > target, whole row off
+if corner == target, both column and row off
+```
 ```python
 ```
 #### Remark:
