@@ -16,7 +16,7 @@ https://leetcode.com/problems/search-a-2d-matrix-ii/
 1 3 5 7
 2 4 7 8
 3 5 9 10
-每排logn -> 總共nlogn -> 太大 （只用到了row有排序的信息）
+Each row logn -> nlogn in total -> 太大 （只用到了row有排序的信息）
 
 想法二：象限排除
 target = 3, matrx[mid]=4
@@ -27,7 +27,7 @@ target = 3, matrx[mid]=4
 3 5 | 9 10
 
 n -> 3/4 n with an operation
-T(n) = 3T(n/2) + O(1) [邊長變一半] -> T(n) = O(n)
+T(n) = 3T(n/2) + O(1) [邊長變一半] -> T(n) = O(n+)
 ```
 以上想法都不太可行
 #### Submission:
