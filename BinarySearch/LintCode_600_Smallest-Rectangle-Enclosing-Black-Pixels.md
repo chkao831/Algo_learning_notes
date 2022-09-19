@@ -15,10 +15,10 @@ x=0 y=0, 1 2 ...
 .
 
 
-0~x find first row (left)
-x~m-1 find last row (right)
-0~y find first column (upper)
-y~n-1 find last column (down)
+0~x find first row (upper)
+x~m-1 find last row (lower)
+0~y find first column (left)
+y~n-1 find last column (right)
 ```
 其中1,3可以寫成一種二分, 2,4可以寫成第二種二分
 | | first_position | last_position |
