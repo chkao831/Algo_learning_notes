@@ -138,4 +138,4 @@ Python3
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
 
-Leet74
+Leet74, Lint38, 
