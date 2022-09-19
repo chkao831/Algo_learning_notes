@@ -7,12 +7,17 @@ https://www.lintcode.com/problem/600/
 Intuition: 暴力解 O(m*n),\
 or 四次二分
 ```
-0~y find first row
-y~m-1 find last row
-0~x find first column
-x~n-1 find last column
+0~x find first row (left)
+x~m-1 find last row (right)
+0~y find first column (upper)
+y~n-1 find last column (down)
 ```
 其中1,3可以寫成一種二分, 2,4可以寫成第二種二分
+| | first_position | last_position |
+|-----|-----|-----|
+| column-wise | 0~y | y~n-1 |
+| row-wise | 0~x | x~m-1 |
+
 ```python
 ```
 #### Remark:
