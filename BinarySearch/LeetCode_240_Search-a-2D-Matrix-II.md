@@ -5,7 +5,7 @@ https://leetcode.com/problems/search-a-2d-matrix-ii/
 > - Integers in each row are sorted in ascending from left to right.
 > - Integers in each column are sorted in ascending from top to bottom.
 
-<img src="../images/240_Matrix-Search.jpg" width="500px" />
+<img src="../images/240_Matrix-Search.jpg" width="650px" />
 
 ```python
 ```
