@@ -1,5 +1,5 @@
 ### Search a 2D Matrix II
-https://leetcode.com/problems/search-a-2d-matrix-ii/
+https://www.lintcode.com/problem/38/
 >Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:
 >
 > - Integers in each row are sorted in ascending from left to right.
@@ -63,7 +63,8 @@ class Solution:
   3 5 | 9 10
 
   n -> 3/4 n with an operation
-  T(n) = 3T(n/2) + O(1) [邊長變一半] -> T(n) = O(n+)
+  T(n) = 3*T(n*m/4) + O(1)
+  Complexity = O(log(4/3)(n*m))
   ```
   以上想法都不太可行
 #### Submission:
