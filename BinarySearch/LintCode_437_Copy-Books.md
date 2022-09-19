@@ -33,12 +33,56 @@ copiers = 多.......少...
 ```
 
 ```python
+from typing import (
+    List,
+)
+
+class Solution:
+    """
+    @param pages: an array of integers
+    @param k: An integer
+    @return: an integer
+    """
+    def copy_books(self, pages: List[int], k: int) -> int:
+        
+        def get_copiers(time_limit: int) -> int: #O(n)
+            people_count = 1
+            cumulative_time_spent = 0
+            for page_time_cost in pages:
+                if cumulative_time_spent + page_time_cost > time_limit:
+                    people_count += 1
+                    cumulative_time_spent = 0
+                cumulative_time_spent += page_time_cost
+            return people_count
+        
+        if not pages:
+            return 0
+        start, end = max(pages), sum(pages)
+        while start + 1 < end:
+            mid = (start+end)//2
+            if get_copiers(mid) <= k: # enough people
+                end = mid # could have less people
+            else: # > k
+                start = mid # need more people
+        if get_copiers(start) <= k: return start
+        if get_copiers(end) <= k: return end
+        return 0
 ```
+
 #### Remark:
 - 和[Lint183 - Wood_Cut](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_183_Wood-Cut.md)搭配服用
 
 #### Submission:
 ```
+81 ms
+time cost
+·
+5.99 MB
+memory cost
+·
+Your submission beats
+98.60 %
+Submissions
 ```
 #### Complexity:
 - Time: O(nlog(sum-max))
