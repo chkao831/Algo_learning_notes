@@ -7,6 +7,14 @@ https://www.lintcode.com/problem/600/
 Intuition: 暴力解 O(m*n),\
 or 四次二分
 ```
+x=0 y=0, 1 2 ...
+1 
+2
+.
+.
+.
+
+
 0~x find first row (left)
 x~m-1 find last row (right)
 0~y find first column (upper)
