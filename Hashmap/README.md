@@ -1,6 +1,12 @@
 ## HashMap
 
-> HashMap has complexity of O(1) for insertion and lookup.
+> 存儲具有映射關係的數據。\
+> HashMap has complexity of O(1) for insertion and lookup.\
+> Key and Value允許為空。\
+> Keys could not duplicate.\
+> Not ordered.
+> > Side Note: TreeMap和HashMap不同，是有序的。
+
 
 | Item | Topic | Remark | Link(s) |
 |  ----  |  ----  | ----  | ----  |
