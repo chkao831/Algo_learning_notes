@@ -1,7 +1,7 @@
 ### Implement Queue by Circular Array
 https://www.lintcode.com/problem/955/description
 
-<img src="../images/955_Circular-Queue.png" width="700px" />
+<img src="../images/955_Circular-Queue.png" width="500px" />
 
 ```python
 class CircularQueue:
