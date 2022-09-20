@@ -34,8 +34,8 @@ class Solution:
             level = [] # (b)
             level_len = len(queue) # (c)
             for _ in range(level_len): 
-                node = queue.popleft() # (d')
-                level.append(node.val) # (d")
+                node = queue.popleft() # (d)
+                level.append(node.val) # (d)
                 if node.left:
                     queue.append(node.left) # (e)
                 if node.right:
@@ -83,4 +83,50 @@ class Solution:
             queue = sub_queue # (d) Catch children to main queue for next level iteration
         return levels
 ```
+#### Submission:
+```
+Runtime: 64 ms, faster than 34.44% of Python3 online submissions for Binary Tree Level Order Traversal.
+Memory Usage: 14.1 MB, less than 98.75% of Python3 online submissions for Binary Tree Level Order Traversal.
+```
 ## 鏈表實現方法
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        """
+                  None   None
+                   v      v
+        queue = [3 # 9 20 # 15 7]
+        Each iteration in the while loop, pop only one node, including None
+        """
+        levels, level = [], []
+        if root is None:
+            return levels
+        queue = collections.deque([root, None]) # (a) Initiate queue with [root, None]
+        while queue:
+            node = queue.popleft() # (b) pop only one node
+            # (c) judge, if node is None
+            if node is None: 
+                levels.append(level) # (d') add previous level
+                level = [] # (d') empty up level list for next level
+                if queue:
+                    queue.append(None) # (d') add None stopper to split each level
+                continue # start next iteration of while loop
+            # (c') if node not None
+            level.append(node.val) # (d") append this level's node
+            if node.left:
+                queue.append(node.left) # (d") add children to queue if any
+            if node.right:
+                queue.append(node.right)
+        return levels
+```
+#### Submission:
+```
+Runtime: 39 ms, faster than 88.31% of Python3 online submissions for Binary Tree Level Order Traversal.
+Memory Usage: 14.1 MB, less than 84.16% of Python3 online submissions for Binary Tree Level Order Traversal.
+```
