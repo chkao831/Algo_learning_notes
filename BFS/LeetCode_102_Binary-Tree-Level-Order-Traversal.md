@@ -11,12 +11,12 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/
 In Python the queue implementation with a fast atomic `append()` and `popleft()` is `deque`.
 
 - (a) Initiate queue with a root and start from the level number `0` : `level = 0`.
-- While queue is not empty :
+- While queue is not empty : `每一次while循環，處理一整層`
   - (b) Start the current level by initiating an empty list of this level.
-  - (c) Compute how many elements should be on the current level : it's a queue length.
-  - (d) Pop out all these elements from the queue and add them into the current level.
-  - (e) Push their child nodes into the queue for the next level.
-  - (f) fulfill the current leve, then go to the next level.
+  - (c) Compute how many elements should be on the current level : it's a queue length. `for循環一整層裡的每一戶`
+  - (d) Pop out all these elements from the queue and add them into the current level. `一一弄出來加進去結果`
+  - (e) Push their child nodes into the queue for the next level. `把下一層的children弄進deque`
+  - (f) fulfill the current level, then go to the next level.
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -53,6 +53,7 @@ Memory Usage: 14.2 MB, less than 84.16% of Python3 online submissions for Binary
 - Space: O(n) to keep the output structure which contains n node values.
 
 ## 雙隊列實現方法
+不需要起deque
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -89,6 +90,9 @@ Runtime: 64 ms, faster than 34.44% of Python3 online submissions for Binary Tree
 Memory Usage: 14.1 MB, less than 98.75% of Python3 online submissions for Binary Tree Level Order Traversal.
 ```
 ## 鏈表實現方法
+用None區分不同層，到None時，意味這層結束。\
+沒有用到for循環。\
+每一次while循環只pop一個節點。
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
