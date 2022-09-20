@@ -10,6 +10,7 @@ Python3
 - [Two pointers（雙指針）](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers)
 - [Divide-and-Conquer（DnC, 分治）](https://github.com/chkao831/Algo_learning_notes/tree/main/DnC)
 - [Binary Search（二分法）](https://github.com/chkao831/Algo_learning_notes/tree/main/BinarySearch)
+- [Breadth First Search (BFS, 寬度優先搜索)](https://github.com/chkao831/Algo_learning_notes/tree/main/BFS)
 - Sorting（排序）
   | Type | Average Time | Space | Algorithm Demo | Application | 
   |  ----  | ----  | ----  | ----  | ----  | 
@@ -22,6 +23,7 @@ Python3
 - [Hashmap (哈希表)](https://github.com/chkao831/Algo_learning_notes/tree/main/Hashmap)
 - [Array (數組)](https://github.com/chkao831/Algo_learning_notes/tree/main/Array)
 - [Linked List (鏈表)](https://github.com/chkao831/Algo_learning_notes/tree/main/LinkedList)
+- [Queue（隊列）](https://github.com/chkao831/Algo_learning_notes/tree/main/Queue)
 
 #### Notes
 - [Stack Space vs. Heap Space](https://chkao831.github.io/files/algo/StackVSHeap.pdf)
@@ -36,6 +38,7 @@ Python3
 | 18 | 4Sum | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_18_4Sum.md)|
 | 74 | Search a 2D Matrix | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_74_Search-a-2D-Matrix.md) | 
 | 86 | Partition List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_86-Partition-List.md) | 
+| 102 | Binary Tree Level Order Traversal | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md) |
 | 147 | Insertion Sort List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_147_Insertion-Sort-List.md) |
 | 215 | Kth Largest Element in an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_215_Kth-Largest-Element-in-an-Array_QuickSelect.md)|
 | 259 | 3Sum Smaller | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_259_3Sum-Smaller.md)|
@@ -86,6 +89,7 @@ Python3
 | 625 | Partition Array II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_625_Partition-Array-II.md) |
 | 716 | Add and Search | Easy | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_716_Add-and-Search.md);<br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md) |
 | 891 | Valid Palindrome II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) |
+| 955 | Implement Queue by Circular Array | Medium | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_955_Implement-Queue-by-Circular-Array.md) |
 | 1144 | Range Addition II | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_1144_Range-Addition-II.md) |
 | 1226 | Minimum Moves to Equal Array Elements II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_1226_Minimum-Moves-to-Equal-Array-Elements-II.md) |
 | 1665 | Calculate number | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1665_Calculate-number.md) |
@@ -146,6 +150,8 @@ Python3
 | Lint | 437 | Copy Books | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_437_Copy-Books.md) | Medium | 20220919 |
 | Lint | 492 | Implement Queue by Linked List | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_492_Implement-Queue-by-Linked-List.md) | Easy | 20220920 |
 | Lint | 493 | Implement Queue by Linked List II | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_493_Implement-Queue-by-Linked-List-II.md) | Easy | 20220920 |
+| Lint | 955 | Implement Queue by Circular Array | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_955_Implement-Queue-by-Circular-Array.md) | Medium | 20220920 |
+| Leet | 102 | Binary Tree Level Order Traversal | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md) | Medium | 20220920 |
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
