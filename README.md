@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Sep 19, 2022
+> Last Updated on Sep 20, 2022
 
 ## Language
 Python3
@@ -76,6 +76,8 @@ Python3
 | 460 | Find K Closest Elements | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_460_Find-K-Closest-Elements.md) | 
 | 464 | Sort Integers II | Easy | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_464_Sort-Integers-II_QuickSort.md) 
 | 479 | Second Max of Array | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_479_Second-Max-of-Array.md) |
+| 492 | Implement Queue by Linked List | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_492_Implement-Queue-by-Linked-List.md) |
+| 493 | Implement Queue by Linked List II | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_493_Implement-Queue-by-Linked-List-II.md) |
 | 539 | Move Zeroes | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_539_move-zeroes.md) | 
 | 585 | Maximum Number in Mountain Sequence | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_585_Maximum-Number-in-Mountain-Sequence.md) |
 | 600 | Smallest Rectangle Enclosing Black Pixels | Hard | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_600_Smallest-Rectangle-Enclosing-Black-Pixels.md) |
@@ -142,6 +144,8 @@ Python3
 | Lint | 38 | Search a 2D Matrix II | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_38_Search-a-2D-Matrix-II.md) | Medium | 20220919 | 
 | Lint | 600 | Smallest Rectangle Enclosing Black Pixels | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_600_Smallest-Rectangle-Enclosing-Black-Pixels.md) | Hard | 20220919 |
 | Lint | 437 | Copy Books | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_437_Copy-Books.md) | Medium | 20220919 |
+| Lint | 492 | Implement Queue by Linked List | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_492_Implement-Queue-by-Linked-List.md) | Easy | 20220920 |
+| Lint | 493 | Implement Queue by Linked List II | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_493_Implement-Queue-by-Linked-List-II.md) | Easy | 20220920 |
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
