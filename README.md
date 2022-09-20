@@ -155,3 +155,7 @@ Python3
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
+
+Lint1179\
+Lint630\
+Lint120
