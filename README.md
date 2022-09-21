@@ -156,6 +156,9 @@ Python3
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
 
-Lint1179\
-Lint630\
-Lint120
+```
+             v
+9/21: Lint137; Lint120; Lint433; Lint611; Lint630\
+9/22: Lint1179; Lint616; Lint127; Lint605; Lint892\
+9/23: Lint178; Lint618; Lint431; Lint598; Lint573
+```
