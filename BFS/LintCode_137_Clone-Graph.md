@@ -10,7 +10,7 @@ G = <V, E>
 
 此題解題步驟分三步：
 - 找到所有點
-- 複製所有點
+- 複製所有點(用一個dictionary建立新舊節點映射關係 `{'old_node': 'new_node'}`)
 - 複製所有邊
 
 >Clone an undirected graph. Each node in the graph contains a `label` and a list of its `neighbors`. Nodes are labeled uniquely.
