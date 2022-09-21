@@ -29,15 +29,15 @@ https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binar
 distance dict的key用於判斷是否已經訪問過; value用於記錄最短節點距離
 ```python
 queue = collections.deque([node])
-distance = {node: 0} # 如果只記錄是/否訪問過, set即可
+distance = {node: 0} # 如果只記錄是/否訪問過, set即可; dict是拿來存儲分層信息的
 
 while queue: # 每次pop一個節點出來
     node = queue.popleft()
     for neighbor in node.get_neighbors(): # 並拓展相鄰節點
         if neighbor in distance:
             continue
-        distance[neighbor] = distance[node] + 1
-        queue.append(neighbor)
+        queue.append(neighbor) # 和下一行hashmap加元素貼緊
+        distance[neighbor] = distance[node] + 1 # 和上一行入隊貼緊
 ```
 N個點、M條邊，圖上BFS時間複雜度=O(N+M)，一般可以說是O(M)，因為邊一般都比點多\
 M最大為O(N^2)的級別（任兩點之間都有邊），所以worst case是O(N^2)
