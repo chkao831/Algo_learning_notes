@@ -41,3 +41,18 @@ while queue: # 每次pop一個節點出來
 ```
 N個點、M條邊，圖上BFS時間複雜度=O(N+M)，一般可以說是O(M)，因為邊一般都比點多\
 M最大為O(N^2)的級別（任兩點之間都有邊），所以worst case是O(N^2)
+
+如果真的想要每次while是一層，不是一個節點的話，也可以，就是多一個for loop。但還是建議上述模板。
+```
+queue = collections.deque([node])
+distance = {node: 0}
+
+while queue: # 每次pop一層出來
+    for _ in range(len(queue)):
+        node = queue.popleft()
+        for neighbor in node.get_neighbors():
+            if neighbor in distance:
+                continue
+            queue.append(neighbor)
+            distance[neighbor] = distance[node] + 1
+```
