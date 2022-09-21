@@ -39,3 +39,5 @@ while queue: # 每次pop一個節點出來
         distance[neighbor] = distance[node] + 1
         queue.append(neighbor)
 ```
+N個點、M條邊，圖上BFS時間複雜度=O(N+M)，一般可以說是O(M)，因為邊一般都比點多\
+M最大為O(N^2)的級別（任兩點之間都有邊），所以worst case是O(N^2)
