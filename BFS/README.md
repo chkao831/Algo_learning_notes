@@ -6,8 +6,11 @@
 - 連通塊問題
   - 通過圖中一個點找到其他所有連通的點
   - 找到所有方案問題的一種非遞歸實現方式 
-- 拓撲排序
-  - 實現容易度>DFS 
+- 拓撲排序：實現容易度>DFS 
+  - 求任意拓排序
+  - 求是否有拓排序
+  - 求字典序最小的拓排序
+  - 求是否唯一拓排序
 ### 實現方法
 https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md
 - 單隊列
