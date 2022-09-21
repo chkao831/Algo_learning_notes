@@ -3,7 +3,7 @@
 - 分層遍歷
   - 一層層遍歷一個圖、樹、矩陣
     - 圖：大家都是平等的，存在環，需要哈希表，因為同一個節點可能重複進入隊列
-      - BFS中，同一個節點不需要重複進行隊列，因為連通塊不可能帶來新的節點; 最短路不可能帶來更短的路徑
+      - BFS中，同一個節點不需要重複進行隊列，因為連通塊不可能帶來新的節點、最短路不可能帶來更短的路徑
       - Python去重：dict/set 
     - 樹：是圖的一種，從上往下的父子關係，不會出現環（是沒有環的圖）
   - 簡單圖（圖中所有邊長都一樣）**最短路徑**
@@ -25,3 +25,17 @@ https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binar
 - 單隊列
 - 雙隊列
 - DummyNode
+### 通用模板
+distance dict的key用於判斷是否已經訪問過; value用於記錄最短節點距離
+```python
+queue = collections.deque([node])
+distance = {node: 0}
+
+while queue: # 每次pop一個節點出來
+    node = queue.popleft()
+    for neighbor in node.get_neighbors(): # 並拓展相鄰節點
+        if neighbor in distance:
+            continue
+        distance[neighbor] = distance[node] + 1
+        queue.append(neighbor)
+```
