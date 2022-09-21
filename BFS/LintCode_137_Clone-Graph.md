@@ -2,7 +2,12 @@
 https://www.lintcode.com/problem/137/
 
 連通塊問題\
-G = <V, E>\
+G = <V, E>
+
+<p>
+    <img src="../images/137_Clone-Graph.jpg" width="500" />
+</p>
+
 此題解題步驟分三步：
 - 找到所有點
 - 複製所有點
@@ -22,3 +27,5 @@ G = <V, E>\
 #### Complexity:
 - Time:
 - Space:
+                                                      
+                                                      
