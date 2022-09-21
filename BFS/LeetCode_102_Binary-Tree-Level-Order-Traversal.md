@@ -43,6 +43,10 @@ class Solution:
             levels.append(level) # (f)
         return levels
 ```
+然而，如果**不在意層與層之間的分割** (不需要`[[3],[9,20],[15,7]]`, 只要`[3, 9, 20, 15, 7]`)，建議可以採用[BFS的模板](https://github.com/chkao831/Algo_learning_notes/tree/main/BFS)，其中與這版的最大區別在於
+- (1) BFS模板通用樹與圖，這個模板是樹
+- (2) BFS模板每次while loop只處理一個node, 這個模板每次while loop處理一層
+- (3) BFS模板queue添加元素的動作和加進去存儲的container(hashset, hashmap, etc.)的兩行是貼緊的，在元素入queue時馬上進container，這個模板是出queue時才進container，在遇到圖時，會有元素重複被計入的情形，容易超時。
 #### Submission:
 ```
 Runtime: 63 ms, faster than 36.74% of Python3 online submissions for Binary Tree Level Order Traversal.
