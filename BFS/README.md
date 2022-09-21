@@ -29,7 +29,7 @@ https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binar
 distance dict的key用於判斷是否已經訪問過; value用於記錄最短節點距離
 ```python
 queue = collections.deque([node])
-distance = {node: 0}
+distance = {node: 0} # 如果只記錄是/否訪問過, set即可
 
 while queue: # 每次pop一個節點出來
     node = queue.popleft()
