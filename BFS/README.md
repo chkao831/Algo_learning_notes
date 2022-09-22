@@ -39,7 +39,7 @@ while queue: # 每次pop一個節點出來
         queue.append(neighbor) # 和下一行hashmap加元素貼緊
         distance[neighbor] = distance[node] + 1 # 和上一行入隊貼緊
 ```
-N個點、M條邊，圖上BFS時間複雜度=O(N+M)，一般可以說是O(M)，因為邊一般都比點多\
+N個點、M條邊，圖上BFS時間複雜度=O(N+2M)=O(N+M)，一般可以說是O(M)，因為邊一般都比點多\
 M最大為O(N^2)的級別（任兩點之間都有邊），所以worst case是O(N^2)
 
 如果真的想要每次while是處理一層，不是一個節點的話，也可以，就是多一個for loop。但還是建議上述模板。
