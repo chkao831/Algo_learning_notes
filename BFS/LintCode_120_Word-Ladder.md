@@ -16,7 +16,7 @@ https://www.lintcode.com/problem/120/
 </p>
 
 <p>
-    <img src="../images/120_WordLadder2.jpg" width="500" />
+    <img src="../images/120_WordLadder2.jpg" width="700" />
 </p>
 
 ```python
