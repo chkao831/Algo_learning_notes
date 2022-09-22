@@ -105,4 +105,4 @@ Submissions
 ```
 #### Complexity:
 - Time: O(N*L^2)
-- Space: O(NL)
+- Space: O(N*L)
