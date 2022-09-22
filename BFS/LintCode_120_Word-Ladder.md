@@ -66,9 +66,23 @@ class Solution:
         return 0
 ```
 #### Remark:
-- Assume `N>>L`, then to find if a word of length L could be found in a list of N words, costs O(NL)
-  - But here in `get_next_word`, our data structure is `set`
-  - Also need to add judgment of post-diff-one-letter rule
+- Assume `N>>L`, then typically, to find if a word of length L, with a difference of one letter, could be found in a list of N words, costs O(NL)
+    ```python
+    def get_next_words(self, word, set):
+        next_words = []
+        for next_word in set:
+            has_one_diff = False
+            for i in range(len(word)):
+                if (next_word[i] != word[i]):
+                    if has_one_diff:
+                        has_one_diff = False
+                        break
+                    has_one_diff = True
+            if has_one_diff:
+                next_words.append(next_word)
+        return next_words
+    ```
+- However, in `get_next_word()`
   - Outer for loop costs O(L); inner for loop costs O(26L) => O(L^2) in total
   - 知識點1: 哈希表的增刪查改
     - 判斷一個東西是否存在dict裡，一般認為是O(1), 1表size of key, 但是如果是未知長度的字符串，嚴謹一點會說是O(L), where L stands for max length of string
