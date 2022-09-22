@@ -104,5 +104,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(N+L^2)
+- Time: O(N*L^2)
 - Space: O(NL)
