@@ -15,6 +15,10 @@ https://www.lintcode.com/problem/120/
     <img src="../images/120_WordLadder1.jpg" width="500" />
 </p>
 
+<p>
+    <img src="../images/120_WordLadder2.jpg" width="500" />
+</p>
+
 ```python
 from typing import (
     Set, List
