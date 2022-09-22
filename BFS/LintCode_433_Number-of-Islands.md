@@ -3,6 +3,12 @@ https://www.lintcode.com/problem/433/description
 >Given a boolean 2D matrix, 0 is represented as the sea, 1 is represented as the island. If two 1 is adjacent, we consider them in the same island. We only consider up/down/left/right adjacent.
 >
 >Find the number of islands.
+
+<p>
+    <img src="../images/433_Islands.jpg" width="650" />
+</p>
+
+
 ```python
 from typing import (
     List,
