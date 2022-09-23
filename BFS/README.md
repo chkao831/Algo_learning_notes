@@ -1,4 +1,7 @@
 ## Breadth First Search (BFS)
+#### 使用須知
+能夠用BFS解決的問題，一定不要用DFS去做！（DFS有StackOverflow風險）
+
 ### 適用場景
 - 分層遍歷
   - 一層層遍歷一個圖、樹、矩陣
