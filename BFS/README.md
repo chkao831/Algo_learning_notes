@@ -69,4 +69,5 @@ while queue: # 每次pop一層出來
   - (4) 一但發現新的In-degree=0的點，丟回Queue中
 - 一個圖可能存在多個Topological Order, 也可能不存在任何Topological Order
 - 寫法1: 一定有解的情況
+- 寫法2: 所有節點都能從圖中被刪除？
 - in degree變成0才會被放到queue去，用此判斷，不需要visited list
