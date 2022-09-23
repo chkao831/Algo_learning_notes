@@ -1,5 +1,5 @@
 ## Breadth First Search (BFS)
-#### 使用須知
+### 使用須知
 能夠用BFS解決的問題，一定不要用DFS去做！（DFS有StackOverflow風險）
 
 ### 適用場景
@@ -59,3 +59,8 @@ while queue: # 每次pop一層出來
             queue.append(neighbor)
             distance[neighbor] = distance[node] + 1
 ```
+### 拓撲排序
+- In-degree (入度):
+  -  指有向圖中
+
+### 拓撲排序
