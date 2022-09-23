@@ -61,11 +61,11 @@ while queue: # 每次pop一層出來
 ```
 ### 拓撲排序
 - In-degree (入度):
-  -  指**有向圖(Directed Graph)**中指向當前節點的點(或邊)的個數
+  -  指 **有向圖(Directed Graph)** 中指向當前節點的點(或邊)的個數
 - Algorithm
   - (1) 統計每個點的In-degree
-  - (2) 將每個In-degree=0放入Queue中作為起始節點
+  - (2) 將每個In-degree=0放入Queue中作為起始節點 （In-degree=0代表不依附於任何點）
   - (3) 不斷從Queue中拿出一個點，去掉這個點的所有連邊，其他點的相應In-degree=-1
   - (4) 一但發現新的In-degree=0的點，丟回Queue中
-- 一個圖可能存在多個Topological Order, 也可能不存在任何
+- 一個圖可能存在多個Topological Order, 也可能不存在任何Topological Order
 
