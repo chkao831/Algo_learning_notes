@@ -1,9 +1,5 @@
 ### Aircraft seat
 https://www.lintcode.com/problem/1881/
-
-<p>
-    <img src="../images/1881_Aircraft.png” width="500" />
-</p>
                                                       
 ```python
 class Solution:
@@ -38,7 +34,7 @@ class Solution:
             elif bool_DEFG: count += 1
         return count                           
 ```
-                                                                           
+
 #### Remark:
 - Simulation
 #### Submission:
