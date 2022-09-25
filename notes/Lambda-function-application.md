@@ -19,7 +19,10 @@ reduce(lambda parameter1, parameter2: expression, iterable)
 ```python
 sorted(iterable, key=lambda parameter: expression)
 ```
-
+#### max()
+```python
+max(dict, key= lambda x: dict[x]) # find key corresponding to the maximum value
+```
 ### Example
 ```python
 from functools import reduce
