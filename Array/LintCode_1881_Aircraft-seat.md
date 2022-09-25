@@ -1,9 +1,7 @@
 ### Aircraft seat
 https://www.lintcode.com/problem/1881/
 
-<p>
-    <img src="../images/1881_Aircraft.png” width="500" />
-</p>
+![aircraft](../images/1881_Aircraft.png)
 
 ```python
 class Solution:
