@@ -29,7 +29,8 @@ https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binar
 - 雙隊列
 - DummyNode
 ### 通用模板
-distance dict的key用於判斷是否已經訪問過; value用於記錄最短節點距離
+distance dict的key用於判斷是否已經訪問過; value用於記錄最短節點距離\
+如果要記錄第幾層的信息，還可以用[Lint573（蓋郵局）](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_573_Build-Post-Office-II.md)那題的方法，不另外用dictionary, 而是加在queue裡，當作座標以外的第三個元素
 ```python
 queue = collections.deque([node])
 distance = {node: 0} # 如果只記錄是/否訪問過, set即可; dict是拿來存儲分層信息的
@@ -70,5 +71,5 @@ while queue: # 每次pop一層出來
 - 一個圖可能存在多個Topological Order, 也可能不存在任何Topological Order
 - 寫法1: 一定有解的情況
 - 寫法2: 所有節點都能從圖中被刪除？
-- 3: 字典序：priority queue is the only difference
+- 寫法3: 字典序：priority queue is the only difference from above
 - in degree變成0才會被放到queue去，用此判斷，不需要visited list
