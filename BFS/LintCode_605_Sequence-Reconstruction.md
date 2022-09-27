@@ -64,3 +64,15 @@ class Solution:
 []
 ```
 remark: go back to Lint178 remark
+
+```
+143 ms
+time cost
+·
+10.37 MB
+memory cost
+·
+Your submission beats
+41.20 %
+Submissions
+```
