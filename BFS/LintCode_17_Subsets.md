@@ -2,10 +2,6 @@
 https://www.lintcode.com/problem/17/
 >Given a set with distinct integers, return all possible subsets.
 
-<p>
-    <img src="../images/17_Subsets.png” width="300" />
-</p>
-
 ### N叉樹
 - 取queue元素時，沒有真的pop掉頭
   - 只是用一個int去算count
