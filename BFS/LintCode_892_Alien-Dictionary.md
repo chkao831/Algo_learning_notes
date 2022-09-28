@@ -1,5 +1,6 @@
 ### Alien Dictionary
 https://www.lintcode.com/problem/892/description
+https://leetcode.com/problems/alien-dictionary/solution/
 >
 ```python
 from typing import (
