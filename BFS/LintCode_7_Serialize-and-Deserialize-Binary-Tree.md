@@ -57,10 +57,8 @@ class Solution:
 
     def serialize(self, root):
         """
-        @param root: An object of TreeNode, denote the root of the binary tree.
-        This method will be invoked first, you should design your own algorithm 
-        to serialize a binary tree which denote by a root node to a string which
-        can be easily deserialized by your own "deserialize" method later.
+        @param root: A tree that needs to be serialized
+        @return: the string after a tree serializing
         """
         
         if not root:
@@ -81,12 +79,8 @@ class Solution:
 
     def deserialize(self, data):
         """
-        @param data: A string serialized by your serialize method.
-        This method will be invoked second, the argument data is what exactly
-        you serialized at method "serialize", that means the data is not given by
-        system, it's given by your own serialize method. So the format of data is
-        designed by yourself, and deserialize it here as you serialize it in 
-        "serialize" method.
+        @param data: a string after a tree serializing
+        @return: the tree after a string deserialization
 
         root
         {1 | 2 3 | 4 5 # 6 |...}
@@ -116,6 +110,7 @@ class Solution:
             count_idx += 1 if (to_left_child is False) else 0
             to_left_child = not to_left_child # switch
         return root
+
 ```
 #### Remark:
 - The `% operator` tells the Python interpreter to format a string using a given set of variables, enclosed in a tuple, following the operator. A very simple example of this is as follows:
