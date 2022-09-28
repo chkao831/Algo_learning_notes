@@ -2,7 +2,9 @@
 https://www.lintcode.com/problem/17/
 >Given a set with distinct integers, return all possible subsets.
 
-![](./images/17_Subsets.png)
+<p>
+    <img src="../images/17_Subsets.png” width="300" />
+</p>
 
 ### N叉樹
 - 取queue元素時，沒有真的pop掉頭
