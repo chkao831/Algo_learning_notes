@@ -1,3 +1,13 @@
+### Course Schedule
+https://www.lintcode.com/problem/615/
+>There are a total of n courses you have to take, labeled from `0` to `n - 1`.
+>
+>Before taking some courses, you need to take other courses. For example, to learn course 0, you need to learn course 1 first, which is expressed as [0,1].
+> 
+>Given the total number of courses and a list of prerequisite pairs, is it possible for you to finish all courses?
+>
+>**Prerequisites may appear duplicated**
+
 ```python
 from typing import (
     List,
@@ -35,7 +45,9 @@ class Solution:
                     queue.append(req)
         return queue_count == num_courses
 ```
-not deque([[]])!!!
+#### Remark:
+- not `deque([starting_courses])` because `starting_courses` is already a list of items
+#### Submission:
 ```
 821 ms
 time cost
@@ -47,3 +59,7 @@ Your submission beats
 7.20 %
 Submissions
 ```
+#### Complexity:
+- 假設n個點，m條邊；
+     - 記錄拓撲序空間複雜度為O(n)，記錄入度最壞複雜度為O(n)，空間複雜度O(n)；
+     - 記錄每個點的入度為O(m)，拓撲排序為O(m)，時間複雜度O(m)。
