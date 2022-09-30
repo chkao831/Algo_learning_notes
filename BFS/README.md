@@ -89,6 +89,9 @@ while queue: # 每次pop一層出來
   - 所有節點都能從圖中被刪除？（check pop出來的count跟實際的節點數是否aligned)
   - 要返回字典序（使用priority queue: `heapq`)
 - in degree變成0才會被放到queue去，用此判斷，不需要visited list
+### 其他BFS相關
+- [全子集問題](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md)
+- [序列化與反序列化](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_7_Serialize-and-Deserialize-Binary-Tree.md)
 
 ## 雙向BFS (Bidirectional BFS)
 <img src="../images/611_Bidirectional-BFS.JPG" />
