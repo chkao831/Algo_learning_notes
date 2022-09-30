@@ -63,15 +63,21 @@ Python3
 | 65 | Median of two Sorted Arrays | Hard | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_65_Median-of-two-Sorted-Arrays.md) |
 | 75 | Find Peak Element | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_75_Find-Peak-Element.md) |
 | 80 | Median | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_80_Median.md) |
+| 120 | Word Ladder | Hard | BFS |
+| 127 | Topological Sorting | Medium | BFS |
+| 137 | Clone Graph | Medium | BFS |
 | 143 | Sort Colors II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_143_Sort-Colors-II.md) | 
 | 144 | Interleaving Positive and Negative Numbers | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_144_Interleaving-Positive-and-Negative-Numbers.md) |
 | 148 | Sort Colors | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_148_Sort-Colors.md) | 
 | 159 | Find Minimum in Rotated Sorted Array | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_159_Find-Minimum-in-Rotated-Sorted-Array.md) |
 | 160 | Find Minimum in Rotated Sorted Array II | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_160_Find-Minimum-in-Rotated-Sorted-Array-II.md) |
+| 178 | Graph Valid Tree | Medium | BFS | 
 | 183 | Wood Cut | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_183_Wood-Cut.md) |
 | 373* | Partition Array by Odd and Even | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_373_Partition-Array-by-Odd-and-Even.md) |
 | 407 | Plus One | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_407_Plus-One.md) |
 | 415 | Valid Palindrome | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_415_Valid-Palindrome.md) |
+| 431 | Connected Component in Undirected Graph | Medium | BFS |
+| 433 | Number of Islands | Medium | BFS |
 | 437 | Copy Books | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_437_Copy-Books.md) |
 | 447 | Search in a Big Sorted Array | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_447_Search-in-a-Big-Sorted-Array.md) |
 | 457 | Classical Binary Search | Easy | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_457_Classical-Binary-Search.md) |
@@ -82,17 +88,27 @@ Python3
 | 492 | Implement Queue by Linked List | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_492_Implement-Queue-by-Linked-List.md) |
 | 493 | Implement Queue by Linked List II | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_493_Implement-Queue-by-Linked-List-II.md) |
 | 539 | Move Zeroes | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_539_move-zeroes.md) | 
+| 573 | Build Post Office II | Hard | BFS |
 | 585 | Maximum Number in Mountain Sequence | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_585_Maximum-Number-in-Mountain-Sequence.md) |
+| 598 | Zombie in Matrix | Medium | BFS |
 | 600 | Smallest Rectangle Enclosing Black Pixels | Hard | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_600_Smallest-Rectangle-Enclosing-Black-Pixels.md) |
 | 607 | Two Sum III - Data structure design | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_607_Two-Sum-III-Data-structure-design.md); <br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_607_Two-Sum-III-Data-structure-design.md) |
 | 609* | Two sum - Less than or equal to target | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) |
+| 611 | Knight Shortest Path | Medium | BFS | 
+| 615 | Course Schedule | Medium | BFS | 
+| 616 | Course Schedule II | Medium | BFS | 
+| 618 | Search Graph Nodes | Medium | BFS | 
 | 625 | Partition Array II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_625_Partition-Array-II.md) |
+| 630 | Knight Shortest Path II | Medium | BFS |
 | 716 | Add and Search | Easy | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_716_Add-and-Search.md);<br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md) |
+| 792 | Kth Prime Number | Easy | Operator | 
 | 891 | Valid Palindrome II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) |
 | 955 | Implement Queue by Circular Array | Medium | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_955_Implement-Queue-by-Circular-Array.md) |
 | 1144 | Range Addition II | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_1144_Range-Addition-II.md) |
+| 1179 | Friend Circles | Medium | BFS |
 | 1226 | Minimum Moves to Equal Array Elements II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_1226_Minimum-Moves-to-Equal-Array-Elements-II.md) |
 | 1665 | Calculate number | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1665_Calculate-number.md) |
+| 1881 | Aircraft seat | Easy | Array |
 
 ## Problems (chronologically ordered)
 | Source |  Index  | Topic  |  Link | Difficulty | Submission Date |
@@ -152,13 +168,28 @@ Python3
 | Lint | 493 | Implement Queue by Linked List II | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_493_Implement-Queue-by-Linked-List-II.md) | Easy | 20220920 |
 | Lint | 955 | Implement Queue by Circular Array | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_955_Implement-Queue-by-Circular-Array.md) | Medium | 20220920 |
 | Leet | 102 | Binary Tree Level Order Traversal | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md) | Medium | 20220920 |
+| Lint | 137 | Clone Graph | BFS | Medium | 20220921 | 
+| Lint | 120 | Word Ladder | BFS | Hard | 20220921 | 
+| Lint | 433 | Number of Islands | BFS | Easy | 20220922 |
+| Lint | 611 | Knight Shortest Path | BFS | Medium | 20220922 |
+| Lint | 630 | Knight Shortest Path II | BFS | Medium | 20220923 |
+| Lint | 1179 | Friend Circles | BFS | Medium | 20220923 |
+| Lint | 178 | Graph Valid Tree | BFS | Medium | 20220924 |
+| Lint | 618 | Search Graph Nodes | BFS | Medium | 20220924 | 
+| Lint | 431 | Connected Component in Undirected Graph | BFS | Medium | 20220925 |
+| Lint | 598 | Zombie in Matrix | BFS | Medium | 20220925 |
+| Lint | 573 | Build Post Office II | BFS | Hard | 20220926 | 
+| Lint | 1881 | Aircraft seat | Array | Easy | 20220926 | 
+| Lint | 792 | Kth Prime Number | Operator | Easy | 20220927 |
+| Lint | 127 | Topological Sorting | BFS | Medium | 20220927 | 
+| Lint | 615 | Course Schedule | BFS | Medium | 20220928 | 
+| Lint | 616 | Course Schedule II | BFS | Medium | 20220928 |
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
 
 ```
-Done: Lint137; Lint120; Lint433; Lint611; Lint630; Lint1179; Lint178; Lint618; Lint431; Lint598; Lint573
-ClockIn: Lint1881, Lint 792
-Lint127; Lint615; Lint616; Lint605; Lint892
+Lint137; Lint120; Lint433; Lint611; Lint630; Lint1179; Lint178; Lint618; Lint431; Lint598; Lint573, Lint1881, Lint 792; Lint127; Lint615; Lint616; 
+Lint605; Lint892
 Lint17; Lint7
 ```
