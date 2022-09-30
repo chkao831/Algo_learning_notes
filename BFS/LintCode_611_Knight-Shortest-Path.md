@@ -152,8 +152,8 @@ class Solution:
 
         forward_queue = collections.deque([(source.x, source.y)])
         backward_queue = collections.deque([(destination.x, destination.y)])
-        forward_set = set((source.x, source.y))
-        backward_set = set((destination.x, destination.y))
+        forward_set = set([(source.x, source.y)])
+        backward_set = set([(destination.x, destination.y)])
 
         while forward_queue and backward_queue:
             if expand_queue(q=forward_queue, s=forward_set, opp_set=backward_set):
@@ -167,14 +167,14 @@ class Solution:
 - 注意：拓展下一層的點不能`while queue:`, 要是`for _ in range(len(queue)):`
 #### Submission:
 ```
-752 ms
+720 ms
 time cost
 ·
-13.80 MB
+13.71 MB
 memory cost
 ·
 Your submission beats
-43.40 %
+55.00 %
 Submissions
 ```
 #### Complexity:
