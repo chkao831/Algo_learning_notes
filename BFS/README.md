@@ -4,6 +4,9 @@
 
 ### 適用場景
 - 分層遍歷
+  - Relevant Questions:
+    - [Binary Tree Level Order Traversal (Lint102)](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md)
+    - [Lint120](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_120_Word-Ladder.md), [Lint611](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_611_Knight-Shortest-Path.md), [Lint630](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_630_Knight-Shortest-Path-II.md), [Lint178](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_178_Graph-Valid-Tree.md), [Lint618](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_618_Search-Graph-Nodes.md)
   - 一層層遍歷一個圖、樹、矩陣
     - 圖：大家都是平等的，存在環，需要哈希表，因為同一個節點可能重複進入隊列
       - BFS中，同一個節點不需要重複進行隊列，因為連通塊不可能帶來新的節點、最短路不可能帶來更短的路徑
@@ -16,13 +19,25 @@
       - 若圖可以分層(路徑有一定方向性，不能繞圈)，使用DP
       - 若圖不可以進行分層，使用DFS
 - 連通塊問題
+  - Relevant Questions: [Lint137](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_137_Clone-Graph.md), [Lint433](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_433_Number-of-Islands.md), [Lint1179](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_1179_Friend-Circles.md), [Lint431](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_431_Connected-Component-in-Undirected-Graph.md), [Lint598](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_598_Zombie-in-Matrix.md), [Lint573](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_573_Build-Post-Office-II.md)
   - 通過圖中一個點找到其他所有連通的點
   - 找到所有方案問題的一種非遞歸實現方式 
 - 拓撲排序：實現容易度>DFS 
-  - 求任意拓排序
-  - 求是否有拓排序
-  - 求字典序最小的拓排序
-  - 求是否唯一拓排序
+  -  Relevant Questions: [Lint127](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_127_Topological-Sorting.md), [Lint615](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_615_Course-Schedule.md), [Lint616](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_616_Course-Schedule-II.md), [Lint605](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_605_Sequence-Reconstruction.md), [Lint892](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_892_Alien-Dictionary.md)
+  - In-degree (入度)：指 **有向圖(Directed Graph)** 中指向當前節點的點(或邊)的個數
+  - Algorithm
+    - (1) 統計每個點的In-degree
+    - (2) 將每個In-degree=0放入Queue中作為起始節點 （In-degree=0代表不依附於任何點）
+    - (3) 不斷從Queue中拿出一個點，去掉這個點的所有連邊，其他點的相應In-degree=-1
+    - (4) 一但發現新的In-degree=0的點，丟回Queue中
+  - 一個圖可能存在多個Topological Order, 也可能不存在任何Topological Order
+  - 問法
+    - 一定有解的情況 (求任意拓排序)
+    - 所有節點都能從圖中被刪除？（求是否有拓排序: check pop出來的count跟實際的節點數是否aligned)
+    - 求字典序最小的拓排序: 使用priority queue: `heapq`
+    - 求是否唯一拓排序: 每次queue都只有一個元素嘛？
+- in degree變成0才會被放到queue去，用此判斷，不需要visited list
+
 ### 實現方法：Python建議使用`deque`, 因為`Queue`涉及到多線程加鎖，慢。
 https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md
 - 單隊列
@@ -75,7 +90,7 @@ while queue: # 每次pop一層出來
   - 要返回字典序（使用priority queue: `heapq`)
 - in degree變成0才會被放到queue去，用此判斷，不需要visited list
 
-### 雙向BFS (Bidirectional BFS)
+## 雙向BFS (Bidirectional BFS)
 <img src="../images/611_Bidirectional-BFS.JPG" />
 
 模板：
@@ -93,5 +108,6 @@ while forward_queue 和 backward_queue都非空：
         如果碰到的forward的點 return distance
 return 找不到
 ```
+- Relevant Questions: [Word-Ladder](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_120_Word-Ladder.md); [Knight Shortest Path](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_611_Knight-Shortest-Path.md); [Knight Shortest Path II](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_630_Knight-Shortest-Path-II.md)
 - 注意：是while forward_queue***和*** backward_queue都非空
 - 注意：拓展**下一層**的點不能`while queue:`, 要是`for _ in range(len(queue)):`
