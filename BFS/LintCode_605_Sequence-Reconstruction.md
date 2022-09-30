@@ -1,3 +1,7 @@
+### Sequence Reconstruction
+
+https://www.lintcode.com/problem/605/description
+
 ```python
 from typing import (
     List,
@@ -55,16 +59,17 @@ class Solution:
 [5,3,2,4,1]
 [[5,3,2,4],[4,1],[1],[3],[2,4], [1000000000]]
 ```
-
-```
-[[], []]
-```
-
-```
-[]
-```
-remark: go back to Lint178 remark
-
+#### Remark:
+- 題目描述不全：
+    - 遇到org是空的情況 return True
+    - 遇到seqs全空的情況`[[], []]` 用`any`判斷 然後return False
+- 遇到這種case
+    `org = [5,3,2,4,1], seqs = [[5,3,2,4],[4,1],[1],[3],[2,4], [1000000000]]`
+    - seqs裡有單獨seq只有一個元素的 這種不會被`generate_dict_seq`處理好關係。對於`[1000000000]`只有一個元素 並且在org完全沒出現的，選擇把整個org都變成了他的subsequence, 這樣後續一定會報False。
+- 善用`defaultdict`!!!
+    - `self.dict_indeg = defaultdict(int)`
+    - `self.dict_seq = defaultdict(set)`
+#### Submission:
 ```
 143 ms
 time cost
@@ -76,3 +81,6 @@ Your submission beats
 41.20 %
 Submissions
 ```
+#### Complexity:
+- Time: O(N)
+- Space: O(N)
