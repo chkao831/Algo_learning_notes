@@ -1,4 +1,4 @@
-### Word Ladder
+## Word Ladder
 https://www.lintcode.com/problem/120/
 >Given two words (`start` and `end`), and a set, find the shortest transformation sequence from `start` to `end`, output the length of the sequence.\
 >Transformation rule such that:\
@@ -18,6 +18,8 @@ https://www.lintcode.com/problem/120/
 <p>
     <img src="../images/120_WordLadder2.jpg" width="800" />
 </p>
+
+### 單向BFS
 
 ```python
 from typing import (
@@ -106,3 +108,81 @@ Submissions
 #### Complexity:
 - Time: O(N*L^2)
 - Space: O(N*L)
+
+### 雙向BFS
+```python
+from typing import (
+    Set, List, Deque
+)
+
+class Solution:
+
+    def __init__(self):
+        self.set_string = set()
+        self.distance = 1
+
+    def ladder_length(self, start: str, end: str, dict: Set[str]) -> int:
+        """
+        @param start: a string
+        @param end: a string
+        @param dict: a set of string
+        @return: An integer
+        """
+
+        def get_next_word(word: str) -> List: # Total time O(L^2)
+            out_list = []
+            for char in range(len(word)): # O(L), L = len_of_string
+                left, right = word[:char], word[char+1:] # O(L) to split into substrings
+                for letter in 'abcdefghijklmnopqrstuvwxyz': # O(26)
+                    if word[char] == letter: continue
+                    candidate = str(left+letter+right) # O(L)
+                    if candidate in self.set_string: # Typically O(1), but O(L) for keys as strings with unknown length
+                        out_list.append(candidate)
+            return out_list
+
+        def expand_queue(q: Deque, s: set, opp_set: set)-> bool:
+            self.distance += 1
+            for _ in range(len(q)):
+                word = q.popleft()
+                for next_word in get_next_word(word=word):
+                    if next_word in s:
+                        continue
+                    if next_word in opp_set:
+                        return True
+                    q.append(next_word)
+                    s.add(next_word)
+            return False
+
+        if start==end: return 1
+        self.set_string = dict
+        self.set_string.add(end)
+
+        forward_queue = collections.deque([start])
+        backward_queue = collections.deque([end])
+        forward_set = set([start])
+        backward_set = set([end])
+
+        while forward_queue and backward_queue:
+            if expand_queue(q=forward_queue, s=forward_set, opp_set=backward_set):
+                return self.distance
+            if expand_queue(q=backward_queue, s=backward_set, opp_set=forward_set):
+                return self.distance
+        return -1
+```
+#### Remark:
+- 注意：初始`self.distance`是`1`!
+#### Submission:
+```
+244 ms
+time cost
+·
+6.68 MB
+memory cost
+·
+Your submission beats
+94.60 %
+Submissions
+```
+#### Complexity:
+- Time: O(N^(1/2)*L^2)
+- Space: O(N^(1/2)*L)
