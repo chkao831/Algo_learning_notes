@@ -1,5 +1,11 @@
-### 
-<link>
+### Topological Sorting
+https://www.lintcode.com/problem/127/
+>Given an directed graph, a topological order of the graph nodes is defined as follow:
+>
+>For each directed edge `A -> B` in graph, A must before B in the order list.\
+>The first node in the order can be any node in the graph with no nodes direct to it.\
+>Find any topological order for the given graph.\
+>You can assume that there is at least one topological order in the graph.
 >
 ```python
 """
@@ -54,5 +60,7 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time:
-- Space:
+- 假設n個點，m條邊；
+     - 記錄拓撲序空間複雜度為O(n)，記錄入度最壞複雜度為O(n)，空間複雜度O(n)；
+     - 記錄每個點的入度為O(m)，拓撲排序為O(m)，時間複雜度O(m)。
+
