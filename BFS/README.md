@@ -76,3 +76,19 @@ while queue: # 每次pop一層出來
 
 ### 雙向BFS (Bidirectional BFS)
 <img src="../images/611_Bidirectional-BFS.JPG" />
+
+模板：
+```python
+初始化 forward_queue 和 forward_set, 加入起點
+初始化 backward_queue 和 backward_set, 加入終點
+
+while forward_queue 和 backward_queue都非空：
+    distance = 0
+    for 所有forward_queue裡的點： # distance += 1
+        拓展下一層的點
+        如果碰到的backward的點 return distance
+    for 所有backward_queue裡的點： # distance += 1
+        拓展上一層的點
+        如果碰到的forward的點 return distance
+return 找不到
+```
