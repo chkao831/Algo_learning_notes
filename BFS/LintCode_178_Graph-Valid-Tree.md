@@ -43,11 +43,18 @@ class Solution:
 - 一棵擁有n個節點的樹有n-1條邊，樹是連通的，沒有環的。
   - 給定一個無向圖讓我們判斷是否為樹，我們只需要判斷是否連通且無環即可。
 - 我們可以從根節點出發向兒子節點進行廣度優先搜索bfs，如果能遍歷完所有的點，且沒有環存在，那麼說明這個無向圖是樹。
-- Mistake1: Originally wrote this...this doesn't work. Need to do ` + [element]` instead. 
+- Mistake1: Originally wrote this...this doesn't work. This is because `append` is an in-place operation.
   ```python
   for edge in edges:
-                self.dict_node_neighbor[edge[0]] = self.dict_node_neighbor.get(edge[0], []).append(edge[1])
-                self.dict_node_neighbor[edge[1]] = self.dict_node_neighbor.get(edge[1], []).append(edge[0])
+    self.dict_node_neighbor[edge[0]] = self.dict_node_neighbor.get(edge[0], []).append(edge[1])
+    self.dict_node_neighbor[edge[1]] = self.dict_node_neighbor.get(edge[1], []).append(edge[0])
+  ```
+  Alternatively, use `defaultdict` (see Lint605)
+  ```python
+  self.dict_node_neighbor = defaultdict(list)
+  for edge in edges:
+    self.dict_node_neighbor[edge[0]].append(edge[1])
+    self.dict_node_neighbor[edge[1]].append(edge[0])
   ```
 - Mistake2: forgot to assign default (forgot safe dictionary retrieval)
   ```python
