@@ -195,3 +195,7 @@ Python3
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
+
+```
+1001 TODO: CH14 Graph Notes + CH15 CH16
+```
