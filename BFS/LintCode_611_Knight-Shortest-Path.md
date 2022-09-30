@@ -86,7 +86,7 @@ Submissions
 - Time: O(m*n)
 - Space: O(m*n)
 
-### 雙向BFS [原理](https://github.com/chkao831/Algo_learning_notes/tree/main/BFS)
+### 雙向BFS [原理](https://github.com/chkao831/Algo_learning_notes/tree/main/BFS#雙向bfs-bidirectional-bfs)
 
 ```python
 from typing import (
