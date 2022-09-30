@@ -60,7 +60,12 @@ class Solution:
         return str_out if len(str_out)==len(self.dict_indeg) else ""
 ```
 #### Remark:
-- Forgot to break
+- Forgot to `break`
+- Used priority queue here:
+    - `from heapq import heapify, heappop, heappush`
+    - `heapify([c for c in self.dict_indeg if self.dict_indeg[c]==0])`
+    - `heappop(queue)`
+    - `heappush(queue, next_char)`
 #### Submission:
 ```
 81 ms
@@ -73,6 +78,11 @@ Your submission beats
 99.00 %
 Submissions
 ```
-#### Complexity:
-- Time: 
-- Space: 
+#### Complexity: (Detail see [Leet269](https://leetcode.com/problems/alien-dictionary/solution/))
+Let C be the total length of all the words in the input list, added together.\
+Let U be the total number of unique letters in the alien alphabet. \
+Let N be the total number of strings in the input list.
+- Time: O(C)
+- Space: O(1) or O(V+E)=O(U + min(U^2, N)) for the `self.dict_char_order` auxilliary list
+    - U is normally fixed at 26, so could be O(1)
+    - But when we consider an arbitrarily large number of possible letters, would be the latter one.
