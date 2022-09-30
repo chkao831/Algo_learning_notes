@@ -1,3 +1,18 @@
+
+
+
+
+
+### Course Schedule II
+https://www.lintcode.com/problem/616/
+>There are a total of n courses you have to take, labeled from `0` to `n - 1`.
+>
+>Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed as a pair: [0,1]
+>
+>Given the total number of courses and a list of prerequisite pairs, return the ordering of courses you should take to finish all courses.
+>
+>There may be multiple correct orders, you just need to return one of them. If it is impossible to finish all courses, return an empty array.
+
 ```python
 from typing import (
     List,
@@ -34,7 +49,9 @@ class Solution:
         else: 
             return order
 ```
-
+#### Remark:
+- 
+#### Submission:
 ```
 860 ms
 time cost
@@ -46,3 +63,8 @@ Your submission beats
 16.20 %
 Submissions
 ```
+#### Complexity:
+- 假設n個點，m條邊；
+     - 記錄拓撲序空間複雜度為O(n)，記錄入度最壞複雜度為O(n)，空間複雜度O(n)；
+     - 記錄每個點的入度為O(m)，拓撲排序為O(m)，時間複雜度O(m)。
+
