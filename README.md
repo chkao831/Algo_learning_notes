@@ -54,6 +54,8 @@ Python3
 #### LintCode
 | Index | Topic | Difficulty | Link(s) |
 |  ----  | ----  | ----  | ----  |
+| 7 | Serialize and Deserialize Binary Tree | Medium | BFS |
+| 17 | Subsets | Medium | BFS | 
 | 31 | Partition Array | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md) |
 | 38 | Search a 2D Matrix II | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_38_Search-a-2D-Matrix-II.md) | 
 | 49 | Sort Letters by Case | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers) |
@@ -92,6 +94,7 @@ Python3
 | 585 | Maximum Number in Mountain Sequence | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_585_Maximum-Number-in-Mountain-Sequence.md) |
 | 598 | Zombie in Matrix | Medium | BFS |
 | 600 | Smallest Rectangle Enclosing Black Pixels | Hard | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_600_Smallest-Rectangle-Enclosing-Black-Pixels.md) |
+| 605 | Sequence Reconstruction | Medium | BFS |
 | 607 | Two Sum III - Data structure design | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_607_Two-Sum-III-Data-structure-design.md); <br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_607_Two-Sum-III-Data-structure-design.md) |
 | 609* | Two sum - Less than or equal to target | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) |
 | 611 | Knight Shortest Path | Medium | BFS | 
@@ -103,6 +106,7 @@ Python3
 | 716 | Add and Search | Easy | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_716_Add-and-Search.md);<br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md) |
 | 792 | Kth Prime Number | Easy | Operator | 
 | 891 | Valid Palindrome II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) |
+| 892 | Alien Dictionary | Hard | BFS | 
 | 955 | Implement Queue by Circular Array | Medium | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_955_Implement-Queue-by-Circular-Array.md) |
 | 1144 | Range Addition II | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_1144_Range-Addition-II.md) |
 | 1179 | Friend Circles | Medium | BFS |
@@ -184,12 +188,14 @@ Python3
 | Lint | 127 | Topological Sorting | BFS | Medium | 20220927 | 
 | Lint | 615 | Course Schedule | BFS | Medium | 20220928 | 
 | Lint | 616 | Course Schedule II | BFS | Medium | 20220928 |
+| Lint | 605 | Sequence Reconstruction | BFS | Medium | 20220929 |
+| Lint | 892 | Alien Dictionary | BFS | Hard | 20220929 |
+| Lint | 17 | Subsets | BFS | Medium | 20220930 |
+| Lint | 7 | Serialize and Deserialize Binary Tree | BFS | Medium | 20220930 |
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
 
 ```
-Lint137; Lint120; Lint433; Lint611; Lint630; Lint1179; Lint178; Lint618; Lint431; Lint598; Lint573, Lint1881, Lint 792; Lint127; Lint615; Lint616; 
-Lint605; Lint892
-Lint17; Lint7
+Lint137; Lint120; Lint433; Lint611; Lint630; Lint1179; Lint178; Lint618; Lint431; Lint598; Lint573, Lint1881, Lint 792; Lint127; Lint615; Lint616; Lint605; Lint892; Lint17; Lint7
 ```
