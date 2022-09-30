@@ -2,7 +2,7 @@
 https://www.lintcode.com/problem/792/description
 > Given the prime number n, output the number of prime numbers
 
-![](./images/792_Prime.png)
+<img src="../images/792_Prime.png" />
 
 ```python
 class Solution:
