@@ -92,3 +92,5 @@ while forward_queue 和 backward_queue都非空：
         如果碰到的forward的點 return distance
 return 找不到
 ```
+- 注意：是while forward_queue***和*** backward_queue都非空
+- 注意：拓展**下一層**的點不能`while queue:`, 要是`for _ in range(len(queue)):`
