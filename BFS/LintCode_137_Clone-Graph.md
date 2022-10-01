@@ -1,4 +1,4 @@
-### Clone Graph
+## Clone Graph
 https://www.lintcode.com/problem/137/
 
 連通塊問題\
@@ -92,3 +92,14 @@ Submissions
 #### Complexity:
 - Time: O(n+m), where n is the number of nodes (vertices) and m is the number of edges.
 - Space: O(n)
+
+## Supplement: Graph Intro
+- 常見存儲方式：adjacency matrix & adjacency list
+    -  adjacency matrix: High space complexicy -- 2D array, takes O(n^2) space
+    -  adjacency list
+        - 每個點存自己的鄰居
+        - 空間耗費和邊數成正比 O(m)
+        - 常使用HashMap or HashSet搭配
+          ```
+          adjacency_list = {x: set() for x in nodes}
+          ```
