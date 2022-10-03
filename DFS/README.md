@@ -9,15 +9,16 @@
 
 <img src="https://ithelp.ithome.com.tw/upload/images/20181028/20111557YgB20xzqR3.jpg" />
 
-### Pre-Order Traversal(前序遍歷)
+### [Pre-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_144_Binary-Tree-Preorder-Traversal.md)(前序遍歷)
 順序是根節點、左子節點、右子節點，根排在前面。\
 `[1, 2, 4, 7, 8, 5, 3, 6, 9, 10]`
-### In-Order Traversal(中序遍歷)
+### [In-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_94_Binary-Tree-Inorder-Traversal.md)(中序遍歷)
 順序是左子節點、根節點、右子節點，根排在中間。\
 `[7, 4, 8, 2, 5, 1, 3, 9, 6, 10]`
-### Post-Order Traversal(後續遍歷)
+### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
 順序是左子節點、右子節點、根節點，根排在後面。\
-`[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`
+`[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`\
+- Relevant: [Lint257 - Binary Tree Paths](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_257_Binary-Tree-Paths.md)
 ## Divide and Conquer (分治)
 分而治之，分派小弟去做子任務，自己進行結果匯總\
 通常會利用return value紀錄子問題結果\
@@ -36,3 +37,7 @@ def divideAndConquer(TreeNode root):
   
   return 整棵樹的結果
 ```
+- Relevant: 
+  - [Leet110 - Balanced Binary Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_110_Balanced-Binary-Tree.md)
+  - [Leet104 - Maximum Depth of Binary Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_104_Maximum-Depth-of-Binary-Tree.md)
+  - [Lint628 - Maximum Subtree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_628_Maximum-Subtree.md)
