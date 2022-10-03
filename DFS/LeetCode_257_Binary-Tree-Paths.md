@@ -73,6 +73,7 @@ class Solution:
 ```
 #### Remark:
 - need to append as string format to path, since there's no backtracking in iterative approaches
+    - However, do note that `path += '->'` is bad because this will create a lot of useless strings in the heap. 
 - To append more than one element to stack, remember `[( , )]` the brackets.
 - Output order is slightly different from the recursive approach:
     ```
