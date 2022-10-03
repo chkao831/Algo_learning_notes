@@ -4,7 +4,9 @@ https://leetcode.com/problems/binary-tree-paths/
 >
 >A `leaf` is a node with no children.
 
-### Recursive Approach: DFS, with Backtracking
+<img src="https://assets.leetcode.com/uploads/2021/03/12/paths-tree.jpg" />
+
+### Recursive Approach: DFS, with Manual Backtracking
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -35,6 +37,26 @@ class Solution:
         getPath(root, [root])
         return paths
 ```
+
+- Another less-intuitive approach without Manual Backtracking (but suboptimal for string concatenation)
+    ```python
+
+    class Solution:
+        def binaryTreePaths(self, root: Optional[TreeNode]) -> List[str]:
+
+            paths = []
+            if not root:
+                return []
+            if not root.left and not root.right:
+                return [str(root.val)] # ['5']
+
+            for path in self.binaryTreePaths(root.left):
+                paths.append(str(root.val) + '->' + path)
+            for path in self.binaryTreePaths(root.right):
+                paths.append(str(root.val) + '->' + path) # ['2->5']
+
+            return paths
+    ```
 #### Remark:
 - Mistakes:
   - `if not node.left and not node.right` to be bottom leaf
