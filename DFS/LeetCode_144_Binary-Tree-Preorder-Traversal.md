@@ -30,6 +30,11 @@ class Solution:
         
         return self.nodes
 ```
+In 1-line:
+```python
+def preorder(root):
+    return [root.val] + preorder(root.left) + preorder(root.right) if root else []
+```
 
 ### Iterative Approach with Stack
 ```python
