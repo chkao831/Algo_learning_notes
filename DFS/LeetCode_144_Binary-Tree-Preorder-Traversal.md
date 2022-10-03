@@ -82,9 +82,3 @@ StdOut: [1, 2, 5, 3]
   
 StdOut: [1, 2, 4, 5, 6, 3]
 ```
-
-#### Submission:
-```
-Runtime: 52 ms, faster than 50.78% of Python3 online submissions for Binary Tree Preorder Traversal.
-Memory Usage: 13.7 MB, less than 99.84% of Python3 online submissions for Binary Tree Preorder Traversal.
-```
