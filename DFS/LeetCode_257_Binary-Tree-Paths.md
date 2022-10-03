@@ -6,7 +6,7 @@ https://leetcode.com/problems/binary-tree-paths/
 
 <img src="https://assets.leetcode.com/uploads/2021/03/12/paths-tree.jpg" />
 
-### Recursive Approach: DFS, with Manual Backtracking
+### Recursive Approach: DFS (Postorder Traversal), with Manual Backtracking
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
