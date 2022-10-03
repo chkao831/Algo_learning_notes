@@ -33,6 +33,11 @@ class Solution:
 Runtime: 42 ms, faster than 74.80% of Python3 online submissions for Binary Tree Inorder Traversal.
 Memory Usage: 14 MB, less than 13.03% of Python3 online submissions for Binary Tree Inorder Traversal.
 ```
+In 1-line:
+```python
+def inorder(root):
+      return  inorder(root.left) + [root.val] + inorder(root.right) if root else []
+```
 ### Iterative Approach with Stack
 ```python
 # Definition for a binary tree node.
