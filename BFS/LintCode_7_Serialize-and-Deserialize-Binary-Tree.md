@@ -114,7 +114,14 @@ class Solution:
 ```
 #### Remark:
 - The `% operator` tells the Python interpreter to format a string using a given set of variables, enclosed in a tuple, following the operator. A very simple example of this is as follows:
-`'%s is smaller than %s' % ('one', 'two')`
+  - `'%s is smaller than %s' % ('one', 'two')`
+  - [Lint2379](https://www.lintcode.com/problem/2379/description)
+    ```
+    n = int(input()) # 2
+    list_in = input().split(' ') # jiuzhang suanfa
+    print('%s' % '-'.join([term for term in list_in]))
+    ```
+    prints `jiuzheng-suanfa`
 #### Submission:
 ```
 761 ms
