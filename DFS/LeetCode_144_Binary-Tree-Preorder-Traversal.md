@@ -2,9 +2,7 @@
 https://leetcode.com/problems/binary-tree-preorder-traversal/
 > Given the `root` of a binary tree, return the preorder traversal of its nodes' values.
 
-<p>
-    <img src="https://leetcode.com/problems/binary-tree-preorder-traversal/Figures/145_transverse.png” width="500" />
-</p>
+<img src="https://leetcode.com/problems/binary-tree-preorder-traversal/Figures/145_transverse.png" />
 
 ```python
 # Definition for a binary tree node.
@@ -49,8 +47,4 @@ StdOut: [1, 2, 5, 3]
 5
   
 StdOut: [1, 2, 4, 5, 6, 3]
-```
-
-#### Submission:
-```
 ```
