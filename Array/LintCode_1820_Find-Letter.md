@@ -21,14 +21,22 @@ class Solution:
         return '~'
 ```
 #### Remark:
-- ord()
-
-Format: ord(c), c: character
-
-傳入字元，回傳對應的Unicode字元。
-
+- `ord()`: 傳入字元，回傳對應的Unicode字元。
+- `chr()`: 傳入參數int[0..255] 的ASCII code編碼，回傳對應的ASCII code字元。
+```
 >>> ord('a')
 97
+>>> ord('z')
+122
+>>> ord('A')
+65
+>>> ord('Z')
+90
+>>> chr(97)
+'a'
+>>> chr(122)
+'z'
+```
 #### Submission:
 ```
 101 ms
