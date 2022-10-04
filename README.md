@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Sep 20, 2022
+> Last Updated on Sep 30, 2022
 
 ## Language
 Python3
