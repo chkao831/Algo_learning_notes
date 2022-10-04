@@ -197,5 +197,7 @@ Python3
 (^: Attempted; partially resolved)
 
 ```
-1001 TODO: CH14 Graph Notes + CH15 CH16
+DFS
+Lint1820
+TODO: CH18 and CH20 (DnC)
 ```
