@@ -42,7 +42,7 @@
       - Time Comp: Specifically O(max(k+h)), or can simply say O(n) 
       - Further Optimization: add counter
     - Closest Binary Search Tree Value 
-    - Validate BST?
+    - [Lint95 - Validate Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_95_Validate-Binary-Search-Tree.md)
     - BST的增刪查改
       - Search Rnage in Binary Search Tree (CH44)
       - Insert Node in a Binary Search Tree (CH44)
