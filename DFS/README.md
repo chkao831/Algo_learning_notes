@@ -1,4 +1,5 @@
 # Depth First Search (DFS, 深度優先搜索）
+
 - 通常使用Recursion(遞歸)來實現
 - 也可以不用Recursion（太深，怕StackOverflow時）, 如使用手動創建的Stack(棧)進行操作
 - Backtracking(回溯)：即深度優先搜索算法
@@ -6,6 +7,10 @@
 - 二叉樹(binary tree)
   - 是每個節點最多有兩個子樹的樹結構
   - 高度最壞O(n), 最好O(logn), 一般用O(h)表示
+ 
+<p>
+    <img src="../images/Dfs_cate.png” width="500" />
+</p>
  
 ## Traversal (遍歷) 
 親力親為，一個小人拿著本子走遍所有的節點\
