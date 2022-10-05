@@ -34,7 +34,7 @@
 分而治之，分派小弟去做子任務，自己進行結果匯總\
 通常會利用return value紀錄子問題結果\
 左右必須沒有交集，otherwise DP\
-二叉樹上的分治法模板
+二叉樹上的分治法模板：
 ```python
 def divideAndConquer(TreeNode root):
   if root is None:
@@ -49,7 +49,9 @@ def divideAndConquer(TreeNode root):
   return 整棵樹的結果
 ```
 
-這個模板基本上是用到[後序遍歷](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)的概念（左右子葉都算好，然後上去根）
+- 這個模板基本上是用到[後序遍歷](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)的概念（左右子葉都算好，然後上去根）
+- 注意：盡量避免常用全局變量，可以把變量當作recursive call的return值
+
 - Relevant: 
   - [Leet110 - Balanced Binary Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_110_Balanced-Binary-Tree.md)
   - [Leet104 - Maximum Depth of Binary Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_104_Maximum-Depth-of-Binary-Tree.md)
