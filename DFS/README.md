@@ -39,7 +39,13 @@
       - O(logN)找小於某數的upperBound/大於某數的lowerBound
   - BST Relevant:
     - Kth Smallest Element in BST 
-    - Validate BST
+      - Time Comp: Specifically O(max(k+h)), or can simply say O(n) 
+      - Further Optimization: add counter
+    - Closest Binary Search Tree Value 
+    - Validate BST?
+    - Search Rnage in Binary Search Tree
+    - Insert Node in a Binary Search Tree
+    - Remove Node in a Binary Search Tree
 ### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
 順序是左子節點、右子節點、根節點，根排在後面。\
 `[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`
@@ -74,5 +80,5 @@ def divideAndConquer(TreeNode root):
   - [Leet1120 - Maximum Average Subtree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md)
   - LCA
 - 二叉樹結構變化：
-  - Invert Bindary Tree
+  - Invert Binary Tree
   - Flatten BT to LL 
