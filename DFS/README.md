@@ -7,8 +7,7 @@
 - 二叉樹(binary tree)
   - 是每個節點最多有兩個子樹的樹結構
   - 高度最壞O(n), 最好O(logn), 一般用O(h)表示
- 
-![](./images/Dfs_cate.png)
+
  
 ## Traversal (遍歷) 
 親力親為，一個小人拿著本子走遍所有的節點\
