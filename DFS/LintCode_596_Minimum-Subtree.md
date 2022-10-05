@@ -1,7 +1,8 @@
-### Minimum Subtree
+## Minimum Subtree
 https://www.lintcode.com/problem/596/
 >Given a binary tree, find the subtree with minimum sum. Return the root of the subtree.
 >The range of input and output data is in int.
+### 採用全局變量版
 ```python
 from lintcode import (
     TreeNode,
@@ -18,8 +19,8 @@ class TreeNode:
 class Solution:
 
     def __init__(self):
-        self.curr_min = float("inf")
-        self.curr_node = None
+        self.minSum = float("inf") # or sys.maxsize
+        self.minNode = None
 
     def find_subtree(self, root: TreeNode) -> TreeNode:
         """
@@ -31,31 +32,71 @@ class Solution:
             if not node:
                 return 0
 
-            left_weight = divide_and_conquer(node.left)
-            right_weight = divide_and_conquer(node.right)
-            curr_weight = left_weight + node.val + right_weight
-            if curr_weight < self.curr_min or not self.curr_node:
-                self.curr_min = curr_weight
-                self.curr_node = node
-            return curr_weight
+            left_val = divide_and_conquer(node.left)
+            right_val = divide_and_conquer(node.right)
+            curr_sum = left_val + node.val + right_val
+            if curr_sum < self.minSum or not self.minNode:
+                self.minSum = curr_sum
+                self.minNode = node
+            return curr_sum
 
         divide_and_conquer(node=root)
-        return self.curr_node
+        return self.minNode
 ```
-#### Remark:
-- 
+#### Submission:
+```
+81 ms
+time cost
+·
+5.98 MB
+memory cost
+·
+Your submission beats
+98.40 %
+Submissions
+```
+### 不採用全局變量版 (recommended)
+多放了兩個參數進去recursive call
+```python
+class Solution:
+
+    def find_subtree(self, root: TreeNode) -> TreeNode:
+        """
+        @param root: the root of binary tree
+        @return: the maximum weight node
+        """ 
+
+        def divide_and_conquer(node: TreeNode) -> int:
+            if not node:
+                return 0, float("inf"), None
+
+            left_val, left_minSum, left_minNode = divide_and_conquer(node.left)
+            right_val, right_minSum, right_minNode = divide_and_conquer(node.right)
+            curr_sum = left_val + node.val + right_val
+            if left_minSum == min(left_minSum, curr_sum, right_minSum): # left is optimum
+                return (curr_sum, left_minSum, left_minNode)
+            elif right_minSum == min(left_minSum, curr_sum, right_minSum): # right is optimum
+                return (curr_sum, right_minSum, right_minNode)
+            else: # current is still the optimum
+                return (curr_sum, curr_sum, node)
+
+        # curr_sum, curr_minSum, curr_minNode
+        _, _, curr_minNode = divide_and_conquer(node=root)
+        return curr_minNode
+```
 #### Submission:
 ```
 102 ms
 time cost
 ·
-6.16 MB
+6.15 MB
 memory cost
 ·
 Your submission beats
 24.20 %
 Submissions
 ```
-#### Complexity:
+
+### Complexity:
 - Time: O(n)
 - Space: O(n)
