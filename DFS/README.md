@@ -26,6 +26,10 @@
 順序是左子節點、根節點、右子節點，根排在中間。\
 `[7, 4, 8, 2, 5, 1, 3, 9, 6, 10]`
 - Relevant: [Leet173 - Binary Search Tree Iterator](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_173_Binary-Search-Tree-Iterator.md)
+- BST (Binary Search Tree): 
+  - Def: 左子樹都比根節點小(<)
+  - 右子樹都不小於(>=)根節點
+  - 使用**中序遍歷**返回排序序列 (BST -> 保證 In-order)
 ### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
 順序是左子節點、右子節點、根節點，根排在後面。\
 `[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`
