@@ -43,9 +43,10 @@
       - Further Optimization: add counter
     - Closest Binary Search Tree Value 
     - Validate BST?
-    - Search Rnage in Binary Search Tree (CH44)
-    - Insert Node in a Binary Search Tree (CH44)
-    - Remove Node in a Binary Search Tree (CH44 可以不學)
+    - BST的增刪查改
+      - Search Rnage in Binary Search Tree (CH44)
+      - Insert Node in a Binary Search Tree (CH44)
+      - Remove Node in a Binary Search Tree (CH44, optional)
 ### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
 順序是左子節點、右子節點、根節點，根排在後面。\
 `[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`
