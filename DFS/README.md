@@ -30,6 +30,16 @@
   - Def: 左子樹都比根節點小(<)
   - 右子樹都不小於(>=)根節點
   - 使用**中序遍歷**返回排序序列 (BST -> 保證 In-order)
+  - 考的話，通常需要掌握中序遍歷的非遞歸版本
+  - Red-Black Tree
+    - 一種Balacned BST
+    - Capabilities: 
+      - O(logN)增刪查改
+      - O(logN)找最大/最小
+      - O(logN)找小於某數的upperBound/大於某數的lowerBound
+  - BST Relevant:
+    - Kth Smallest Element in BST 
+    - Validate BST
 ### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
 順序是左子節點、右子節點、根節點，根排在後面。\
 `[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`
@@ -56,9 +66,13 @@ def divideAndConquer(TreeNode root):
 這個模板基本上是用到[後序遍歷](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)的概念（左右子葉都算好，然後上去根）\
 **注意**: 盡量避免常用全局變量(不利於multi-thread, 對共享變量加鎖帶來效率下降)可以把變量當作recursive call的return值（詳見[Lint596](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_596_Minimum-Subtree.md))
 
-- Relevant: 
+- 二叉樹上求值/求路徑/求深度：
   - [Leet110 - Balanced Binary Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_110_Balanced-Binary-Tree.md)
   - [Leet104 - Maximum Depth of Binary Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_104_Maximum-Depth-of-Binary-Tree.md)
   - [Lint628 - Maximum Subtree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_628_Maximum-Subtree.md)
-  - [Lint596 - Minimum Subtree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_596_Minimum-Subtree.md)(採用全局變量版/不採用全局變量版)
+  - [Lint596 - Minimum Subtree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_596_Minimum-Subtree.md) (採用全局變量版/不採用全局變量版)
   - [Leet1120 - Maximum Average Subtree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md)
+  - LCA
+- 二叉樹結構變化：
+  - Invert Bindary Tree
+  - Flatten BT to LL 
