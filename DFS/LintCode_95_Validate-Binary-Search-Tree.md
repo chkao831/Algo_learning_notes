@@ -31,8 +31,7 @@ class Solution:
         leftIter(node)
         while stack:
             last_left = curr_node = stack.pop()
-            if curr_node.right:
-                leftIter(curr_node.right)
+            leftIter(curr_node.right)
             # slightly differs from inOrderTraversal as this problem disallowed equal values
             if stack:
                 if stack[-1].val <= last_left.val: # so it's <= not <
@@ -47,7 +46,7 @@ class Solution:
 122 ms
 time cost
 ·
-10.98 MB
+10.87 MB
 memory cost
 ·
 Your submission beats
