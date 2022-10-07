@@ -6,11 +6,11 @@ https://www.lintcode.com/problem/88/
 
 
 ### 方法: 分治法 + 有啥return啥
-定義返回值：
-- [最優先] 兩邊都存在AB -> return LCA(A,B)
-- 只有一邊 -> return 這一棵樹
-- 只有另一邊 -> return 另一棵樹
-- AB都不存在這一邊 -> return None
+- 定義返回值：
+  - [最優先] 兩棵樹都存在AB -> 這個root是LCA, return LCA(A,B)
+  - 只有一邊 -> return 這一棵樹
+  - 只有另一邊 -> return 另一棵樹
+  - 左右子樹啥都沒有 -> return None
 ```python
 """
 Definition of TreeNode:
