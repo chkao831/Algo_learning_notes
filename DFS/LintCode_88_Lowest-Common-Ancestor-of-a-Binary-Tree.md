@@ -5,8 +5,12 @@ https://www.lintcode.com/problem/88/
 >**假設給出的兩個節點都在樹中存在**
 
 
-### 方法: 分治法
-定義
+### 方法: 分治法 + 有啥return啥
+定義返回值：
+- [最優先] AB都存在 -> return LCA(A,B)
+- 只有A -> return A
+- 只有B -> return B
+- AB都不存在 -> return None
 ```python
         @param: root: The root of the tree
         @param: root: The root of the tree
@@ -20,3 +24,11 @@ https://www.lintcode.com/problem/88/
 #### Complexity:
 - Time: O(n)
 - Space: O(h) ~O(n)
+
+### 方法: 直接遍歷
+找出兩個節點之間深度最小的節點
+- 優：支持多次在線查詢(Online Algorithm)
+- 劣：會走到（多次）重複的路
+不用知道怎麼寫，但知道有這個概念就好。
+
+<img src="../images/88_LCA_traversal.png” width=“300" />
