@@ -44,7 +44,7 @@
     - Closest Binary Search Tree Value 
     - [Lint95 - Validate Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_95_Validate-Binary-Search-Tree.md)
     - BST的增刪查改
-      - Search Rnage in Binary Search Tree (CH44)
+      - Search Range in Binary Search Tree (CH44)
       - Insert Node in a Binary Search Tree (CH44)
       - Remove Node in a Binary Search Tree (CH44, optional)
 ### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
