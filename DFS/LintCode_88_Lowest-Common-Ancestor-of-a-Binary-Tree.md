@@ -44,8 +44,6 @@ class Solution:
             return left_div
         if right_div:
             return right_div
-        if not left_div and not right_div:
-            return None
         return None
 ```
 #### Remark:
