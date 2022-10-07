@@ -38,15 +38,13 @@
       - O(logN)找最大/最小
       - O(logN)找小於某數的upperBound/大於某數的lowerBound
   - BST Relevant:
-    - Kth Smallest Element in BST 
-      - Time Comp: Specifically O(max(k,h)), or can simply say O(n) 
-      - Further Optimization: add counter
-    - Closest Binary Search Tree Value 
     - [Lint95 - Validate Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_95_Validate-Binary-Search-Tree.md)
+    - [Lint230 - Kth Smallest Element in a BST](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_230_Kth-Smallest-Element-in-a-BST.md)
+    - [Lint 270](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md), [Lint 272](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) - Closest Binary Search Tree Value I, II
     - BST的增刪查改
-      - Search Range in Binary Search Tree (CH44)
-      - Insert Node in a Binary Search Tree (CH44)
-      - Remove Node in a Binary Search Tree (CH44, optional)
+      - Lint11 - Search Range in Binary Search Tree (CH44 TBC)
+      - Lint85 - Insert Node in a Binary Search Tree (CH44 TBC)
+      - Lint87 - Remove Node in Binary Search Tree (CH44 TBC, optional)
 ### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
 順序是左子節點、右子節點、根節點，根排在後面。\
 `[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`
