@@ -7,19 +7,60 @@ https://www.lintcode.com/problem/88/
 
 ### 方法: 分治法 + 有啥return啥
 定義返回值：
-- [最優先] AB都存在 -> return LCA(A,B)
-- 只有A -> return A
-- 只有B -> return B
-- AB都不存在 -> return None
+- [最優先] 兩邊都存在AB -> return LCA(A,B)
+- 只有一邊 -> return 這一棵樹
+- 只有另一邊 -> return 另一棵樹
+- AB都不存在這一邊 -> return None
 ```python
-        @param: root: The root of the tree
-        @param: root: The root of the tree
+"""
+Definition of TreeNode:
+class TreeNode:
+    def __init__(self, val):
+        self.val = val
+        self.left, self.right = None, None
+"""
+
+
+class Solution:
+    
+    def lowestCommonAncestor(self, root, A, B):
+        """
+        @param: root: The root of the binary tree.
+        @param: A: A TreeNode in a Binary.
+        @param: B: A TreeNode in a Binary.
+        @return: Return the least common ancestor(LCA) of the two nodes.
+        """
+        
+        if not root:
+            return None
+        if A==root or B==root:
+            return root
+
+        left_div = self.lowestCommonAncestor(root.left, A, B)
+        right_div = self.lowestCommonAncestor(root.right, A, B)
+        if left_div and right_div:
+            return root
+        if left_div:
+            return left_div
+        if right_div:
+            return right_div
+        if not left_div and not right_div:
+            return None
+        return None
 ```
 #### Remark:
 - 
 #### Submission:
 ```
-
+1144 ms
+time cost
+·
+12.28 MB
+memory cost
+·
+Your submission beats
+8.40 %
+Submissions
 ```
 #### Complexity:
 - Time: O(n)
@@ -32,3 +73,5 @@ https://www.lintcode.com/problem/88/
 不用知道怎麼寫，但知道有這個概念就好。
 
 ![](../images/88_LCA_traversal.png)
+
+要找3&5, 從兩邊包起來的區段取深度最小，答案是node 4
