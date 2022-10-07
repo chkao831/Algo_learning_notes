@@ -31,6 +31,4 @@ https://www.lintcode.com/problem/88/
 - 劣：會走到（多次）重複的路
 不用知道怎麼寫，但知道有這個概念就好。
 
-<p>
-    <img src="../images/88_LCA_traversal.png” width=“300" />
-</p>
+![](../images/88_LCA_traversal.png)
