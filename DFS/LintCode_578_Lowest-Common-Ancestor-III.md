@@ -4,6 +4,8 @@ https://www.lintcode.com/problem/578/
 >返回 null 如果兩個節點在這棵樹上不存在最近公共祖先的話。\
 >**假設給出的兩個節點不一定在樹中存在**，每個節點的值都不同
 
+![](../images/578_LCA3.jpg)
+
 ### 方法：分治法 + 有啥return啥
 - 加flag
   - `a_exist`: 如果左邊有A 或 右邊有A 或 這顆node本身就是A
