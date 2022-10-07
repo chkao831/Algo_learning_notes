@@ -72,7 +72,7 @@ Runtime: 104 ms, faster than 33.85% of Python3 online submissions for Closest Bi
 Memory Usage: 16.3 MB, less than 71.11% of Python3 online submissions for Closest Binary Search Tree Value II.
 ```
 #### Complexity:
-- Time: O(n) (In-order Traversal) + O(log n) (Binary Search) = O(n)
+- Time: O(n) (In-order Traversal) + O(log n + k) (Binary Search) = O(n)
 - Space: O(n)
 
 ### 方法二：使用兩個Iterator
