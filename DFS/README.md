@@ -56,16 +56,16 @@
 二叉樹上的分治法模板：
 ```python
 def divideAndConquer(TreeNode root):
-  if root is None:
-    處理空樹應該返回的結果
-  if not root.left and not root.right:
-    處理葉子應該返回的結果
-  
-  左子樹返回結果 = divideAndConquer(root.left)
-  右子樹返回結果 = divideAndConquer(root.right)
-  整棵樹的結果 = 合併左右樹的結果
-  
-  return 整棵樹的結果
+    if root is None:
+      處理空樹應該返回的結果
+    if not root.left and not root.right:
+      處理葉子應該返回的結果
+
+    左子樹返回結果 = divideAndConquer(root.left)
+    右子樹返回結果 = divideAndConquer(root.right)
+    整棵樹的結果 = 合併左右樹的結果
+
+    return 整棵樹的結果
 ```
 
 這個模板基本上是用到[後序遍歷](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)的概念（左右子葉都算好，然後上去根）\
