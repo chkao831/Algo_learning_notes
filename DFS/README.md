@@ -39,7 +39,7 @@
       - O(logN)找小於某數的upperBound/大於某數的lowerBound
   - BST Relevant:
     - Kth Smallest Element in BST 
-      - Time Comp: Specifically O(max(k+h)), or can simply say O(n) 
+      - Time Comp: Specifically O(max(k,h)), or can simply say O(n) 
       - Further Optimization: add counter
     - Closest Binary Search Tree Value 
     - [Lint95 - Validate Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_95_Validate-Binary-Search-Tree.md)
