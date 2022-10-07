@@ -62,3 +62,4 @@ class Solution:
         else: 
             return self.kthSmallest(root.left, k)
 ```
+O(h) Time Complexity (at each partition time, choose **either side** to proceed; not both.)
