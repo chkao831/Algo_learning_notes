@@ -76,13 +76,79 @@ Memory Usage: 16.3 MB, less than 71.11% of Python3 online submissions for Closes
 - Space: O(n)
 
 ### 方法二：使用兩個Iterator
+一個Iterator goSmaller, move forward to the next smaller node\
+另一個Iterator goBigger, move backward to the next bigger node (寫法完全鏡射）
+
+![](../images/272_IteratorApproach.png)
+
 ```python
+class Solution:
+    def closestKValues(self, root: Optional[TreeNode], target: float, k: int) -> List[int]:
+        
+        def buildStack_root2leaf(parent_root: TreeNode) -> List[TreeNode]:
+            stack, root = [], parent_root
+            while root:
+                stack.append(root)
+                if root.val > target:
+                    root = root.left
+                else: # root.val <= target
+                    root = root.right
+            return stack
+        
+        def goSmaller():
+            ''' Go to the next smaller node. '''
+            stackTop = lowerStack[-1] # peek stack top
+            if stackTop.left: # stackTop has left child
+                node = stackTop.left
+                while node:
+                    lowerStack.append(node)
+                    node = node.right
+            else: # stackTop has no left child
+                node = lowerStack.pop()
+                while lowerStack and lowerStack[-1].left == node:
+                    node = lowerStack.pop()
+                
+        def goBigger(): # mirrored from goSmaller
+            stackTop = upperStack[-1] # peek stack top
+            if stackTop.right:
+                node = stackTop.right
+                while node:
+                    upperStack.append(node)
+                    node = node.left
+            else:
+                node = upperStack.pop()
+                while upperStack and upperStack[-1].right == node:
+                    node = upperStack.pop()
+        
+        def lowerIsCloser() -> bool:
+            if not lowerStack:
+                return False
+            if not upperStack:
+                return True
+            lowerStackTopVal = lowerStack[-1].val
+            upperStackTopVal = upperStack[-1].val
+            return True if (abs(lowerStackTopVal - target) < abs(upperStackTopVal - target)) else False
+        
+        lowerStack = buildStack_root2leaf(parent_root=root)
+        upperStack = list(lowerStack) # deep copy
+        curr_leaf = lowerStack[-1]
+        if curr_leaf.val > target: goSmaller()
+        else: goBigger()
+        result = []
+        for _ in range(k):
+            if lowerIsCloser():
+                result.append(lowerStack[-1].val)
+                goSmaller()
+            else:
+                result.append(upperStack[-1].val)
+                goBigger()
+        return result
 ```
-#### Remark:
-- 
 #### Submission:
 ```
+Runtime: 53 ms, faster than 92.97% of Python3 online submissions for Closest Binary Search Tree Value II.
+Memory Usage: 16.2 MB, less than 90.62% of Python3 online submissions for Closest Binary Search Tree Value II.
 ```
 #### Complexity:
-- Time:
-- Space:
+- Time: O(n)
+- Space: O(n)
