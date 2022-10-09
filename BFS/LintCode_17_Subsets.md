@@ -113,7 +113,10 @@ Submissions
 - Space: O(2^n)
 
 ## DFS
-參考BFS二叉樹的圖，每一層都是**要**`x`與**不要**`x`的選擇。\
+參考BFS二叉樹的圖，每一層都是**要**`x`與**不要**`x`的選擇。
+
+![](https://codeantenna.com/image/https://imgconvert.csdnimg.cn/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X2pwZy9US0FENGF4RmNpYmliQ29kWnFKUk9pYW9nYzJMN2ljMzJIVGljTjNmeHIxdVZIT05td3hHdEhsOEtGenc0Sjd6bWlhV0V3c2xsaWFoaWFUc2RMMEo5ZjhveDZXVWpBLzY0MA?x-oss-process=image/format,png)
+
 **Elements in a subset must be in non-descending order.** -> `nums.sort()`
 ```python
 from typing import (
@@ -149,3 +152,18 @@ class Solution:
         dfs(index=0, subset=[])
         return result
 ```
+#### Submission:
+```
+102 ms
+time cost
+·
+6.07 MB
+memory cost
+·
+Your submission beats
+32.60 %
+Submissions
+```
+#### Complexity:
+- Time: O(nlogn)
+- Space: O(h) = O(2^n)
