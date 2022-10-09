@@ -91,3 +91,4 @@ def divideAndConquer(TreeNode root):
 一個問題如果沒有明確的告訴你什麼是點，什麼是邊，但是又需要你進行搜索的話，那就是一個隱式圖搜索問題了。所以對於這類問題，我們首先要分析清楚什麼是點什麼是邊。
 
 ## 組合類DFS (Combination)
+- [Lint17 - Subset I](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md) 這道題求全子集，除了BFS以外也可以用DFS做。DFS也有兩種解法，N叉樹會用到手動backtracking; 二叉樹採取選/不選的模式。
