@@ -114,3 +114,7 @@ Lint15 - Permutations https://www.lintcode.com/problem/15/
     - backtracking要記得也要改visited set
   -  Time
     -  O(n!*n)
+  - 遞歸三要素
+    - 定義：找到所有以permutation為開頭的permutations
+    - 出口：長度和原數組相同時
+    - 拆解：`[] -> [1][2][3], [1] -> [1,2][1,3], ...`
