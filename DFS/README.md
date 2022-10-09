@@ -108,7 +108,7 @@ Key: 普通的全排列問題怎麼做? 有重復的全排列問題怎麼做? �
 無論是BFS還是DFS, 他們都是共享同一棵樹的。\
 DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
 
-Lint15 - Permutations https://www.lintcode.com/problem/15/
+- Lint15 - Permutations https://www.lintcode.com/problem/15/
   - 因為順序無關了，只有一個限制：一個樹不能重複用兩次（用`set()`)
     - base case: 長度和原數組相同時返回，同時必須對小數組進行deepcopy，否則出最後的dfs的時候會出現全部空集（全部都backtracking回最原本的東西了）
       - 核心：`append()` or `pop()` 這些操作都是不改變內存地址的，可以用`id(...)`看出來 
@@ -119,3 +119,13 @@ Lint15 - Permutations https://www.lintcode.com/problem/15/
     - 定義：找到所有以permutation為開頭的permutations
     - 出口：長度和原數組相同時
     - 拆解：`[] -> [1][2][3], [1] -> [1,2][1,3], ...`
+- Lint816 - Traveling Salesman Problem (TSP, 旅行商問題） https://www.lintcode.com/problem/816/
+  -  排列式搜索的典型代表
+  -  著名的NP問題(non-deterministic polynomial-time)
+  -  **要求經過所有的點**，但不要求經過所有的邊（否則是歐拉路徑問題，是P問題）
+    -  解法
+      - 1. 暴力DFS  
+      - 2. 暴力DFS + 最優性剪枝 (prunning, or Optimal Prunning Algorithm)
+      - 3. 狀態壓縮動態規劃 (State Compression Dynamic Programming)
+      - 4. 隨機化算法 (Randomization Algorithm, aka Genetic Algorithm 遺傳算法 or Simulated Annealing 模擬退火) - 交換
+      - 5. 隨機化算法 (Randomization Algorithm) - 反轉
