@@ -198,6 +198,7 @@ Python3
 
 ```
 DFS
-Lint1820
-TODO: CH18 and CH20 (DnC)
+Lint1820 Lint924
+CH18 and CH20 (DnC)
+CH21 組合類DFS
 ```
