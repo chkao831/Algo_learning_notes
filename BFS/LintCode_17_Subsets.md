@@ -53,7 +53,7 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(n^2)
+- Time: O(n*2^n)
 - Space: (除了returned queue額外使用的空間）O(2^n)
 
 ### 二叉樹
@@ -108,7 +108,7 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(n^2)
+- Time: O(n*2^n)
 - Space: O(n)
 
 ## DFS
@@ -163,8 +163,8 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(nlogn)
-- Space: O(h) = O(n)
+- Time: O(nlogn + n*2^n) sort + generate all subsets and then copy them into output list
+- Space: use O(n) space to maintain current subset
 
 ### 二叉樹
 同樣參考BFS二叉樹的圖，每一層都是**要**`x`與**不要**`x`的選擇。
@@ -219,5 +219,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(nlogn)
-- Space: O(h) = O(n)
+- Time: O(nlogn + n*2^n)
+- Space: use O(n) space to maintain current subset
