@@ -166,4 +166,4 @@ Submissions
 ```
 #### Complexity:
 - Time: O(nlogn)
-- Space: O(h) = O(2^n)
+- Space: O(h) = O(n)
