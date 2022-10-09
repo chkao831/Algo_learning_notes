@@ -91,6 +91,7 @@ def divideAndConquer(TreeNode root):
 一個問題如果沒有明確的告訴你什麼是點，什麼是邊，但是又需要你進行搜索的話，那就是一個隱式圖搜索問題了。所以對於這類問題，我們首先要分析清楚什麼是點什麼是邊。
 
 ## 組合類DFS (Combination)
+### 全子集問題
 - [Lint17 - Subsets I](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md) 這道題求全子集，除了BFS以外也可以用DFS做。
   - DFS也有兩種解法，N叉樹的方法會用到**手動backtracking**; 二叉樹的方法採取**選/不選**的模式。
 - [Lint18 - Subsets II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md)
@@ -98,3 +99,6 @@ def divideAndConquer(TreeNode root):
   - 和Lint17唯一的不同是必須去重（加一個if判斷）
 ## 排列類DFS (Permutation)
 ### 全排列問題
+全排列問題是「排列式」深度優先搜索問題的鼻祖。很多搜索的問題都可以用類似全排列的代碼來完成。\
+Key: 普通的全排列問題怎麼做? 有重復的全排列問題怎麼做? 如何在搜索類問題中去重? \
+
