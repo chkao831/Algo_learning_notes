@@ -54,8 +54,8 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(2^n)
-- Space: O(2^n)
+- Time: O(n^2)
+- Space: (除了returned queue額外使用的空間）O(2^n)
 
 ### 二叉樹
 - `sorted(nums)`相當於n叉樹做法中的`if`語句，為了去重
@@ -109,8 +109,8 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(2^n * 2 - 1)
-- Space: O(2^n)
+- Time: O(n^2)
+- Space: O(n)
 
 ## DFS
 ### N叉樹
