@@ -117,7 +117,7 @@ Submissions
 從下一層**backtracking**到上層。
 ![](../images/17_Subsets_DFSwithBacktracking.jpg)
 
-類似寫法可以參考![](../images/17_Subsets_DFSwithBacktracking.jpg)這題
+類似寫法可以參考[Binary Tree Path](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_257_Binary-Tree-Paths.md#recursive-approach-dfs-postorder-traversal-with-manual-backtracking)這題
 
 ```python
 from typing import (
