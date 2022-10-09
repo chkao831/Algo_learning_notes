@@ -92,5 +92,6 @@ def divideAndConquer(TreeNode root):
 
 ## 組合類DFS (Combination)
 - [Lint17 - Subsets I](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md) 這道題求全子集，除了BFS以外也可以用DFS做。DFS也有兩種解法，N叉樹會用到手動backtracking; 二叉樹採取選/不選的模式。
-- Lint18 - Subsets II
+- [Lint18 - Subsets II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md)
   - 返回其所有可能：想到DFS    
+  - 和Lint17唯一的不同是必須去重（加一個if判斷）
