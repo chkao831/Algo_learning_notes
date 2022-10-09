@@ -1,5 +1,7 @@
-## Subsets
+# Subsets
 https://www.lintcode.com/problem/17/
+
+## BFS
 
 <img src="../images/17_Subsets.png" />
 
@@ -109,3 +111,41 @@ Submissions
 #### Complexity:
 - Time: O(2^n * 2 - 1)
 - Space: O(2^n)
+
+## DFS
+參考BFS二叉樹的圖，每一層都是**要**`x`與**不要**`x`的選擇。\
+**Elements in a subset must be in non-descending order.** -> `nums.sort()`
+```python
+from typing import (
+    List,
+)
+
+class Solution:
+    
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        """
+        @param nums: A set of numbers
+        @return: A list of lists
+                we will sort your return value in output
+        """
+        
+        def dfs(index: int, subset: List[int]):
+            # base
+            if (index==len(nums)):
+                result.append(list(subset)) # append deepcopy of subset
+                return 
+
+            # choose nums[index]
+            subset.append(nums[index])
+            dfs(index+1, subset)
+            # unchoose nums[index]
+            subset.pop()
+            dfs(index+1, subset)
+
+        result = []
+        if not nums:
+            return [[]]
+        nums.sort() # because elements in a subset must be in non-descending order
+        dfs(index=0, subset=[])
+        return result
+```
