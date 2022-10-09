@@ -115,8 +115,56 @@ Submissions
 ### N叉樹（通用性更強，要掌握）
 參考BFS N叉樹的圖，節點本身代表的是以`該節點內容`為開頭的子集。\
 從下一層**backtracking**到上層。
-![](https://labuladong.github.io/algo/images/排列组合/5.jpeg)
+![](../images/17_Subsets_DFSwithBacktracking.jpg)
 
+類似寫法可以參考![](../images/17_Subsets_DFSwithBacktracking.jpg)這題
+
+```python
+from typing import (
+    List,
+)
+
+class Solution:
+    
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        """
+        @param nums: A set of numbers
+        @return: A list of lists
+                we will sort your return value in output
+        """
+        
+        def dfs(index: int, subset: List[int]):
+
+            # base: add every combo in the current subset to the returning result
+            result.append(list(subset))
+            # if there's subsequent index, do recursive call
+            for i in range(index, len(nums)):
+                subset.append(nums[i])
+                dfs(i+1, subset)
+                subset.pop() # backtracking
+
+        result = []
+        if not nums:
+            return [[]]
+        nums.sort() # because elements in a subset must be in non-descending order
+        dfs(index=0, subset=[])
+        return result
+```
+#### Submission:
+```
+101 ms
+time cost
+·
+6.09 MB
+memory cost
+·
+Your submission beats
+62.80 %
+Submissions
+```
+#### Complexity:
+- Time: O(nlogn)
+- Space: O(h) = O(n)
 
 ### 二叉樹
 同樣參考BFS二叉樹的圖，每一層都是**要**`x`與**不要**`x`的選擇。
