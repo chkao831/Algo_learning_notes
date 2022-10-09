@@ -1,11 +1,10 @@
 # Subsets
 https://www.lintcode.com/problem/17/
+>Given a set with distinct integers, return all possible subsets.
 
 ## BFS
 
 <img src="../images/17_Subsets.png" />
-
->Given a set with distinct integers, return all possible subsets.
 
 ### N叉樹
 - 取queue元素時，沒有真的pop掉頭
@@ -113,10 +112,11 @@ Submissions
 - Space: O(n)
 
 ## DFS
-### N叉樹
-![](https://labuladong.github.io/algo/images/排列组合/5.jpeg)
+### N叉樹（通用性更強，要掌握）
 參考BFS N叉樹的圖，節點本身代表的是以`該節點內容`為開頭的子集。\
-從下一層backtracking到上層。
+從下一層**backtracking**到上層。
+![](https://labuladong.github.io/algo/images/排列组合/5.jpeg)
+
 
 ### 二叉樹
 同樣參考BFS二叉樹的圖，每一層都是**要**`x`與**不要**`x`的選擇。
