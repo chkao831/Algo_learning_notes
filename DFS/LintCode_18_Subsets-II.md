@@ -25,7 +25,7 @@ class Solution:
             result.append(list(subset))
             # if there's subsequent index, do recursive call
             for i in range(index, len(nums)):
-                if (i!=0 and nums[i]==nums[i-1] and i>index):
+                if (i>index and nums[i]==nums[i-1]):
                     continue
                 subset.append(nums[i])
                 dfs(i+1, subset)
@@ -49,14 +49,14 @@ class Solution:
 在for循環內部 在每一個index都去看看跟相鄰的前面有沒有一樣
 #### Submission:
 ```
-122 ms
+102 ms
 time cost
 ·
-6.14 MB
+6.25 MB
 memory cost
 ·
 Your submission beats
-18.40 %
+46.40 %
 Submissions
 ```
 #### Complexity:
