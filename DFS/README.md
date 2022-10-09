@@ -86,12 +86,15 @@ def divideAndConquer(TreeNode root):
   - [Lint453 - Flatten Binary Tree to Linked List](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_453_Flatten-Binary-to-Linked-List.md)
 
 # Combination and Permutation
-在非二叉樹上的深度優先搜索（Depth-first Search）中，90%的問題，不是求組合（Combination）就是求排列（Permutation）。特別是組合類的深度優先搜索的問題特別的多。而排列組合類的搜索問題，本質上是一個「隱式圖」的搜索問題。
+在非二叉樹上的深度優先搜索（Depth-first Search）中，90%的問題，不是求組合（Combination）就是求排列（Permutation）。特別是組合類的深度優先搜索的問題特別地多。而排列組合類的搜索問題，本質上是一個「隱式圖」的搜索問題。
 
 一個問題如果沒有明確的告訴你什麼是點，什麼是邊，但是又需要你進行搜索的話，那就是一個隱式圖搜索問題了。所以對於這類問題，我們首先要分析清楚什麼是點什麼是邊。
 
 ## 組合類DFS (Combination)
-- [Lint17 - Subsets I](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md) 這道題求全子集，除了BFS以外也可以用DFS做。DFS也有兩種解法，N叉樹會用到手動backtracking; 二叉樹採取選/不選的模式。
+- [Lint17 - Subsets I](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md) 這道題求全子集，除了BFS以外也可以用DFS做。
+  - DFS也有兩種解法，N叉樹的方法會用到**手動backtracking**; 二叉樹的方法採取**選/不選**的模式。
 - [Lint18 - Subsets II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md)
   - 返回其所有可能：想到DFS    
   - 和Lint17唯一的不同是必須去重（加一個if判斷）
+## 排列類DFS (Permutation)
+### 全排列問題
