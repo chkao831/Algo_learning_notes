@@ -163,7 +163,7 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(nlogn + n*2^n) sort + generate all subsets and then copy them into output list
+- Time: O(n*2^n) to generate all subsets and then copy them into output list (nlogn sort negliglble)
 - Space: use O(n) space to maintain current subset
 
 ### 二叉樹
@@ -219,5 +219,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(nlogn + n*2^n)
+- Time: O(n*2^n) (nlogn sort negliglble)
 - Space: use O(n) space to maintain current subset
