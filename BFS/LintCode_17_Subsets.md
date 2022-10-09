@@ -113,7 +113,13 @@ Submissions
 - Space: O(2^n)
 
 ## DFS
-參考BFS二叉樹的圖，每一層都是**要**`x`與**不要**`x`的選擇。
+### N叉樹
+![](https://labuladong.github.io/algo/images/排列组合/5.jpeg)
+參考BFS N叉樹的圖，節點本身代表的是以`該節點內容`為開頭的子集。\
+從下一層backtracking到上層。
+
+### 二叉樹
+同樣參考BFS二叉樹的圖，每一層都是**要**`x`與**不要**`x`的選擇。
 
 ![](https://codeantenna.com/image/https://imgconvert.csdnimg.cn/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X2pwZy9US0FENGF4RmNpYmliQ29kWnFKUk9pYW9nYzJMN2ljMzJIVGljTjNmeHIxdVZIT05td3hHdEhsOEtGenc0Sjd6bWlhV0V3c2xsaWFoaWFUc2RMMEo5ZjhveDZXVWpBLzY0MA?x-oss-process=image/format,png)
 
