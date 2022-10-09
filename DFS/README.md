@@ -119,7 +119,7 @@ DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
     - 定義：找到所有以permutation為開頭的permutations
     - 出口：長度和原數組相同時
     - 拆解：`[] -> [1][2][3], [1] -> [1,2][1,3], ...`
-- Lint16 - Permutations II
+- Lint16 - Permutations II https://www.lintcode.com/problem/16/
   -  需要排序了，把重複的數集中管理
   -  `if (i>0 and nums[i]==nums[i-1])`
 - Lint816 - Traveling Salesman Problem (TSP, 旅行商問題） https://www.lintcode.com/problem/816/
