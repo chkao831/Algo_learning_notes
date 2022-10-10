@@ -84,6 +84,8 @@ Submissions
 - Space: O(roads) for graph construction
 
 ## b. 暴力DFS + 最優性剪枝 (prunning, or Optimal Prunning Algorithm)
+- 多一個參數`path`傳進去`dfs()`紀錄
+- 使用`prunning()`這個function進行反轉
 
 ```python
 from typing import (
@@ -124,8 +126,7 @@ class Solution:
                     graph[city_2][city_1] = min(cost, existing_cost) if existing_cost else cost
                 else:
                     graph[city_2] = {city_1: cost}
-                    
-            print(graph)
+
             return graph
 
         def dfs(startingCity: int, set_visited: Set, curr_cost: int, path: List):
@@ -167,6 +168,12 @@ class Solution:
     - 因為在`prunning()`裡，我們要去比一些**可能不存在字典**裡的路徑，本來想著把defaultdict初始成`defaultdict(lambda: defaultdict(lambda: float('inf')))`這樣的形式(表示他是一個`nested defaultdict, with inner value set to float('inf')`)，這樣當找不到路的時候，可以返回無限大的值，代表此路不通。
     - 但是，defaultdict在`prunning()`裡面遇到這樣的情況會自動生出路，這樣回到`dfs()`裡面就會報錯: `RuntimeError: dictionary changed size during iteration`
     - 只好用回普通dictionary, 用比較傳統的方式去safeget, **get不到會返回None**, 此時再在`prunning()`裡面設成inf即可，不會自動生成值。
+- 最優性剪枝
+    - 為什麼只處理倒數第一項到前面的反轉，不處理中間跟中間的？
+        - 倒數第二，舉例來說，在倒數第一這個點被加進來的時候就已經被試過了
+        - 因此，我們只處理新增這個點，影響到`nextCity`的連結的反轉
+    - 為什麼不把`nextCity`一起算進來轉？
+        - 我們不知道`nextCity`之後連什麼，如果一起轉，可能就連不到了。必須保證前後關係。    
 #### Submission:
 ```
 122 ms
