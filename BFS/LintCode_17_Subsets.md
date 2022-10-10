@@ -4,7 +4,9 @@ https://www.lintcode.com/problem/17/
 
 ## BFS
 
-<img src="../images/17_Subsets.png" />
+<p>
+    <img src="./images/17_Subsets.png" width="300" />
+</p>
 
 ### N叉樹
 - 取queue元素時，沒有真的pop掉頭
