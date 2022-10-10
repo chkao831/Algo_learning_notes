@@ -5,7 +5,7 @@ https://www.lintcode.com/problem/17/
 ## BFS
 
 <p>
-    <img src="./images/17_Subsets.png" width="300" />
+    <img src="../images/17_Subsets.png" width="650" />
 </p>
 
 ### N叉樹
