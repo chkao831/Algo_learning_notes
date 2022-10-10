@@ -89,12 +89,11 @@ while queue: # 每次pop一層出來
   - 所有節點都能從圖中被刪除？（check pop出來的count跟實際的節點數是否aligned)
   - 要返回字典序（使用priority queue: `heapq`)
 - in degree變成0才會被放到queue去，用此判斷，不需要visited list
-### 其他BFS相關
-- [全子集問題](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md)
-- [序列化與反序列化](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_7_Serialize-and-Deserialize-Binary-Tree.md)
 
 ## 雙向BFS (Bidirectional BFS)
-<img src="../images/611_Bidirectional-BFS.JPG" />
+<p>
+    <img src="../images/611_Bidirectional-BFS.JPG" width="700" />
+</p>
 
 模板：
 ```python
@@ -114,3 +113,12 @@ return 找不到
 - Relevant Questions: [Word-Ladder](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_120_Word-Ladder.md); [Knight Shortest Path](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_611_Knight-Shortest-Path.md); [Knight Shortest Path II](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_630_Knight-Shortest-Path-II.md)
 - 注意：是while forward_queue***和*** backward_queue都非空
 - 注意：拓展**下一層**的點不能`while queue:`, 要是`for _ in range(len(queue)):`
+
+## Appendix: 其他BFS相關
+- [全子集問題](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md)
+- [序列化與反序列化](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_7_Serialize-and-Deserialize-Binary-Tree.md)
+
+## Appendix: BFS vs. DFS
+<p>
+    <img src="../images/bow-shape_BFSDFS.jpg" width="700" />
+</p>
