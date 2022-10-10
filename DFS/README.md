@@ -114,9 +114,9 @@ DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
       - 核心：`append()` or `pop()` 這些操作都是不改變內存地址的，可以用`id(...)`看出來 
     - backtracking要記得也要改visited set, 並且不可以用`pop()`, 要`remove(num)`
 
-- Lint16 - Permutations II https://www.lintcode.com/problem/16/
-  -  需要排序了，把重複的數集中管理
-  -  `if (i>0 and nums[i]==nums[i-1])`
+- [Lint16 - Permutations II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_16_Permutations-II.md) https://www.lintcode.com/problem/16/
+  -  為了把重複的數集中管理，需要排序了
+  -  此題可能有duplicated number, 需要計入, 把他們當不同的數
 - Lint816 - Traveling Salesman Problem (TSP, 旅行商問題） https://www.lintcode.com/problem/816/
   -  排列式搜索的典型代表
   -  著名的NP問題(non-deterministic polynomial-time)
