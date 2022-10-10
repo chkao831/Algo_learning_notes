@@ -66,13 +66,22 @@ class Solution:
   - Type hint for nested Dict: `Mapping[int, Mapping[int, int]]`, instead of `Dict[Dict[int]]`
 - record visited cities in a `set()`; remember to initialize the set with `city 1` in it.  
 - To initialize **defaultdict of defaultdict**: `defaultdict(lambda: defaultdict(dict))`
-- 
+- **注意：不可以在每一次的recursive `dfs()` call前，先`curr_cost += graph[startingCity][nextCity]`, 否則在後面也會需要backtrack減回來**
 #### Submission:
 ```
+823 ms
+time cost
+·
+5.99 MB
+memory cost
+·
+Your submission beats
+11.60 %
+Submissions
 ```
 #### Complexity:
-- Time:
-- Space:
+- Time: O(n * n!)
+- Space: O(n) for graph construction
 
 ## b. 暴力DFS + 最優性剪枝 (prunning, or Optimal Prunning Algorithm)
 
