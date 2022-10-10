@@ -1,5 +1,7 @@
 # Depth First Search (DFS, 深度優先搜索）
 
+- 碰到**找所有方案的題**，基本可以確定是DFS
+  - e.g. 找到圖中的所有滿足條件的路徑，路徑=方案=途中節點的排列，有時候不像二叉樹直接給一個圖，**點、邊、路徑**需要自己去分析。 
 - 通常使用Recursion(遞歸)來實現
 - 也可以不用Recursion（太深，怕StackOverflow時）, 如使用手動創建的Stack(棧)進行操作
 - Backtracking(回溯)：即深度優先搜索算法
@@ -94,6 +96,9 @@ def divideAndConquer(TreeNode root):
 
 ## 組合類DFS (Combination)
 ### 全子集問題
+點：集合中的元素\
+邊：元素與元素之間用有向邊連接，小的指向大的（為了避免重複集合）\
+路徑：即子集，圖中任意點出發到任意點結束的一條路徑。
 - [Lint17 - Subsets I](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md) 這道題求全子集，除了BFS以外也可以用DFS做。
   - DFS也有兩種解法，N叉樹的方法會用到**手動backtracking**; 二叉樹的方法採取**選/不選**的模式。
 - [Lint18 - Subsets II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md)
@@ -101,6 +106,10 @@ def divideAndConquer(TreeNode root):
   - 和Lint17唯一的不同是必須去重（加一個if判斷）
 ## 排列類DFS (Permutation)
 ### 全排列問題
+點：集合中的元素\
+邊：元素與元素之間用無向邊連接，兩兩都有連接\
+路徑：即排列，從任意點出發到任意點結束，**經過每個元素一次、且僅一次的路徑**。
+
 Key: 普通的全排列問題怎麼做? 有重復的全排列問題怎麼做? 如何在搜索類問題中去重? 
 
 全排列問題是「排列式」深度優先搜索問題的鼻祖。很多搜索的問題都可以用類似全排列的代碼來完成。\
