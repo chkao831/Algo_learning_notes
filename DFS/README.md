@@ -155,3 +155,8 @@ DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
         - c. 狀態壓縮動態規劃 (State Compression Dynamic Programming)
         - d. 隨機化算法 (Randomization Algorithm, aka Genetic Algorithm 遺傳算法 or Simulated Annealing 模擬退火) - 交換
         - e. 隨機化算法 (Randomization Algorithm, aka Genetic Algorithm 遺傳算法 or Simulated Annealing 模擬退火) - 反轉
+
+## Appendix: DFS vs. BFS
+<p>
+    <img src="../images/bow-shape_BFSDFS.jpg" width="700" />
+</p>
