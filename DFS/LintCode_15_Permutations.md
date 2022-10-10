@@ -18,7 +18,7 @@ class Solution:
         def dfs(subset: List[int], visited: Set):
             # base
             if len(subset) == len(nums):
-                result.append(list(subset))
+                result.append(list(subset)) # this takes O(n)!!! (構建每個方案deepcopy進去的時間)
                 return
 
             # recursive
