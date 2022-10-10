@@ -1,4 +1,4 @@
-# Traveling Salesman Problem
+# Traveling Salesman Problem (TSP)
 https://www.lintcode.com/problem/816/
 >Give `n` cities (labeled from `1` to `n`), and the undirected road's `cost` among the cities as a three-tuple `[A, B, c]`\
 >(i.e there is a road between city `A` and city `B` and the `cost` is `c`). \
