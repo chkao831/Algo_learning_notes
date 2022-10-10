@@ -101,6 +101,11 @@ def divideAndConquer(TreeNode root):
 時間複雜度：和2^n相關。\
 順序：無順序。
 ### 全子集問題
+
+<p>
+    <img src="../images/combinations.jpg" width="600" />
+</p>
+
 點：集合中的元素\
 邊：元素與元素之間用有向邊連接，小的指向大的（為了避免重複集合）\
 路徑：即子集，圖中任意點出發到任意點結束的一條路徑。
@@ -113,6 +118,11 @@ def divideAndConquer(TreeNode root):
 時間複雜度：和n!相關。\
 順序：有順序。
 ### 全排列問題
+
+<p>
+    <img src="../images/permutations.jpg" width="700" />
+</p>
+
 點：集合中的元素\
 邊：元素與元素之間用無向邊連接，兩兩都有連接\
 路徑：即排列，從任意點出發到任意點結束，**經過每個元素一次、且僅一次的路徑**。
