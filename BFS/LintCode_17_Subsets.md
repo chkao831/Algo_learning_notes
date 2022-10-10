@@ -111,7 +111,7 @@ Submissions
 ```
 #### Complexity:
 - Time: O(n*2^n)
-- Space: O(n)
+- Space: use O(2^n) space to maintain the current layer (往同層拓展，節點是2^(layer))
 
 ## DFS
 ### N叉樹（通用性更強，要掌握）
@@ -222,4 +222,4 @@ Submissions
 ```
 #### Complexity:
 - Time: O(n*2^n) (nlogn sort negliglble)
-- Space: use O(n) space to maintain current subset
+- Space: use O(n) space to maintain current subset (往深裡走，取深度）
