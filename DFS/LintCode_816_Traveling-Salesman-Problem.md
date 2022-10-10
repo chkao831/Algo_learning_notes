@@ -13,7 +13,7 @@ https://www.lintcode.com/problem/816/
 ```python
 ```
 #### Remark:
-- 
+- graph構建: dict of dict, 邊initialized as float('inf')
 #### Submission:
 ```
 ```
