@@ -1,3 +1,4 @@
+## Functions
 #### filter()
 **每個元素**
 ```python
@@ -23,7 +24,24 @@ sorted(iterable, key=lambda parameter: expression)
 ```python
 max(dict, key= lambda x: dict[x]) # find key corresponding to the maximum value
 ```
-### Example
+#### defaultdict()
+`defaultdict` is a dict that creates a default value any time you access it with a non-existent key. It does this by calling the function you pass to it. A common use case is to create a counter by having a `defaultdict` that automatically creates zero values that can then be incremented:
+```python
+>>> foo = defaultdict(lambda: 0)
+>>> foo["bar"]
+0
+>>> foo["bar"] += 1
+>>> foo["bar"]
+1
+```
+Since the function used by a `defaultdict` can be anything, **we can nest them** by giving **an outer dict a function that returns an inner `defaultdict`**:
+```python
+>>> foo = defaultdict(lambda: defaultdict(lambda: 0))
+>>> foo["bar"]["baz"]
+0
+```
+
+## Examples
 ```python
 from functools import reduce
 
