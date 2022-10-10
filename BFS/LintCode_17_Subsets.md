@@ -8,6 +8,10 @@ https://www.lintcode.com/problem/17/
     <img src="../images/17_Subsets.png" width="650" />
 </p>
 
+**注意，寬搜空間複雜度較深搜高**\
+寬度優先搜索的空間複雜度取決於寬度\
+深度優先搜索的空間複雜度取決於深度（遞歸深度）
+
 ### N叉樹
 - 取queue元素時，沒有真的pop掉頭
   - 只是用一個int去算count
