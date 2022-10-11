@@ -39,6 +39,7 @@ class Solution:
 ```
 #### Remark:
 - Very similar to [Lint16-PermutationsII](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_16_Permutations-II.md), except that need to convert `str` to `list` first, then convert back before appending to result. 
+- `str` is immutable, 中間處理不要用string concatenation (e.g. `str1 + str2`) 傳進去dfs recursive call, 用list append
 #### Submission:
 ```
 2093 ms
