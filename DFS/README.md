@@ -139,6 +139,7 @@ DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
     - base case: 長度和原數組相同時返回，同時必須對小數組進行deepcopy，否則出最後的dfs的時候會出現全部空集（全部都backtracking回最原本的東西了）
       - 核心：`append()` or `pop()` 這些操作都是不改變內存地址的，可以用`id(...)`看出來 
     - backtracking要記得也要改visited set, 並且不可以用`pop()`, 要`remove(num)`
+      - 但其實`remove(num)`就不能保證O(1)時間複雜度了 
 
 - [Lint16 - Permutations II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_16_Permutations-II.md)
   -  為了把重複的數集中管理，需要排序了
