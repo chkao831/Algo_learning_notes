@@ -41,7 +41,9 @@ class Solution:
         return results
 ```
 #### Remark:
-- 
+- 如果有一個字典，要求組成的單詞都是字典裡的，優化方式？
+    - [Lint 270 - Letter Combo II](https://www.lintcode.com/problem/270/solution/19786)     
+    - 思路：這個題不需要 DFS，只需要建 Trie 就行。存在 Trie 里的不是單詞，而是單詞轉成數字之後的字符串。比如詞典里有 `["a", "abc", "de", "fg"]`，存在 Trie 里的就是 `["2", "222", "33", "34"]` 之後的話 for queries 里的每個 query，在 Trie 里沿著 query 走到對應的節點上看一下計數就行。
 #### Submission:
 ```
 82 ms
