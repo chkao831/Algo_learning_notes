@@ -43,6 +43,7 @@ class Solution:
   - base case: 長度和原數組相同時返回，同時必須對小數組進行deepcopy，否則出最後的dfs的時候會出現全部空集（全部都backtracking回最原本的東西了）
     - 核心：`append()` or `pop()` 這些操作都是不改變內存地址的，可以用`id(...)`看出來 
   - backtracking要記得也要改visited set
+    - 但其實`remove(num)`就不能保證O(1)時間複雜度了 
 - Time
   - O(n! * n)
 - 遞歸三要素
