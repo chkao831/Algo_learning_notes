@@ -28,7 +28,7 @@ class Solution:
                 if visited[idx]:
                     continue
                 # [1, 2, 2, 2, 3] 選第二、第三個二的時候，要確保前面的二已經被選了
-                if idx > 0 and nums[idx] == nums[idx-1] and visited[idx - 1]:
+                if idx > 0 and nums[idx] == nums[idx-1] and visited[idx - 1]: # not visited[idx-1]表跳過前面的重複數了，不行
                     continue
                 subset.append(num)
                 visited[idx] = True
