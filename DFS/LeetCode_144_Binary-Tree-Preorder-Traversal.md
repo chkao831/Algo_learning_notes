@@ -20,7 +20,7 @@ class Solution:
     def __init__(self):
         self.nodes = []
     
-    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
         if not root:
             return
         
@@ -49,7 +49,7 @@ class Solution:
     def __init__(self):
         self.nodes = []
     
-    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
         if not root:
             return self.nodes
         
