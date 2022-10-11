@@ -95,6 +95,10 @@ def divideAndConquer(TreeNode root):
 # Combination and Permutation
 在非二叉樹上的深度優先搜索（Depth-first Search）中，90%的問題，不是求組合（Combination）就是求排列（Permutation）。特別是組合類的深度優先搜索的問題特別地多。而排列組合類的搜索問題，本質上是一個「隱式圖」的搜索問題。
 
+**搜索去重的訣竅：選代表**\
+錯誤：先找出所有方案，然後放在HashSet裡去重\
+正確：在每組重複方案中選出代表方案
+
 一個問題如果沒有明確的告訴你什麼是點，什麼是邊，但是又需要你進行搜索的話，那就是一個隱式圖搜索問題了。所以對於這類問題，我們首先要分析清楚什麼是點什麼是邊。
 
 ## 組合類DFS (Combination)
