@@ -65,5 +65,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(2^n * n) worst case
+- Time: 
 - Space: O(n)
