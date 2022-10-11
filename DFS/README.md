@@ -8,6 +8,7 @@
 - 也可以不用Recursion（太深，怕StackOverflow時）, 如使用手動創建的Stack(棧)進行操作
 - Backtracking(回溯)：即深度優先搜索算法
   - 遞歸函數在回到上一層遞歸調用處的時候，一些參數需要改回到調用前的值，回溯就是讓狀態函數回到之前的值的動作。 
+  - 訣竅：在改動之後，**以`dfs()` recursive call為鏡子做鏡像操作改回來**
 - 二叉樹(binary tree)
   - 是每個節點最多有兩個子樹的樹結構
   - 高度最壞O(n), 最好O(logn)--Balanced Binary Tree, 一般用O(h)表示
@@ -148,6 +149,8 @@ DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
 - [Lint16 - Permutations II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_16_Permutations-II.md)
   -  為了把重複的數集中管理，需要排序了
   -  此題可能有duplicated number, 需要計入, 把他們當不同的數
+- [Lint10 - String Permutation II ](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_10_String-Permutation-II.md)
+  - Lint16的string版本 
 - [Lint816 - Traveling Salesman Problem (TSP, 旅行商問題）using DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_816_Traveling-Salesman-Problem.md)
   -  排列式搜索的典型代表
   -  著名的NP問題(non-deterministic polynomial-time)
