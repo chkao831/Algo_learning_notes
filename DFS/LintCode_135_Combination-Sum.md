@@ -5,7 +5,7 @@ https://www.lintcode.com/problem/135/
 >**The same repeated number may be chosen from candidates unlimited number of times.**
 
 <p>
-    <img src="../images/135_combosum.jpg" width="300" />
+    <img src="../images/135_combosum.jpg" width="600" />
 </p>
 
 ```python
@@ -65,5 +65,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: 
-- Space:
+- Time: O(2^n * n) worst case
+- Space: O(n)
