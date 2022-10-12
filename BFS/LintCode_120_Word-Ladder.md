@@ -1,4 +1,4 @@
-## Word Ladder
+# Word Ladder
 https://www.lintcode.com/problem/120/
 >Given two words (`start` and `end`), and a set, find the shortest transformation sequence from `start` to `end`, output the length of the sequence.\
 >Transformation rule such that:\
@@ -19,7 +19,7 @@ https://www.lintcode.com/problem/120/
     <img src="../images/120_WordLadder2.jpg" width="800" />
 </p>
 
-### 單向BFS
+## 單向BFS
 
 ```python
 from typing import (
@@ -109,7 +109,78 @@ Submissions
 - Time: O(N*L^2)
 - Space: O(N*L)
 
-### 雙向BFS
+## 單向BFS + Wildcard Query Dict
+```python
+from typing import (
+    Set, List, DefaultDict
+)
+from collections import defaultdict
+
+class Solution:
+
+    def __init__(self):
+        self.dict_distance = {}
+        self.set_string = set()
+        self.dict_query = defaultdict(set)
+
+    def ladder_length(self, start: str, end: str, dict: Set[str]) -> int:
+        """
+        @param start: a string
+        @param end: a string
+        @param dict: a set of string
+        @return: An integer
+        """
+
+        def build_query_worddict():
+            for word in self.set_string:
+                for idx in range(len(word)):
+                    pre, post = word[:idx], word[idx+1:]
+                    self.dict_query[pre+"#"+post].add(word)
+
+        def get_next_word(word: str) -> List: # Total time O(L^2)
+            out_list = []
+            for char in range(len(word)): # O(L), L = len_of_string
+                left, right = word[:char], word[char+1:] # O(L) to split into substrings
+                key = left+'#'+right
+                for val in self.dict_query[key]:
+                    out_list.append(val)
+            return out_list
+
+        self.set_string = dict
+        self.set_string.add(end)
+        build_query_worddict()
+
+        queue = collections.deque([start])
+        self.dict_distance = {start: 1}
+        while queue:
+            word = queue.popleft() # O(N)
+            if word == end:
+                return self.dict_distance[word]
+            for next_word in get_next_word(word=word): # O(L^2)
+                if next_word in self.dict_distance:
+                    continue
+                queue.append(next_word)
+                self.dict_distance[next_word] = self.dict_distance[word] + 1
+        return 0
+```
+#### Remark:
+- 是由前一版的code做改動，主要的改動是`get_next_word()`的方式，其餘都保持不變
+    - before: 遍歷a to z所有字母，將一個字挖空，在每個坑填進去a to z的字母（除了自己），當作可能的next_word
+    - after: 在`build_query_worddict()`裡，用`#`的方式，例如`'cat'`這個字會對應`'#at', 'c#t', 'ca#'`三個key, 然後value都會有`cat`這個字
+        - 這樣，在`get_next_word()`裡做查找時，也是用`#`的方式找，不用再塞a~z這麼多個字
+#### Submission:
+```
+143 ms
+time cost
+·
+11.65 MB
+memory cost
+·
+Your submission beats
+97.40 %
+Submissions
+```
+## 雙向BFS
 ```python
 from typing import (
     Set, List, Deque
