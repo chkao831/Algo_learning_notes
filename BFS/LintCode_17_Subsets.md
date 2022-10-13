@@ -227,3 +227,48 @@ Submissions
 #### Complexity:
 - Time: O(n*2^n) (nlogn sort negliglble)
 - Space: use O(n) space to maintain current subset (往深裡走，取深度）
+
+## Binary Operator
+<p>
+    <img src="../images/17_binaryOpe.jpg" width="700" />
+</p>
+```python
+from typing import (
+    List,
+)
+
+class Solution:
+    
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        """
+        @param nums: A set of numbers
+        @return: A list of lists
+                we will sort your return value in output
+        """
+        
+        result = []
+        nums.sort()
+        n = len(nums)
+        for i in range(1 << n):
+            subset = []
+            for j in range(n):
+                if (i & (1 << j) != 0):
+                    subset.append(nums[j])
+            result.append(subset)
+        return result
+```
+#### Submission:
+```
+101 ms
+time cost
+·
+6.10 MB
+memory cost
+·
+Your submission beats
+63.00 %
+Submissions
+```
+#### Complexity:
+- Time: O(2^n * n)
+- Space: O(n)
