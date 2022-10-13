@@ -1,7 +1,8 @@
-### Permutations
+# Permutations
 https://www.lintcode.com/problem/15/  
 > Given a list of numbers, return all possible permutations of it.
 
+## DFS: Recursive Approach
 ```python
 from typing import (
     List, Set
@@ -67,3 +68,74 @@ Submissions
 #### Complexity:
 - Time: O(方案總數 * 構造每個方案的時間) = O(n! * n)
 - Space: O(n) (for subset list and visited set)
+
+## DFS: 非遞歸的方式實現排列和組合類DFS
+Based on [Leet 31 - Next Permutation](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md)
+```python
+from typing import (
+    List, Set
+)
+
+class Solution:
+
+    def nextPermutation(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        def swap(idx1: int, idx2: int):
+            nums[idx1], nums[idx2] = nums[idx2], nums[idx1]
+            return
+    
+        def reverse(startingIndex: int):
+            left, right = startingIndex, len(nums)-1
+            while left < right:
+                swap(left, right)
+                left, right = left+1, right-1
+            return
+        
+        i = len(nums) - 2
+        while i >= 0 and nums[i] >= nums[i+1]:
+            i -= 1
+        # i is at the first decreasing index
+        if i < 0: 
+            return False
+        else: # i >= 0
+            j = len(nums) - 1
+            while nums[i] >= nums[j]:
+                j -= 1
+            swap(i, j)
+        reverse(i+1)
+        return True
+
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        """
+        @param nums: A list of integers.
+        @return: A list of permutations.
+                we will sort your return value in output
+        """
+        
+        nums.sort()
+        result = []
+        hasNext = True
+        while hasNext:
+            result.append(list(nums))
+            hasNext = self.nextPermutation(nums)
+        return result
+```
+#### Remark:
+- 
+#### Submission:
+```
+101 ms
+time cost
+·
+6.01 MB
+memory cost
+·
+Your submission beats
+68.20 %
+Submissions
+```
+#### Complexity:
+- Time: 
+- Space:
