@@ -232,6 +232,7 @@ Submissions
 <p>
     <img src="../images/17_binaryOpe.jpg" width="700" />
 </p>
+
 ```python
 from typing import (
     List,
@@ -256,6 +257,20 @@ class Solution:
                     subset.append(nums[j])
             result.append(subset)
         return result
+```
+#### Remark:
+基於進制轉換的方法\
+思路就是使用一個 正整數的二進制表示 的第 j 位是 1 還是 0 來代表集合的第 j 個數取或者不取。因為從 0 到 2^n - 1 總共 2^n 個整數，正好對應集合的 2^n 個子集。\
+比如 {1，2，3} 的子集可以用 0 到 7 來表示。
+```
+0 -> 000 -> {}
+1 -> 001 -> {3}
+2 -> 010 -> {2}
+3 -> 011 -> {2,3}
+4 -> 100 -> {1}
+5 -> 101 -> {1,3}
+6 -> 110 -> {1,2}
+7 -> 111 -> {1,2,3}
 ```
 #### Submission:
 ```
