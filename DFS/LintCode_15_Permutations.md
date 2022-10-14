@@ -123,7 +123,13 @@ class Solution:
         return result
 ```
 #### Remark:
-- 
+- [Next Permutation](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md):
+    - Q: i為0怎麼辦？
+        - A: i為0說明整個數組是降序的，直接翻轉整個數組即可。 
+    - Q: 有重復元素怎麼辦？
+        - A: 在遍歷時只要嚴格滿足 nums[i] > nums[i - 1] 和 nums[j] > nums[i - 1] 就不會有問題。 
+    - Q: 元素過少是否要單獨考慮？
+        - A: 當元素個數小於等於1個時，可以直接返回。
 #### Submission:
 ```
 101 ms
@@ -137,5 +143,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: 
-- Space:
+- Time: O(num_of_next_permutations * n)
+- Space: O(n)
