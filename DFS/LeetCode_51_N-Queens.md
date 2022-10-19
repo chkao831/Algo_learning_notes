@@ -76,6 +76,11 @@ class Solution:
             i+1, j-1      i+1, j+1
                                    \ r-c = i-j
      ```
+- 還有優化空間的函數：
+    - `is_valid()` 目前寫法是O(N)
+        - 可以通過三個哈希表，紀錄哪些col, 右斜對角線(addition), 和左斜對角線(subtraction)已經被占
+        - 可以優化此函數的O(N)->O(1), 但是整體Time Complexity不會降(這個O(N)本來就不是bottleneck)
+        - 這三個哈希表在dfs前要append, dfs後要鏡像backtrack     
 #### Submission:
 ```
 Runtime: 163 ms, faster than 34.68% of Python3 online submissions for N-Queens.
