@@ -73,6 +73,9 @@ class Solution:
             if self.dfs(board, index + 1, used):
                 return True
             
+            # if sudoku is solved, there is no need to backtrack
+            # since the single unique solution is promised
+            # Do backtracking only if not solved
             used['box'][self.to1Dbox(i,j)].remove(val)
             used['col'][j].remove(val)
             used['row'][i].remove(val)
