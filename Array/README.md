@@ -1,1 +1,1 @@
-matrix 1D -> 2D and 2D -> 1D tricks can be found at [Leet74](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_74_Search-a-2D-Matrix.md)
+matrix 1D -> 2D and 2D -> 1D tricks can be found at [Leet74](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_74_Search-a-2D-Matrix.md) and [Lint802](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_802_Sudoku-Solver.md)  
