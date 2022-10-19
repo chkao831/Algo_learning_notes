@@ -42,6 +42,7 @@ class Solution:
             return True
         
         def dfs(valid_cols: List[int]):
+            nonlocal outputs
             # nonlocal outputs
             current_row = len(valid_cols)
             # base
@@ -64,10 +65,22 @@ class Solution:
 #### Remark:
 - `draw_outputs()`裡nested loop兩個list initialized的位置有些confused:
     - 一個大list, return用的
-    - 一個 
+    - 一個小list, intermediate裝list of str, 每個row都要起乾淨的
+- 判斷皇后規則：
+    - 豎的
+    - 斜的：r-c和r+c不能相同  
+     ```
+                     col=j         / r+c = i+j
+            i-1, j-1      i-1, j+1
+                     i, j
+            i+1, j-1      i+1, j+1
+                                   \ r-c = i-j
+     ```
 #### Submission:
 ```
+Runtime: 163 ms, faster than 34.68% of Python3 online submissions for N-Queens.
+Memory Usage: 14.3 MB, less than 94.91% of Python3 online submissions for N-Queens.
 ```
 #### Complexity:
-- Time:
-- Space:
+- Time: O(方案總數*構建每個方案的時間) = O(solution * N^2), where solution << N!
+- Space: O(N^2)
