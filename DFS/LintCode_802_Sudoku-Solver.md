@@ -82,7 +82,7 @@ class Solution:
 
 ```
 #### Remark:
-- 
+- Matrix [1D->2D and 2D->1D tricks](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_74_Search-a-2D-Matrix.md)
 #### Submission:
 ```
 268 ms
