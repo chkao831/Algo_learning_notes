@@ -11,9 +11,60 @@ https://leetcode.com/problems/n-queens/
 </p>
 
 ```python
+class Solution:
+    def solveNQueens(self, n: int) -> List[List[str]]:
+        
+        def draw_output(final_cols: List[int]) -> List[str]:
+            out = []
+            for row in range(n):
+                list_str = []
+                for col in range(n):
+                    if final_cols[row] == col:
+                        list_str.append("Q")
+                    else:
+                        list_str.append(".")
+                out.append(''.join(list_str))
+            return out
+
+        def is_valid(col: int, row: int, valid_cols: List[int]) -> bool:
+            """
+                     col=j        / r+c = i+j
+            i-1, j-1      i-1, j+1
+                     i, j
+            i+1, j-1      i+1, j+1
+                                   \ r-c = i-j
+            """
+            for valid_row, valid_col in enumerate(valid_cols):
+                if col == valid_col:
+                    return False
+                if row - col == valid_row - valid_col or row + col == valid_row + valid_col:
+                    return False
+            return True
+        
+        def dfs(valid_cols: List[int]):
+            # nonlocal outputs
+            current_row = len(valid_cols)
+            # base
+            if current_row == n:
+                sol = draw_output(final_cols=valid_cols)
+                outputs.append(list(sol))
+                return
+            # recursive
+            for col in range(n):
+                if not is_valid(col, current_row, valid_cols):
+                    continue
+                valid_cols.append(col)
+                dfs(valid_cols)
+                valid_cols.pop()
+        
+        outputs = []
+        dfs(valid_cols=[])
+        return outputs
 ```
 #### Remark:
-- 
+- `draw_outputs()`裡nested loop兩個list initialized的位置有些confused:
+    - 一個大list, return用的
+    - 一個 
 #### Submission:
 ```
 ```
