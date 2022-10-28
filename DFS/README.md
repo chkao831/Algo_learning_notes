@@ -50,9 +50,12 @@
     - [Lint230 - Kth Smallest Element in a BST](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_230_Kth-Smallest-Element-in-a-BST.md)
     - [Lint 270](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md), [Lint 272](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) - Closest Binary Search Tree Value [I](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md), [II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md)
     - BST的增刪查改
-      - Lint11 - Search Range in Binary Search Tree (CH44 TBC)
-      - Lint85 - Insert Node in a Binary Search Tree (CH44 TBC)
-      - Lint87 - Remove Node in Binary Search Tree (CH44 TBC, optional)
+      - Lint1524 
+      - Lint11 - Search Range in Binary Search Tree
+      - Lint85 - Insert Node in a Binary Search Tree
+      - Lint701
+      - Lint1359
+      - Lint689
 ### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
 順序是左子節點、右子節點、根節點，根排在後面。\
 `[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`
@@ -119,6 +122,9 @@ def divideAndConquer(TreeNode root):
 - [Lint18 - Subsets II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md)
   - 返回其所有可能：想到DFS    
   - 和Lint17唯一的不同是必須去重（加一個if判斷）
+- Lint425
+- Lint90
+- Lint135
 ## 排列類DFS (Permutation)
 時間複雜度：和n!相關。\
 順序：有順序。
@@ -145,7 +151,6 @@ DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
       - 核心：`append()` or `pop()` 這些操作都是不改變內存地址的，可以用`id(...)`看出來 
     - backtracking要記得也要改visited set, 並且不可以用`pop()`, 要`remove(num)`
       - 但其實`remove(num)`就不能保證O(1)時間複雜度了 
-
 - [Lint16 - Permutations II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_16_Permutations-II.md)
   -  為了把重複的數集中管理，需要排序了
   -  此題可能有duplicated number, 需要計入, 把他們當不同的數
@@ -163,6 +168,15 @@ DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
         - c. 狀態壓縮動態規劃 (State Compression Dynamic Programming)
         - d. 隨機化算法 (Randomization Algorithm, aka Genetic Algorithm 遺傳算法 or Simulated Annealing 模擬退火) - 交換
         - e. 隨機化算法 (Randomization Algorithm, aka Genetic Algorithm 遺傳算法 or Simulated Annealing 模擬退火) - 反轉
+- Lint132
+- Lint121 
+- Leet91
+- Leet51
+- Lint802
+
+## 用非遞歸實現排列/組合DFS
+- Leet31
+- Lint197
 
 ## Appendix: DFS vs. BFS
 <p>
