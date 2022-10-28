@@ -35,7 +35,7 @@
 `[7, 4, 8, 2, 5, 1, 3, 9, 6, 10]`
 - Relevant: [Leet173 - Binary Search Tree Iterator](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_173_Binary-Search-Tree-Iterator.md)
 - BST (Binary Search Tree): 
-  - Def: 左子樹都比根節點小(<)
+  - 左子樹都比根節點小(<)
   - 右子樹都不小於(>=)根節點
   - 使用**中序遍歷**返回排序序列 (BST -> 保證 In-order)
   - 考的話，通常需要掌握中序遍歷的非遞歸版本
@@ -50,12 +50,12 @@
     - [Lint230 - Kth Smallest Element in a BST](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_230_Kth-Smallest-Element-in-a-BST.md)
     - [Lint 270](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md), [Lint 272](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) - Closest Binary Search Tree Value [I](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md), [II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md)
     - BST的增刪查改
-      - Lint1524 
-      - Lint11 - Search Range in Binary Search Tree
-      - Lint85 - Insert Node in a Binary Search Tree
-      - Lint701
-      - Lint1359
-      - Lint689
+      - [Lint1524 - Search in a Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1524_Search-in-a-Binary-Search-Tree.md)
+      - [Lint11 - Search Range in Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_11_Search-Range-in-Binary-Search-Tree.md)
+      - [Lint85 - Insert Node in a Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_85_Insert-Node-in-a-Binary-Search-Tree.md)
+      - [Lint701 - Trim a Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_701_Trim-a-Binary-Search-Tree.md)
+      - [Lint1359 - Convert Sorted Array to Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1359_Convert-Sorted-Array-to-Binary-Search-Tree.md)
+      - [Lint689 - Two Sum IV: Input is a BST](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_689_Two-Sum-IV-Input-is-a-BST.md)
 ### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
 順序是左子節點、右子節點、根節點，根排在後面。\
 `[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`
@@ -89,9 +89,9 @@ def divideAndConquer(TreeNode root):
   - [Lint596 - Minimum Subtree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_596_Minimum-Subtree.md) (採用全局變量版/不採用全局變量版)
   - [Leet1120 - Maximum Average Subtree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md)
   - LCA (Lowest Common Ancestor, 最近公共祖先)
-    - [LCA I](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_88_Lowest-Common-Ancestor-of-a-Binary-Tree.md) (沒有父指針，兩個節點必定存在於樹) 
-    - [LCA II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_474_Lowest-Common-Ancestor-II.md) (有父指針)
-    - [LCA III](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_578_Lowest-Common-Ancestor-III.md) (沒有父指針，兩個節點不一定存在於樹) 
+    - [LCA I (Lint88)](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_88_Lowest-Common-Ancestor-of-a-Binary-Tree.md) (沒有父指針，兩個節點必定存在於樹) 
+    - [LCA II (Lint474)](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_474_Lowest-Common-Ancestor-II.md) (有父指針)
+    - [LCA III (Lint578)](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_578_Lowest-Common-Ancestor-III.md) (沒有父指針，兩個節點不一定存在於樹) 
 - 二叉樹結構變化：
   - [Lint175 - Invert Binary Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_175_Invert-Binary-Tree.md)
   - [Lint453 - Flatten Binary Tree to Linked List](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_453_Flatten-Binary-to-Linked-List.md)
@@ -117,14 +117,14 @@ def divideAndConquer(TreeNode root):
 點：集合中的元素\
 邊：元素與元素之間用有向邊連接，小的指向大的（為了避免重複集合）\
 路徑：即子集，圖中任意點出發到任意點結束的一條路徑。
-- [Lint17 - Subsets I](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md) 這道題求全子集，除了BFS以外也可以用DFS做。
+- [Lint17 - Subsets I (DFS Approach)](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#dfs) 這道題求全子集，除了BFS以外也可以用DFS做。
   - DFS也有兩種解法，N叉樹的方法會用到**手動backtracking**; 二叉樹的方法採取**選/不選**的模式。
 - [Lint18 - Subsets II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md)
   - 返回其所有可能：想到DFS    
   - 和Lint17唯一的不同是必須去重（加一個if判斷）
-- Lint425
-- Lint90
-- Lint135
+- [Lint425 - Letter Combinations of a Phone Number](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_425_Letter-Combinations-of-a-Phone-Number.md)
+- [Lint90 - k Sum II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_90_k-Sum-II.md)
+- [Lint135 - Combination Sum](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_135_Combination-Sum.md)
 ## 排列類DFS (Permutation)
 時間複雜度：和n!相關。\
 順序：有順序。
@@ -145,7 +145,7 @@ Key: 普通的全排列問題怎麼做? 有重復的全排列問題怎麼做? �
 無論是BFS還是DFS, 他們都是共享同一棵樹的。\
 DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
 
-- [Lint15 - Permutations](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_15_Permutations.md)
+- [Lint15 - Permutations (Recursive Approach)](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_15_Permutations.md)
   - 因為順序無關了，只有一個限制：一個數不能重複用兩次（用`set()`)
     - base case: 長度和原數組相同時返回，同時必須對小數組進行deepcopy，否則出最後的dfs的時候會出現全部空集（全部都backtracking回最原本的東西了）
       - 核心：`append()` or `pop()` 這些操作都是不改變內存地址的，可以用`id(...)`看出來 
@@ -168,16 +168,17 @@ DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
         - c. 狀態壓縮動態規劃 (State Compression Dynamic Programming)
         - d. 隨機化算法 (Randomization Algorithm, aka Genetic Algorithm 遺傳算法 or Simulated Annealing 模擬退火) - 交換
         - e. 隨機化算法 (Randomization Algorithm, aka Genetic Algorithm 遺傳算法 or Simulated Annealing 模擬退火) - 反轉
-- Lint132
-- Lint121 
-- Leet91
-- Leet51
-- Lint802
+- [Lint132 - Word Search II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_132_Word-Search-II.md)
+- [Lint121 - Word Ladder II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_121_Word-Ladder-II.md)
+- [Leet91 - Decode Ways](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_91_Decode-Ways.md)
+- [Leet51 - N-Queens](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_51_N-Queens.md)
+- [Lint802 - Sudoku Solver](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_802_Sudoku-Solver.md)
 
 ## 用非遞歸實現排列/組合DFS
-- Leet31 - Next Permutation
-- Lint15 - Permutations
-- Lint197
+- [Lint17 - Subsets I (Binary Operator Approach)](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#binary-operator) 基於進制轉換的方法。
+- [Leet31 - Next Permutation](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md)
+- [Lint15 - Permutations (Iterative Approach)](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_15_Permutations.md#dfs-非遞歸的方式實現排列和組合類dfs)
+- [Lint197 - Permutation Index](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_197_Permutation-Index.md)
 
 ## Appendix: DFS vs. BFS
 <p>
