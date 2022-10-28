@@ -51,4 +51,4 @@ class Solution:
 ```
 #### Complexity:
 - Time: O(n)
-- Space: O(1)
+- Space: O(n) (遞歸的空間開銷取決於樹的最大深度)
