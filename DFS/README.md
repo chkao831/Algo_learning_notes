@@ -49,13 +49,13 @@
     - [Lint95 - Validate Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_95_Validate-Binary-Search-Tree.md)
     - [Lint230 - Kth Smallest Element in a BST](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_230_Kth-Smallest-Element-in-a-BST.md)
     - [Lint 270](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md), [Lint 272](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) - Closest Binary Search Tree Value [I](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md), [II](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md)
+    - [Lint1359 - Convert Sorted Array to Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1359_Convert-Sorted-Array-to-Binary-Search-Tree.md)
+    - [Lint689 - Two Sum IV: Input is a BST](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_689_Two-Sum-IV-Input-is-a-BST.md)
     - BST的增刪查改
-      - [Lint1524 - Search in a Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1524_Search-in-a-Binary-Search-Tree.md)
-      - [Lint11 - Search Range in Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_11_Search-Range-in-Binary-Search-Tree.md)
-      - [Lint85 - Insert Node in a Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_85_Insert-Node-in-a-Binary-Search-Tree.md)
-      - [Lint701 - Trim a Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_701_Trim-a-Binary-Search-Tree.md)
-      - [Lint1359 - Convert Sorted Array to Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1359_Convert-Sorted-Array-to-Binary-Search-Tree.md)
-      - [Lint689 - Two Sum IV: Input is a BST](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_689_Two-Sum-IV-Input-is-a-BST.md)
+      - [Lint1524 - Search in a Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1524_Search-in-a-Binary-Search-Tree.md) (查、改)
+      - [Lint11 - Search Range in Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_11_Search-Range-in-Binary-Search-Tree.md) (查)
+      - [Lint85 - Insert Node in a Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_85_Insert-Node-in-a-Binary-Search-Tree.md) (增)
+      - [Lint701 - Trim a Binary Search Tree](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_701_Trim-a-Binary-Search-Tree.md)(刪)
 ### [Post-Order Traversal](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md)(後續遍歷)
 順序是左子節點、右子節點、根節點，根排在後面。\
 `[7, 8, 4, 5, 2, 9, 10, 6, 3, 1]`
