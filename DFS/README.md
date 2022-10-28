@@ -175,7 +175,8 @@ DFS裡，可以把每一個`節點x`認作`以x開頭的子樹樹根`。
 - Lint802
 
 ## 用非遞歸實現排列/組合DFS
-- Leet31
+- Leet31 - Next Permutation
+- Lint15 - Permutations
 - Lint197
 
 ## Appendix: DFS vs. BFS
