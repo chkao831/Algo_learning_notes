@@ -1,4 +1,4 @@
-### Trim a Binary Search Tree
+### Trim a Binary Search Tree (刪)
 https://www.lintcode.com/problem/701/description
 <p>
     <img src="http://www.ardendertat.com/wp-content/uploads/2012/01/bst.png" width="500" />
