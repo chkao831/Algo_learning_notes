@@ -1,4 +1,4 @@
-### Insert Node in a Binary Search Tree
+### Insert Node in a Binary Search Tree (增)
 https://www.lintcode.com/problem/85/description
 >Given a binary search tree and a new tree node, insert the node into the tree. You should keep the tree still be a valid binary search tree.
 ```python
