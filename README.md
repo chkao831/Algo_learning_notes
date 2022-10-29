@@ -11,6 +11,8 @@ Python3
 - [Divide-and-Conquer（DnC, 分治）](https://github.com/chkao831/Algo_learning_notes/tree/main/DnC)
 - [Binary Search（二分法）](https://github.com/chkao831/Algo_learning_notes/tree/main/BinarySearch)
 - [Breadth First Search (BFS, 寬度優先搜索)](https://github.com/chkao831/Algo_learning_notes/tree/main/BFS)
+- [Depth First Search (DFS, 深度優先搜索）](https://github.com/chkao831/Algo_learning_notes/tree/main/DFS)
+- [Operator](https://github.com/chkao831/Algo_learning_notes/tree/main/Operator)
 - Sorting（排序）
   | Type | Average Time | Space | Algorithm Demo | Application | 
   |  ----  | ----  | ----  | ----  | ----  | 
