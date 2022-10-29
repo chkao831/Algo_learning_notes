@@ -66,6 +66,7 @@ Python3
 | 1120 | Maximum Average Subtree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md) |
 | 2161 | Partition Array According to Given Pivot | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_2161_Partition-Array-According-to-Given-Pivot.md) |
 | 2031 | Count Subarrays With More Ones Than Zeros | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) |
+| 2449 | Minimum Number of Operations to Make Arrays Similar | Hard | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) |
 
 #### LintCode
 | Index | Topic | Difficulty | Link(s) |
@@ -280,6 +281,7 @@ Python3
 | Lint | 802 | Sudoku Solver | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_802_Sudoku-Solver.md) | Hard | |
 | Leet | 31 | Next Permutation | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md) (Iterative) | Medium | |
 | Lint | 197 | Permutation Index | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_197_Permutation-Index.md) (Iterative) | Medium | |
+| Leet | 2449 | Minimum Number of Operations to Make Arrays Similar | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) | Hard | |
 
 (^: Attempted; partially resolved)
 
