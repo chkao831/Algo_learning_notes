@@ -42,7 +42,7 @@ class Solution:
                     count += 1
         return count
 ```
-#### Cound reduce to O(1) time and O(1) space (len(ops) is fixed=2)
+#### Could reduce to O(1) time and O(1) space (len(ops) is fixed=2)
 對於任意兩個操作[op11, op12], [op21, op22], 其所能涵蓋的面積的交集為[min(op11, op21), max(op12, op22)]
 ```python
 from typing import (
