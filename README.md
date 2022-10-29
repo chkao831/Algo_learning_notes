@@ -55,7 +55,7 @@ Python3
 | Index | Topic | Difficulty | Link(s) |
 |  ----  | ----  | ----  | ----  |
 | 7 | Serialize and Deserialize Binary Tree | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_7_Serialize-and-Deserialize-Binary-Tree.md) |
-| 17 | Subsets | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md) | 
+| 17 | Subsets | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#bfs); [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#dfs); [Binary Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#binary-operator) | 
 | 31 | Partition Array | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md) |
 | 38 | Search a 2D Matrix II | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_38_Search-a-2D-Matrix-II.md) | 
 | 49 | Sort Letters by Case | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers) |
@@ -190,7 +190,7 @@ Python3
 | Lint | 616 | Course Schedule II | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_616_Course-Schedule-II.md) | Medium |  |
 | Lint | 605 | Sequence Reconstruction | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_605_Sequence-Reconstruction.md) | Medium |  |
 | Lint | 892 | Alien Dictionary | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_892_Alien-Dictionary.md) | Hard |  |
-| Lint | 17 | Subsets | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md) | Medium |  |
+| Lint | 17 | Subsets | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#bfs); [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#dfs); [Binary Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#binary-operator) | Medium |  |
 | Lint | 7 | Serialize and Deserialize Binary Tree | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_7_Serialize-and-Deserialize-Binary-Tree.md) | Medium |  |
 | Lint | 1820 | Find Letter | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1820_Find-Letter.md) | Easy | 20221001 | 
 | Lint | 1027 | Similar RGB Color | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1017_Similar-RGB-Color.md) | Easy |  |
@@ -202,7 +202,39 @@ Python3
 | Leet | 230 | Kth Smallest Element in a BST | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_230_Kth-Smallest-Element-in-a-BST.md) | Medium | |
 | Leet | 270 | Closest Binary Search Tree Value I | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md) | Medium | |
 | Leet | 272 | Closest Binary Search Tree Value II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) | Medium | |
-
+| Lint | 1359 | Convert Sorted Array to Binary Search Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1359_Convert-Sorted-Array-to-Binary-Search-Tree.md) | Easy | | 
+| Lint | 689 | Two Sum IV - Input is a BST | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_689_Two-Sum-IV-Input-is-a-BST.md) | Medium | | 
+| Lint | 1524 | Search in a Binary Search Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1524_Search-in-a-Binary-Search-Tree.md) | Easy | |
+| Lint | 11 | Search Range in Binary Search Tree  | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_11_Search-Range-in-Binary-Search-Tree.md) | Medium | |
+| Lint | 85 | Insert Node in a Binary Search Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_85_Insert-Node-in-a-Binary-Search-Tree.md) | Easy | |
+| Lint | 701 | Trim a Binary Search Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_701_Trim-a-Binary-Search-Tree.md) | Medium | | 
+| Leet | 145 | Binary Tree Postorder Traversal | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md) | Easy | |
+| Leet | 257 | Binary Tree Paths | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_257_Binary-Tree-Paths.md) | Easy | |
+| Leet | 110 | Balanced Binary Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_110_Balanced-Binary-Tree.md)  | Easy | | 
+| Leet | 104 | Maximum Depth of Binary Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_104_Maximum-Depth-of-Binary-Tree.md) | Easy | | 
+| Lint | 628 | Maximum Subtree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_628_Maximum-Subtree.md) | Easy | |
+| Lint | 596 | Minimum Subtree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_596_Minimum-Subtree.md) | Easy | |
+| Leet | 1120 | Maximum Average Subtree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md) | Medium | | 
+| Lint | 88 | Lowest Common Ancestor of a Binary Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_88_Lowest-Common-Ancestor-of-a-Binary-Tree.md) | Medium | | 
+| Lint | 474 | Lowest Common Ancestor II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_474_Lowest-Common-Ancestor-II.md) | Easy | |
+| Lint | 578 | Lowest Common Ancestor III | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_578_Lowest-Common-Ancestor-III.md) | Medium | |
+| Lint | 175 | Invert Binary Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_175_Invert-Binary-Tree.md) | Easy | |
+| Lint | 453 | Flatten Binary Tree to Linked List | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_453_Flatten-Binary-to-Linked-List.md) | Easy | |
+| Lint | 18 | Subsets II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md) | Medium | | 
+| Lint | 425 | Letter Combinations of a Phone Number | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_425_Letter-Combinations-of-a-Phone-Number.md) | Medium | | 
+| Lint | 90 | k Sum II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_90_k-Sum-II.md) | Medium | |
+| Lint | 135 | Combination Sum | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_135_Combination-Sum.md) | Medium | |
+| Lint | 15 | Permutations | DFS ([Recursive](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_15_Permutations.md#dfs-recursive-approach)/[Iterative](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_15_Permutations.md#dfs-%E9%9D%9E%E9%81%9E%E6%AD%B8%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AF%A6%E7%8F%BE%E6%8E%92%E5%88%97%E5%92%8C%E7%B5%84%E5%90%88%E9%A1%9Edfs)) | Medium | |
+| Lint | 16 | Permutations II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_16_Permutations-II.md) | Medium | |
+| Lint | 10 | String Permutation II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_10_String-Permutation-II.md) | Medium | |
+| Lint | 816 | Traveling Salesman Problem (TSP) | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_816_Traveling-Salesman-Problem.md) | Hard | |
+| Lint | 132 | Word Search II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_132_Word-Search-II.md) | Hard | |
+| Lint | 121 | Word Ladder II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_121_Word-Ladder-II.md) | Hard | |
+| Leet | 91 | Decode Ways | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_91_Decode-Ways.md) | Medium | |
+| Leet | 51 | N-Queens | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_51_N-Queens.md) | Hard | |
+| Lint | 802 | Sudoku Solver | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_802_Sudoku-Solver.md) | Hard | |
+| Leet | 31 | Next Permutation | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md) (Iterative) | Medium | |
+| Lint | 197 | Permutation Index | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_197_Permutation-Index.md) (Iterative) | Medium | |
 
 (*: LintCode VIP only)\
 (^: Attempted; partially resolved)
