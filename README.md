@@ -219,7 +219,7 @@ Python3
 | Lint | 474 | Lowest Common Ancestor II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_474_Lowest-Common-Ancestor-II.md) | Easy | |
 | Lint | 578 | Lowest Common Ancestor III | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_578_Lowest-Common-Ancestor-III.md) | Medium | |
 | Lint | 175 | Invert Binary Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_175_Invert-Binary-Tree.md) | Easy | |
-| Lint | 453 | Flatten Binary Tree to Linked List | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_453_Flatten-Binary-to-Linked-List.md) | Easy | |
+| Lint | 453 | Flatten Binary Tree to Linked List | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_453_Flatten-Binary-to-Linked-List.md) | Easy | 20221015 |
 | Lint | 18 | Subsets II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md) | Medium | | 
 | Lint | 425 | Letter Combinations of a Phone Number | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_425_Letter-Combinations-of-a-Phone-Number.md) | Medium | | 
 | Lint | 90 | k Sum II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_90_k-Sum-II.md) | Medium | |
