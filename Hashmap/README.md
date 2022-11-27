@@ -7,6 +7,7 @@
 > Side Note: TreeMap和HashMap不同，是有序的。
 
 ## HashMap (dict) vs. HashSet (set)
+哈希表的出現是為瞭解決鏈表訪問不快速的弱點，哈希表也稱散列表。
 |  | HashMap | HashSet |
 |---|---|---|
 | Purpose | 實現了Map接口 | 實現Set接口 |
