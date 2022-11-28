@@ -53,3 +53,6 @@ reduced = reduce(lambda x, y: x+y, numbers) # reduced = 125
 pairs = [('a', 3), ('b', 5), ('c', 1)]
 ssorted = sorted(numbers, key=lambda pairs: pairs[1]) # list(ssorted) = [('c', 1), ('a', 3), ('b', 5)]
 ```
+
+## Application
+- [Lint2929](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_2929_Find-the-most-expensive-items.md) - Find the most expensive items
