@@ -19,7 +19,17 @@ class Solution:
         return out
 ```
 #### Remark:
-- https://zh.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-addition-and-subtraction
+- 模運算加減法 https://zh.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-addition-and-subtraction
+    - `(A + B) % C = (A % C + B % C) % C`
+    - `(A - B) % C = (A % C - B % C) % C`
+- 同餘定理
+    - `(A * B) % C = ((A % C) * (B % C) % C)` 
+- 33進制
+    ```
+    abc => (a*33^2 + b*33^1 + c*33^0) % 33
+        => [(a*33 + b)*33 + c] % 33
+        => ((((33*0) + a % 33)*33 + b) % 33)*33 + c) % 33
+    ```
 #### Submission:
 ```
 102 ms
