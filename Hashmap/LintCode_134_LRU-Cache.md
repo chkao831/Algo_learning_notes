@@ -29,12 +29,101 @@ https://www.lintcode.com/problem/134/
 訪問disk是ns級別的，快; 訪問database(db)是ms級別的，慢。
 
 ```python
+class LinkedNode:
+    def __init__(self, key=None, val=None, nextNode=None):
+        self.key = key
+        self.val = val
+        self.next = nextNode
+
+class LRUCache:
+    """
+    @param: capacity: An integer
+    """
+    def __init__(self, capacity):
+        self.keyToPrev = {}
+        self.dummy = LinkedNode()
+        self.tail = self.dummy
+        self.capacity = capacity
+
+    def _push_back(self, node):
+        """
+        ... -> old_tail -> None
+        ... -> old_tail -> new_tail -> None
+        """
+        self.keyToPrev[node.key] = self.tail # to-prev
+        self.tail.next = node # to-next
+        self.tail = node
+        
+    def _pop_front(self):
+        """
+        dummy -> old_front -> new_front -> ...
+        dummy -> new_front -> ...
+        """
+        old_front, new_front = self.dummy.next, self.dummy.next.next
+        del self.keyToPrev[old_front.key]
+        self.keyToPrev[new_front.key] = self.dummy # to-prev
+        self.dummy.next = new_front # to-next
+
+    def _kick(self, prev):
+        """
+        prev -> node -> next -> ... -> tail
+        prev -> next -> ... -> tail -> node
+        """
+        cur_node = prev.next
+        if cur_node == self.tail: # already kicked
+            return
+        next_node = cur_node.next
+
+        self.keyToPrev[next_node.key] = prev # to-prev
+        prev.next = next_node # to-next
+        cur_node.next = None
+        self._push_back(node=cur_node)
+
+    def get(self, key):
+        """
+        @param: key: An integer
+        @return: An integer
+        """
+        if key not in self.keyToPrev:
+            return -1
+        else:
+            prev_node = self.keyToPrev[key]
+            cur_node = prev_node.next
+            self._kick(prev=prev_node)
+            return cur_node.val
+
+    def set(self, key, value):
+        """
+        @param: key: An integer
+        @param: value: An integer
+        @return: nothing
+        """
+        if key in self.keyToPrev:
+            prev_node = self.keyToPrev[key]
+            self._kick(prev=prev_node)
+            self.tail.val = value
+        else:
+            new_node = LinkedNode(key=key, val=value)
+            self._push_back(node=new_node)
+            # LRUCache
+            if len(self.keyToPrev) > self.capacity:
+                self._pop_front()
 ```
 
 #### Remark:
 - CPU會把比較常訪問的東西放到L1 cache裡，其位置離CPU較近，訪問速度也較快
+- 頻繁錯誤：`self.keyToPrev`的key是Node的key, 不是Node本身; value是Node
 #### Submission:
 ```
+1593 ms
+time cost
+·
+16.36 MB
+memory cost
+·
+Your submission beats
+34.80 %
+Submissions
 ```
 #### Complexity:
 - Time:
