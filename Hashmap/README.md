@@ -24,10 +24,11 @@
 2.是否熟練掌握哈希表的基本原理
 
 ## Hashing
+
 衝突（Collision），是說兩個不同的 key 經過哈希函數的計算後，得到了兩個相同的值。解決衝突的方法，主要有兩種：
 
 開散列法（Open Hashing）。是指哈希表所基於的數組中，每個位置是一個 Linked List 的頭結點。這樣衝突的 <key, value> 二元組，就都放在同一個鏈表中。\
-闭散列法（Closed Hashing）。是指在发生冲突的时候，后来的元素，往下一个位置去找空位。
+閉散列法（Closed Hashing）。是指在發生衝突的時候，後來的元素，往下一個位置去找空位。
 
 ## Relevant Items
 | Item | Topic | Remark | Link(s) |
