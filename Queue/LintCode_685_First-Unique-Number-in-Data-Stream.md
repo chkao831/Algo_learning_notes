@@ -2,6 +2,9 @@
 https://www.lintcode.com/problem/685/description
 >Given a continuous stream of data, write a function that returns the first unique number (including the last number) when the terminating number arrives. \
 >If the terminating number is not found, return `-1`.
+
+Online Algorithm (在線算法) version: [Leet1429 - First Unique Number](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md) 只遍歷一次，使用Singly Linked Node + Hashmap。
+
 ```python
 from typing import (
     List,
@@ -42,5 +45,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: Counting how many times a given item appears in the queue has a cost of O(N). This is true even for the library functions we're using. At a cost of O(N)O(N) each time, this gives us a cost of O(N^2).
+- Time: Counting how many times a given item appears in the queue has a cost of O(N). This is true even for the library functions we're using. At a cost of O(N) each time, this gives us a cost of O(N^2).
 - Space: O(N)
