@@ -101,7 +101,11 @@ T(n) = O(n/4) + O(n/8 * 2) + O(n/16 * 3) ...
 - Space: O(1)
 
 ## Appendix: HeapSort
-主要思想是通過把數組變成完全二叉樹來達到log(n)的目的。heapify的做法是每次確保i 大於 left 和 right。在排序的時候，利用了每次把最大的元素，放到size-1的位置上，然後再把size --。 heapify之後的數組並不是排序好的數組，只是能夠確保在log(n)的時間內，插入或者提取的最大數。
+主要思想是通過把數組變成完全二叉樹來達到log(n)的目的。heapify的做法是每次確保i 大於 left 和 right。在排序的時候，利用了每次把最大的元素，放到size-1的位置上，然後再把size --。 heapify之後的數組並不是排序好的數組，只是能夠確保在log(n)的時間內，插入或者提取的最大數。\
+堆排序的思想是：對於含有n個元素的無序數組nums, 構建一個堆(這里是小頂堆)heap，然後執行extractMin得到最小的元素，這樣執行n次得到序列就是排序好的序列。\
+由於extractMin執行完畢後，最後一個元素last已經被移動到了root，因此可以將extractMin返回的元素放置於最後，這樣可以得到sort in place的堆排序算法。\
+當然，如果不使用前面定義的heap，則可以手動寫堆排序，由於堆排序設計到建堆和extractMin， 兩個操作都公共依賴於siftDown函數，因此我們只需要實現siftDown即可。(trick:由於建堆操作可以採用siftUp或者siftDown，而extractMin是需要siftDown操作，因此取公共部分，則採用siftDown建堆)。\
+如果是降序排列則是小頂堆；否則利用大頂堆。
 ```python
 class Solution:
 
@@ -129,3 +133,6 @@ class Solution:
         for i in range(len(a)-1//2, -1, -1):
             self._siftDown(a, i, len(a)-1)
 ```
+#### Complexity:
+- Time: O(NlogN)
+- Space: O(1)
