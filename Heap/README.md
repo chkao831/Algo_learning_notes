@@ -23,7 +23,7 @@
     <img src="http://www.btechsmartclass.com/data_structures/ds_images/Max%20Heap%20Add%203.png" width="400" />
   </p>
 
-- O(logN) `poll()` （拿掉堆頂）
+- O(logN) `poll()/pop()` （拿掉堆頂）
   - 用最末位的點換掉原堆頂，然後評估新堆頂，向下調整(sift down)
     - 注意：向下調整的時候不能與任意兒子換，如果是minHeap，一定要跟小的換，不然會破壞規則
     - 至多也是從最頂被調到最下，一樣是保證操作logN  
@@ -38,7 +38,7 @@
   </p>
   
 - O(1) min or max `peek()` （看堆頂）
-
+- O(N) `delete()/remove()` (刪除任一節點)
 
 結構：\
 一定是從上到下、從左到右。所以知道節點數就一定知道樹的形狀。
