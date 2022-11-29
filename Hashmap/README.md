@@ -50,3 +50,9 @@ O(1) = O(100) = O(10000)\
 | 1 | Two Sum & Extension | O(1) add; O(n) find two sum | [Leet1](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_1_Two-sum.md), [Lint607](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_607_Two-Sum-III-Data-structure-design.md), [Leet454](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_454_4Sum-II.md), [Lint716](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md), etc. |
 | 2 | Hashing Functions | | [Lint128](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_128_Hash-Function.md): Hash Function; [Lint129](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_129_Rehashing.md): Rehashing |
 | 3 | 搭配Singly Linked List實現雙向鏈表 | `ListNode()` + 一個哈希表，`{curr: prev}` | [Lint134](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LintCode_134_LRU-Cache.md): LRU Cache; [Leet1429](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md): First Unique Number | 
+
+Related Questions: 
+- Lint138: Subarray Sum
+- Lint105: Copy List with Random Pointer
+- Lint171: Anagram
+- Lint124: Longest Consecutive Sequence
