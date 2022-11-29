@@ -99,3 +99,33 @@ T(n) = O(n/4) + O(n/8 * 2) + O(n/16 * 3) ...
 ```
 因此得到 T(n) = 2 * T(n) - T(n) = O(n)
 - Space: O(1)
+
+## Appendix: HeapSort
+主要思想是通過把數組變成完全二叉樹來達到log(n)的目的。heapify的做法是每次確保i 大於 left 和 right。在排序的時候，利用了每次把最大的元素，放到size-1的位置上，然後再把size --。 heapify之後的數組並不是排序好的數組，只是能夠確保在log(n)的時間內，插入或者提取的最大數。
+```python
+class Solution:
+
+    def sortArray(self, nums: List[int]) -> List[int]:
+        self._heapify(a=nums)
+        for i in range(len(nums)-1, 0, -1):
+            nums[0], nums[i] = nums[i], nums[0]
+            self._siftDown(a=nums, idx=0, end=i-1)
+        return nums
+
+    def _siftDown(self, a: List[int], idx: int, end: int):
+
+        while idx * 2 + 1 <= end: # 至少有個左兒子
+            son_idx = idx * 2 + 1 # a[i]左兒子的下標
+            if idx * 2 + 2 <= end and a[son_idx] < a[idx * 2 + 2]:
+                son_idx = idx * 2 + 2 # 選擇兩個兒子中較大的一個
+            if a[son_idx] < a[idx]:
+                break
+
+            a[son_idx], a[idx] = a[idx], a[son_idx]
+            idx = son_idx
+
+    def _heapify(self, a: List[int]):
+
+        for i in range(len(a)-1//2, -1, -1):
+            self._siftDown(a, i, len(a)-1)
+```
