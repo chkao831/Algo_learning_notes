@@ -154,7 +154,8 @@ class Solution:
         return list_out
 ```
 #### Remark:
-- 雖然乍看是找最近的點，minHeap，會耗費O(nlogn)的時間。但是可以換一個角度想，要取K個最近的點，可以維護K個點的heap就好。使用maxHeap，當堆裡超過k個元素時，pop掉最大的（距離最遠的）。時間複雜度為O(nlogk)。
+- 雖然乍看是找最近的點，minHeap，會耗費O(nlogn)的時間。但是可以換一個角度想，要取K個最近的點，可以維護K個點的heap就好。
+- =>使用maxHeap，當堆裡超過k個元素時，pop掉最大的（距離最遠的）。時間複雜度為O(nlogk)。
 - 在k比n小很多的時候，劣於QuickSelect的方法。`O(n+klogk) << O(nlogk) when k << n`; k,n差不多時，時間複雜度相當。
 
 #### Submission:
@@ -172,3 +173,8 @@ Submissions
 #### Complexity:
 - Time: O(nlogk)
 - Space: O(n)
+
+| Offline version - Find Closest (find smallest) | Quick Select | MinHeap | MaxHeap |
+|---|---|---|---|
+| TopK | O(n+klogk) | O(nlogn) | O(nlogk) |
+| Rank | Better when n >> k | Worst | Comparably good when n~k |
