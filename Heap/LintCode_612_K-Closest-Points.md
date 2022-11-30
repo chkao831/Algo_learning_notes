@@ -70,6 +70,7 @@ class Solution:
 #### Remark:
 - []比大小
 - pivot > < not >= <=
+- `^2` is `**2`
 - abbr
     ```python
     output_list = []
