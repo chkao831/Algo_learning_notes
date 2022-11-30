@@ -110,3 +110,64 @@ Submissions
 #### Complexity:
 - Time: O(n + klogk)
 - Space: O(n) (`list_distanceTuple`)
+
+## Heap = O(nLogk)
+```python
+from typing import (
+    List, Tuple
+)
+from lintcode import (
+    Point,
+)
+from math import sqrt
+from heapq import heappush, heappop
+
+"""
+Definition for a point:
+class Point:
+    def __init__(self, x=0, y=0):
+        self.x = x
+        self.y = y
+"""
+
+class Solution:
+    """
+    @param points: a list of points
+    @param origin: a point
+    @param k: An integer
+    @return: the k closest points
+    """
+    def k_closest(self, points: List[Point], origin: Point, k: int) -> List[Point]:
+        heap = [] # maxheap
+        for point in points: # O(NlogK)
+            heappush(heap, (-sqrt((origin.x-point.x)**2 + (origin.y-point.y)**2), -point.x, -point.y))
+            if len(heap) > k:
+                heappop(heap)
+        list_out = []
+
+        # O(KlogK)
+        while heap: # for _ in range(len(heap)):
+            _, x, y = heappop(heap)
+            list_out.append(Point(-x, -y))
+        list_out.reverse()
+        return list_out
+```
+#### Remark:
+- 雖然乍看是
+
+
+#### Submission:
+```
+915 ms
+time cost
+·
+35.95 MB
+memory cost
+·
+Your submission beats
+47.80 %
+Submissions
+```
+#### Complexity:
+- Time: O(nlogk)
+- Space: O(n)
