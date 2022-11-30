@@ -4,6 +4,8 @@ https://leetcode.com/problems/ugly-number-ii/
 >
 >Given an integer `n`, **return the nth ugly number**.
 
+[Link to Ugly Number I](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_263_Ugly-Number.md)
+
 ## 暴力因式分解
 #### Complexity:
 - Time: O(N^(3/2))
