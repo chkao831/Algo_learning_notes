@@ -53,7 +53,7 @@
 - 詳見：[Lint130](https://www.lintcode.com/problem/130/) - Heapify 
 - Python: `heapq.heapify([...])`
 
-遍歷一個heap的時間複雜度？O(NlogN)
+遍歷一個heap的時間複雜度（按大小順序拿出來）？O(NlogN)
 - 見[Heap Sort](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_130_Heapify.md#appendix-heapsort)
 - 注意，**heapified完的數組並不是有序的**！！！只有頭上的保證是極值。
 
