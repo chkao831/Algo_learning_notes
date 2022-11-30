@@ -1,4 +1,4 @@
-### Kth Largest Element in an Array
+## Kth Largest Element in an Array
 https://leetcode.com/problems/kth-largest-element-in-an-array/
 >Given an integer array nums and an integer k, return the kth largest element in the array.
 >
@@ -61,3 +61,13 @@ Memory Usage: 27.1 MB, less than 62.85% of Python3 online submissions for Kth La
 #### Complexity:
 - Time: O(n) on average, while O(n^2) still its worst case.
 - Space: O(1)
+
+## Appendix: Kth Smallest Numbers in Unsorted Array (Lint 461)
+Everything stays the same, except that now we're looking for the kth smallest.\
+For kth largest, we do `k=len(nums)-k` -> kth smallest (starting from `0`, i.e. `0th`, `1st`...)\
+For kth smallest, under such a definition, we'd need to do `k=k-1`, because the given k starts from `1`.
+```python
+    def kth_smallest(self, k: int, nums: List[int]) -> int:
+        if not nums or k < 1 or k > len(nums): return None
+        return self.QuickSelect(nums=nums, start=0, end=len(nums)-1, k=k-1)
+```
