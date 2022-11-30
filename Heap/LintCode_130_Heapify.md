@@ -89,29 +89,40 @@ Submissions
 - Time: O(N)
   - 這個版本的算法，乍一看也是 O(nlogn)， 但是我們仔細分析一下，算法從第 n/2 個數開始，倒過來進行 siftdown。也就是說，相當於從 heap 的倒數第二層開始進行 siftdown 操作，倒數第二層的節點大約有 n/4 個， 這 n/4 個數，最多 siftdown 1次就到底了，所以這一層的時間覆雜度耗費是 O(n/4)，然後倒數第三層差不多 n/8 個點，最多 siftdown 2次就到底了。所以這里的耗費是 O(n/8 * 2), 倒數第4層是 O(n/16 * 3)，倒數第5層是 O(n/32 * 4) ... 因此累加所有的時間覆雜度耗費為：
 `T(n) = O(n/4) + O(n/8 * 2) + O(n/16 * 3)` ...
-然後我們用 2T - T 得到 T(n):
-```
-2 * T(n) = O(n/2) + O(n/4 * 2) + O(n/8 * 3) + O(n/16 * 4) ...
-T(n) = O(n/4) + O(n/8 * 2) + O(n/16 * 3) ...
-2 * T(n) - T(n) = O(n/2) +O (n/4) + O(n/8) + ...
-= O(n/2 + n/4 + n/8 + ... )
-= O(n)
-```
-因此得到 T(n) = 2 * T(n) - T(n) = O(n)
+     然後我們用 2T - T 得到 T(n):
+     ```
+     2 * T(n) = O(n/2) + O(n/4 * 2) + O(n/8 * 3) + O(n/16 * 4) ...
+     T(n) = O(n/4) + O(n/8 * 2) + O(n/16 * 3) ...
+     2 * T(n) - T(n) = O(n/2) +O (n/4) + O(n/8) + ...
+     = O(n/2 + n/4 + n/8 + ... )
+     = O(n)
+     ```
+     因此得到 T(n) = 2 * T(n) - T(n) = O(n)
 - Space: O(1)
 
 ## Appendix: HeapSort
-主要思想是通過把數組變成完全二叉樹來達到log(n)的目的。heapify的做法是每次確保i 大於 left 和 right。在排序的時候，利用了每次把最大的元素，放到size-1的位置上，然後再把size --。 heapify之後的數組並不是排序好的數組，只是能夠確保在log(n)的時間內，插入或者提取的最大數。\
-堆排序的思想是：對於含有n個元素的無序數組nums, 構建一個堆(這里是小頂堆)heap，然後執行extractMin得到最小的元素，這樣執行n次得到序列就是排序好的序列。\
-由於extractMin執行完畢後，最後一個元素last已經被移動到了root，因此可以將extractMin返回的元素放置於最後，這樣可以得到sort in place的堆排序算法。\
-當然，如果不使用前面定義的heap，則可以手動寫堆排序，由於堆排序設計到建堆和extractMin， 兩個操作都公共依賴於siftDown函數，因此我們只需要實現siftDown即可。(trick:由於建堆操作可以採用siftUp或者siftDown，而extractMin是需要siftDown操作，因此取公共部分，則採用siftDown建堆)。\
-如果是降序排列則是小頂堆；否則利用大頂堆。
+### 如果是降序排列則是minHeap；否則利用maxHeap。
+以升序為例(maxHeap)：
+- 在排序的時候，利用了每次把最大的元素，放到size-1的位置上，然後再把size--。 
+- 僅heapify之後的數組並不是排序好的數組，只是能夠確保在log(n)的時間內，插入或者提取的最大數(extract max)。
+    - 從maxHeap extractMax n次，每次都是取到最大，丟到後面，這樣in-place執行完得到的就是排序好的序列。 
+- Trick: `heapify()`可以用`siftUp()`或`siftDown()`，但`extractMax()`一定要`siftDown()`，所以**採siftDown建堆**即可，稍微改寫前面的siftDown函數:
+    - 因為extractMax要截尾巴，多加一個`end`的參數
+    - 升序用maxHeap, 大於小於顛倒：選擇兒子中較大的一個+兒子小於父親時break
+
 ```python
 class Solution:
 
     def sortArray(self, nums: List[int]) -> List[int]:
         self._heapify(a=nums)
         for i in range(len(nums)-1, 0, -1):
+            ### extract max:
+            #     5          2        4 (maxheap, 選擇兩個兒子中較大的一個）
+            #    / \        / \      / \
+            #   3   4  ->  3   4 -> 3   2 -> ...
+            #  / \        / \      /
+            # 1   2      1  (5)   1
+            ###
             nums[0], nums[i] = nums[i], nums[0]
             self._siftDown(a=nums, idx=0, end=i-1)
         return nums
