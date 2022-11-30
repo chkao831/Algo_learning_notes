@@ -36,6 +36,12 @@ Memory Usage: 14.1 MB, less than 21.64% of Python3 online submissions for Ugly N
 - Space: O(N)
 
 ## Using Pointers*3
+```
+ptr2     v   
+ptr3  v
+ptr5  v
+      1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15...
+```
 ```python
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
