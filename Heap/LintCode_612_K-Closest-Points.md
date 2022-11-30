@@ -68,10 +68,10 @@ class Solution:
         return output_list
 ```
 #### Remark:
-- []比大小
-- pivot > < not >= <=
-- `^2` is `**2`
-- abbr
+- Trick: 使用含有多個元素的tuple or list比大小 (e.g. `(3,1,5) > (2,6,8)`)
+- 記住！Quick Select跟pivot比時，是`>, <`不是`>=, <=`
+- 取二次方是`**2`不是`^2`、取根號要`import math` 然後`sqrt()`
+- 可以用list comprehension縮行
     ```python
     output_list = []
     for pt in top_k:
@@ -81,7 +81,7 @@ class Solution:
     ```python
     list(Point(x,y) for (_,x,y) in top_k)
     ```
-- abbr
+- 可以用list comprehension縮行
     ```python
     def _calc_distance(target: Point, pt: Point) -> Tuple:
         dis = sqrt((target.x-pt.x)**2 + (target.y-pt.y)**2)
@@ -95,6 +95,7 @@ class Solution:
     ```python
     list_distanceTuple = [(sqrt((target.x-pt.x)**2 + (target.y-pt.y)**2), point.x, point.y) for point in points]
     ```
+- 在k比n小很多的時候，比Heap的方法優。`O(n+klogk) << O(nlogk) when k << n`; k,n差不多時，時間複雜度相當。
 #### Submission:
 ```
 990 ms
@@ -153,8 +154,8 @@ class Solution:
         return list_out
 ```
 #### Remark:
-- 雖然乍看是
-
+- 雖然乍看是找最近的點，minHeap，會耗費O(nlogn)的時間。但是可以換一個角度想，要取K個最近的點，可以維護K個點的heap就好。使用maxHeap，當堆裡超過k個元素時，pop掉最大的（距離最遠的）。時間複雜度為O(nlogk)。
+- 在k比n小很多的時候，劣於QuickSelect的方法。`O(n+klogk) << O(nlogk) when k << n`; k,n差不多時，時間複雜度相當。
 
 #### Submission:
 ```
