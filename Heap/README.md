@@ -48,7 +48,7 @@
 一定是從上到下、從左到右。堆一定是一個最優二叉樹。所以知道節點數就一定知道樹的形狀。
 
 例題：\
-[Lint130](https://www.lintcode.com/problem/130/) - Heapify
+[Lint130](https://www.lintcode.com/problem/130/) - Heapify 
 
 ## Heap and Priority Queue
 優先隊列是一種抽象的數據類型，它和堆的關系類似於，List和數組、鏈表的關系一樣；我們常常使用堆來實現優先隊列，因此很多時候堆和優先隊列都很相似，它們只是概念上的區分。\
