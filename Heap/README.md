@@ -53,6 +53,10 @@
 - 詳見：[Lint130](https://www.lintcode.com/problem/130/) - Heapify 
 - Python: `heapq.heapify([...])`
 
+遍歷一個heap的時間複雜度？O(NlogN)
+- 見[Heap Sort](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_130_Heapify.md#appendix-heapsort)
+- 注意，**heapified完的數組並不是有序的**！！！只有頭上的保證是極值。
+
 ## Heap and Priority Queue
 優先隊列是一種抽象的數據類型，它和堆的關系類似於，List和數組、鏈表的關系一樣；我們常常使用堆來實現優先隊列，因此很多時候堆和優先隊列都很相似，它們只是概念上的區分。\
 優先隊列的應用場景十分的廣泛，常見的應用有：
