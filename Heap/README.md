@@ -37,18 +37,21 @@
   <p>
     <img src="http://www.btechsmartclass.com/data_structures/ds_images/Max%20Heap%20Del%205.png" width="400" />
   </p>
+- O(logN) `delete()/remove()` (刪除**任一**節點): 但必須保證該元素不重複 
+  - 一樣是該元素跟最末節點交換，然後sift up 或 sift down (都有可能)
+  - 如何用logN的時間快速找到該元素在樹的哪裡？透過**哈希表**的支持 (所以不能重複！)
+    -   <key,value> = <元素,index>
+  - 然而，**直接使用heapq/PQ(libraries)時，remove()的操作是O(N)的！！！**
   
 - O(1) min or max `peek()` （看堆頂）
-- O(N) `delete()/remove()` (刪除**任一**節點): 但必須保證該元素不重複 
-  - 一樣是該元素跟最末節點交換，然後sift up 或 sift down (都有可能)
-  - 如何快速找到該元素在樹的哪裡？**哈希表**(所以不能重複！)
-    -   <key,value> = <元素, index>
+
 
 結構：\
 一定是從上到下、從左到右。堆一定是一個最優二叉樹。所以知道節點數就一定知道樹的形狀。
 
-例題：\
-[Lint130](https://www.lintcode.com/problem/130/) - Heapify 
+構建一個heap的時間複雜度？O(N), heapify by sifting down
+- 詳見：[Lint130](https://www.lintcode.com/problem/130/) - Heapify 
+- Python: `heapq.heapify([...])`
 
 ## Heap and Priority Queue
 優先隊列是一種抽象的數據類型，它和堆的關系類似於，List和數組、鏈表的關系一樣；我們常常使用堆來實現優先隊列，因此很多時候堆和優先隊列都很相似，它們只是概念上的區分。\
