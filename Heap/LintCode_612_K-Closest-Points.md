@@ -2,6 +2,8 @@
 https://www.lintcode.com/problem/612/description
 >在二維空間里給定一些 points 和一個 origin，從 points 中找到 k 個離 origin 歐幾里得距離最近的點。按照歐幾里得距離由小到大返回。如果兩個點有相同歐幾里得距離，則按照x值來排序；若x值也相同，就再按照y值排序。
 
+Very similar to [Lint545 - Top k Largest Numbers II](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md)  
+
 ## Quick Select + Sort Top K = O(n + klogk)
 ```python
 from typing import (
