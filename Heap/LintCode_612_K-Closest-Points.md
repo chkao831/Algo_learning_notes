@@ -174,6 +174,7 @@ Submissions
 - Time: O(nlogk)
 - Space: O(n)
 
+# Summary
 | Offline version - Find Closest (find smallest) | Quick Select | MinHeap | MaxHeap |
 |---|---|---|---|
 | TopK | O(n+klogk) | O(nlogn) | O(nlogk) |
