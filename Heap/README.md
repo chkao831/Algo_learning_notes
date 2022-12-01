@@ -66,3 +66,10 @@
 
 優先隊列是一個至少能夠提供插入（Insert）和刪除最小（DeleteMin）這兩種操作的數據結構。對應於隊列的操作，Insert相當於`Enqueue`，DeleteMin相當於`Dequeue`。\
 用堆實現優先的過程中，需要注意最大堆只能對應最大優先隊列，最小堆則是對應最小優先隊列。
+ 
+## Related Questions
+- Lint613 - High Five
+- Lint486 - Merge K Sorted Arrays
+- Lint81 - Find Median from Data Stream
+- Lint544 - Top k Largest Numbers
+- Lint401 - Kth Smallest Number in Sorted Matrix
