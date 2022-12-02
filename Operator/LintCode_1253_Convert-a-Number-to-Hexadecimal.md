@@ -1,35 +1,64 @@
-### 
-<link>
->
+## Convert a Number to Hexadecimal
+https://www.lintcode.com/problem/1253/description
+>給定一個整數，寫一個函數將其轉換為16進制。
+
+### Concept
+- Decimal -> Hexadecimal
+  - base 10 -> base 16
+  - Example
+    - (D) 479 / 16 = 29 R 15 ~ F (H, LSD)\
+      => 29 / 16 = 1 R 13 ~ D (H)\
+      => 1 / 16 = 0 R 1 ~ 1 (H, MSD)\
+      => 1DF (H)
+    - (D) 33 / 16 = 2 R 1\
+      => 2 / 16 = 0 R 2\
+      => 21 (H)
+- The given number is guaranteed to fit within the range of a 32-bit signed integer.      
+  - 至多32位Binary -> 至多8位Hexadicimal
+- 與運算
+  - 15 (D) -> 1111 (B)
+  - Example
+    - 33 (100001) & 15(1111) = (0001) = 1 \
+      => (10) & (1111) = (10) = 2\
+      => 21 (H)
+
 ```python
+HEX = "0123456789abcdef"
+
+class Solution:
+    """
+    @param num: an integer
+    @return: convert the integer to hexadecimal
+    """
+    def to_hex(self, num: int) -> str:
+        if num == 0:
+            return 0
+        str_out, digit_count = "", 0
+        while digit_count < 8 and num != 0:
+            four_bit = HEX[num & 15]
+            str_out = four_bit + str_out
+            num = num >> 4
+            digit_count += 1
+        return str_out
 ```
 #### Remark:
-- （1）由数字范围为32位有符号整数范围可知，十六进制的最大位数为8
-（2）通过与运算，获得低位的十六进制值
-（3）通过右移运算，将高位的十六进制值移到低位，从而获取该值
-
-```
-题目要求将给定的整数 num 转换为十六进制数，负整数使用补码运算方法。
-
-在补码运算中，最高位表示符号位，符号位是 00 表示正整数和零，符号位是 11 表示负整数。3232 位有符号整数的二进制数有 3232 位，由于一位十六进制数对应四位二进制数，因此 3232 位有符号整数的十六进制数有 88 位。将 num 的二进制数按照四位一组分成 88 组，依次将每一组转换为对应的十六进制数，即可得到 num 的十六进制数。
-
-假设二进制数的 88 组从低位到高位依次是第 00 组到第 77 组，则对于第 ii 组，可以通过 nums >> (4 x i)) & 0xf 得到该组的值，其取值范围是 00 到 1515（即十六进制的 f）。将每一组的值转换为十六进制数的做法如下：
-
-对于 00 到 99，数字本身就是十六进制数；
-
-对于 1010 到 1515，将其转换为 a 到 f 中的对应字母。
-
-对于负整数，由于最高位一定不是 00，因此不会出现前导零。对于零和正整数，可能出现前导零。避免前导零的做法如下：
-
-如果 num=0，则直接返回 0；
-
-如果 num>0，则在遍历每一组的值时，从第一个不是 0 的值开始拼接成十六进制数。
+- （1）由數字範圍為32位有符號整數範圍可知，十六進制的最大位數為8
+- （2）通過與運算，獲得低位的十六進制值
+- （3）通過右移運算，將高位的十六進制值移到低位，從而獲取該值
 
 
-```
 #### Submission:
 ```
+101 ms
+time cost
+·
+6.03 MB
+memory cost
+·
+Your submission beats
+65.62 %
+Submissions
 ```
 #### Complexity:
-- Time:
-- Space:
+- Time: O(L)
+- Space: O(L)
