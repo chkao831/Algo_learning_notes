@@ -4,6 +4,11 @@ https://www.lintcode.com/problem/1253/description
 
 ### Concept
 - Decimal -> Hexadecimal
+
+  <p>
+      <img src="../images/1253_decToHex.png" width="600" />
+  </p>
+
   - base 10 -> base 16
   - Example
     - (D) 479 / 16 = 29 R 15 ~ F (H, LSD)\
@@ -15,7 +20,11 @@ https://www.lintcode.com/problem/1253/description
       => 21 (H)
 - The given number is guaranteed to fit within the range of a 32-bit signed integer.      
   - 至多32位Binary -> 至多8位Hexadicimal
-- 與運算
+    <p>
+      <img src="../images/1253_binToHex.png" width="600" />
+    </p>
+- 與運算 + 位運算（右移）
+ 
   - 15 (D) -> 1111 (B)
   - Example
     - 33 (100001) & 15(1111) = (0001) = 1 \
