@@ -72,7 +72,21 @@ class MaxStack:
 # param_5 = obj.popMax()
 ```
 #### Remark:
-- 
+- 和min stack的差別主要是在`popMax()`
+    - 因為需要達到O(logN), 所以才會聯想到需要多一個heap這樣的資料結構
+    - 如果O(N)的話，可以直接用兩個棧就解掉這題
+    ```python
+    def popMax(self):
+        max_number = self.peekMax()
+        buffer_stack = []
+        while self.top() != max_number:
+            buffer_stack.append(self.pop()) # 倒過去
+        self.pop() # 這個是主角
+        while buffer_stack: # 倒回來
+            self.push(buffer_stack[-1])
+            buffer_stack.pop()
+        return max_number
+    ```
 #### Submission:
 ```
 Runtime: 547 ms, faster than 97.75% of Python3 online submissions for Max Stack.
