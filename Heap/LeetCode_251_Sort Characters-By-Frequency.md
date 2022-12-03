@@ -32,7 +32,14 @@ class Solution:
           list_out.append(c*-freq)
       return "".join(list_out) # "".join(o for o in list_out)
   ```
-- 甚至不需要用max heap去排，都用到counter了，可直接運用`counter.most_common()`
+- 甚至不需要用max heap去排，都用到counter了，可直接運用`counter.most_common()`（時間複雜度不變）
+    - `most_common([n])`
+        - 回傳一個 list，包含出現最多次的 `n` 個元素及其出現次數，並按照出現次數排序。如果 `n` 被省略或者為 `None`，`most_common()` 會回傳所有 `counter` 中的元素。**出現次數相同的元素會按照首次出現的時間先後來排列**：
+            ```python
+            Counter('abracadabra').most_common(3)
+            >>> [('a', 5), ('b', 2), ('r', 2)]
+            ```
+ 
   ```python
   def frequencySort(self, s: str) -> str:
       # O(n)
