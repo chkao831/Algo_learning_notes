@@ -11,5 +11,5 @@ https://www.lintcode.com/problem/654/
 ```
 ```
 #### Complexity:
-- Time:
+- Time: O(alpha * n^2)
 - Space:
