@@ -2,7 +2,7 @@
 https://www.lintcode.com/problem/104/description
 >
 
-## 1. Heap
+## 1. Heap (non-recursive)
 
 ```python
 """
@@ -47,7 +47,9 @@ class Solution:
         return dummy.next
 ```
 #### Remark:
-- mistake: tuple比较的时候，如果（node1.val, node1）和（node2.val,node2）同时存在，heap在计算最小值的时候需要比较，如果node1.val和node2.val一样，那么node1和node2就需要比较，但这两个Listnode不支持比较。
+- 非常類似[Lint471-Top K Frequent Words](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_471_Top-K-Frequent-Words.md)的做法，藉由class的`__lt__`, 其中加入比較條件
+    - 因為比較的元素是`ListNode`，這個單純是不comparable的
+    - 開始寫的時候加入heap的本來是`(ListNode.val, ListNode)`，以為可以靠val比較。然而，tuple比較的時候，如果`（node1.val, node1）`和`（node2.val,node2）`同時存在，heap在計算最小值的時候需要比較，如果`node1.val`和`node2.val`一樣，那麼node1和node2就需要比較，但這兩個Listnode不支持比較，會報錯。所以需要`__lt__`。
 #### Submission:
 ```
 1167 ms
@@ -61,10 +63,11 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time:
-- Space:
+- Time: O(NlogK)
+    - Heap的大小是維持在K，while loop裡面做的操作是logK級別的。while loop會執行N次。
+- Space: O(N)
 
-## 2. 兩兩歸併
+## 2. 兩兩歸併 (Pairwise Merge, Non-recursive)
 
 ```python
 """
@@ -75,9 +78,6 @@ class ListNode(object):
         self.val = val
         self.next = next
 """
-
-
-### 2. Pairing -> Merge
 
 class Solution:
     """
@@ -119,11 +119,16 @@ class Solution:
         return head.next
 ```
 #### Remark:
-- `while len(lists) > 1`, not `if len(lists) > 1`
-- `return lists[0]`, not `return lists`
-- 用兩倆歸併的方法 二叉樹的形式
-每個數最多參與logK次的歸併
-總共N個數 => O(NlogK)
+- `def merge_two_lists`完全複製[Lint165](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_165_Merge-Two-Sorted-Lists.md)，使用合併數組的方法，兩個指針比較、往後走。
+- Unlike the array version, note that
+  - it's `head = tail = ListNode(0)`, don't mistype as `head, tail = ListNode(0)`
+  - it's `while l1 and l2`, not `while l1.val and l2.val`
+  - at the end, it's `if l1` and `if l2` (just link the remainings), not `while...`, otherwise infinite loop 
+- 每個數最多參與logK次的歸併，總共N個數 => O(NlogK)
+    <p>
+        <img src="../images/104_MergeSort.png" width="600" />
+    </p>
+
 #### Submission:
 ```
 1083 ms
@@ -137,10 +142,10 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time:
-- Space:
+- Time: O(NlogK)
+- Space: O(N)
 
-## 3. Merge sort, Divide and Conquer
+## 3. Merge sort, Divide and Conquer (Recursive)
 
 ```python
 from typing import List
@@ -182,9 +187,8 @@ class Solution:
         return head.next
 ```
 #### Remark:
-- `if l1`, `if l2`, not `while`
-- `head = tail = ListNode(0)`
-- `while l1 and l2`, not `while l1.val and l2.val`
+- Similarly, `def merge_two_lists`完全複製[Lint165](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_165_Merge-Two-Sorted-Lists.md)，使用合併數組的方法，兩個指針比較、往後走。
+- [Merge Sort](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md)
 #### Submission:
 ```
 1046 ms
@@ -198,5 +202,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time:
-- Space:
+- Time: O(NlogK)
+- Space: O(N)
