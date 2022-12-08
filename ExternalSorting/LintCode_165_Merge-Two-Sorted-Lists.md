@@ -56,5 +56,5 @@ Your submission beats
 Submissions
 ```
 #### Complexity:
-- Time: O(n)
+- Time: O(m+n)
 - Space: O(1)
