@@ -67,7 +67,7 @@ Submissions
     - Heap的大小是維持在K，while loop裡面做的操作是logK級別的。while loop會執行N次。
 - Space: O(N)
 
-## 2. 兩兩歸併 (Pairwise Merge, Non-recursive)
+## 2. 兩兩歸併 (Pairwise Merge, non-recursive)
 
 ```python
 """
