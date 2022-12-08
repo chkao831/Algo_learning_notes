@@ -3,7 +3,7 @@
 |  | n=2 | n=k | DataStructure | Note |
 |---|---|---|---|---|
 | Merge Sorted Arrays | [Lint6](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_6_Merge-Two-Sorted-Arrays.md) |  | Array | 使用數組合併技巧 |
-| Merge Sorted Lists | [Lint165](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_165_Merge-Two-Sorted-Lists.md) | [Lint104](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_104_Merge-K-Sorted-Lists.md#2-%E5%85%A9%E5%85%A9%E6%AD%B8%E4%BD%B5-pairwise-merge-non-recursive) | Linked List | 使用數組合併技巧 |
+| Merge Sorted Lists | [Lint165](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_165_Merge-Two-Sorted-Lists.md) | [Lint104](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_104_Merge-K-Sorted-Lists.md#2-%E5%85%A9%E5%85%A9%E6%AD%B8%E4%BD%B5-pairwise-merge-non-recursive) | Linked List | n=2使用數組合併技巧, <br/>n=k使用數組合併技巧或heap |
 | Merge Sorted Arrays In-Place | [Lint64](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_64_Merge-Sorted-Array.md) |  | Array | 使用數組合併技巧 |
 | Merge Sorted Interval Lists | [Lint839](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_839_Merge-Two-Sorted-Interval-Lists.md) | [Lint577](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_577_Merge-K-Sorted-Interval-Lists.md) | Array/Heap | n=2使用數組合併技巧, n=k使用heap |
 | Intersection of Two Arrays - No Duplication | [Lint547](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md#3-sort--merge) |  |  | 使用數組合併技巧 |
