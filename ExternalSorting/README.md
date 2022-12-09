@@ -14,6 +14,7 @@ TODO: 793
 
 Link to Heap:
 - Lint104
+- Lint577
 - Lint793
 
 Link to Merge Sort:
