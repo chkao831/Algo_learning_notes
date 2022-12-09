@@ -2,84 +2,93 @@
 https://www.lintcode.com/problem/793/
 >
 
-## 1. Hashmap
+## 1. Hashmap (defaultdict as a counter)
+### 1.1 Addition
 ```python
+from typing import (
+    List,
+)
+from collections import defaultdict
 
 class Solution:
     """
     @param arrs: the arrays
     @return: the number of the intersection of the arrays
     """
-    def intersectionOfArrays(self, arrs):
-        count = {}
-        # 记录每个数的出现次数
+    def intersection_of_arrays(self, arrs: List[List[int]]) -> int:
+        counter = defaultdict(int)
         for arr in arrs:
-            for x in arr:
-                if x not in count:
-                    count[x] = 0
-                count[x] += 1
-        
-        # 某个数出现次数等于数组个数，代表它在所有数组中都出现过
-        result = 0
-        for x in count.keys():
-            if count[x] == len(arrs):
-                result += 1
-        return result
+            for num in arr:
+                counter[num] += 1
+
+        # because there are no duplicated elements in each array
+        output_counts = 0
+        for val, count in counter.items():
+            if count == len(arrs):
+                output_counts += 1
+        return output_counts
 ```
 #### Remark:
-- 由于题目数据中每个数组里的元素都没有__重复__，而这道题目又要求求交集，交集中的元素一定在每一个数组中都出现过，所以交集中的元素在所有数组中的出现次数一定等于数组个数。所以使用Map或Python中的字典数据结构就可以统计数字出现的次数，就可以解决问题了。
-
+- 關鍵：集中的元素一定在每一個數組中都出現過，所以交集中的元素在所有數組中的出現次數一定等於數組個數。
 
 #### Submission:
 ```
+102 ms
+time cost
+·
+11.20 MB
+memory cost
+·
+Your submission beats
+87.40 %
+Submissions
 ```
-#### Complexity:
-- Time: O(nk)
-- Space: O(k)
-
-## 2. Hashmap (-)
+### 1.2 Subtraction
 ```python
+from typing import (
+    List,
+)
+from collections import defaultdict
 class Solution:
     """
     @param arrs: the arrays
     @return: the number of the intersection of the arrays
     """
-    def intersectionOfArrays(self, arrs):
-        numShouldBe = len(arrs) - 1
-        remains = {}
-
-        for n in arrs[0]:
-            remains[n] = numShouldBe
-
-        ans = 0
-        for i in range(1, len(arrs)):
-            for n in arrs[i]:
-                if n not in remains:
-                    continue
-
-                remains[n] -= 1
-                if remains[n] == 0:
-                    del remains[n]
-                    ans += 1
-
-                if len(remains) == 0:
-                    return ans
-
-        return ans
+    def intersection_of_arrays(self, arrs: List[List[int]]) -> int:
+        counter_subtraction = defaultdict(int)
+        ideal_count = len(arrs)
+        for num in arrs[0]:
+            counter_subtraction[num] = ideal_count
+        output_counts = 0
+        for arr in arrs:
+            for num in arr:
+                counter_subtraction[num] -= 1
+                if counter_subtraction[num] == 0:
+                    output_counts += 1
+        return output_counts
 ```
 #### Remark:
-- 選一列作為 dict (優化：選最短列)，賦予剩下應出現的次數。
-搜尋其他列，當 dict 數字減至零，代表找到一答案。
-
+- 關鍵：集中的元素一定在每一個數組中都出現過，所以交集中的元素在所有數組中的出現次數一定等於數組個數。
+- 和加法概念基本相同，只是用減的，減到零就是都有出現的。
 
 #### Submission:
 ```
+102 ms
+time cost
+·
+11.20 MB
+memory cost
+·
+Your submission beats
+87.40 %
+Submissions
 ```
-#### Complexity:
-- Time: O(nk)
-- Space: O(k)
+### Complexity:
+- Time: O(N)
+- Space: O(N)
 
-## 3. Heap
+
+## 2. Heap
 ```python
 import heapq
 class Solution:
