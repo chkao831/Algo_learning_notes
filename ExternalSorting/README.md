@@ -1,4 +1,4 @@
-外排序算法
+## 外排序算法
 
 |  | n=2 | n=k | DataStructure | Note |
 |---|---|---|---|---|
@@ -9,8 +9,6 @@
 | Intersection of Two Arrays| No Duplication: [Lint547](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md#2-two-in-place-sorts--two-pointers-%E6%95%B8%E7%B5%84%E5%90%88%E4%BD%B5) <br/> Allows Duplication: [Lint548](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_548_Intersection-of-Two-Arrays-II.md#2-two-in-place-sorts--two-pointers-%E6%95%B8%E7%B5%84%E5%90%88%E4%BD%B5)| [Lint793](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_793_Intersection-of-Arrays.md#2-heap) |  | n=2使用數組合併技巧etc.,<br/> n=k使用heap,etc. |
 | Sparse Matrix Multiplication | [Lint654](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_654_Sparse-Matrix-Multiplication.md) |  | 2D Array | 使用數組合併技巧 |
 
-
-TODO: 793
 
 Link to Heap:
 - Lint104
