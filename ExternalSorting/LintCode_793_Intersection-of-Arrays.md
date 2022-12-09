@@ -90,46 +90,60 @@ Submissions
 
 ## 2. Heap
 ```python
-import heapq
+from typing import (
+    List,
+)
+from heapq import heappush, heappop
 class Solution:
     """
     @param arrs: the arrays
     @return: the number of the intersection of the arrays
     """
-    def intersectionOfArrays(self, arrs):
-        # write your code here
-        p_queue = []
-        for i, arr in enumerate(arrs):
-            if len(arr) == 0:
+    def intersection_of_arrays(self, arrs: List[List[int]]) -> int:
+        heap = []
+        for arr_idx, sub_head in enumerate(arrs):
+            if not sub_head:
                 return 0
-            arr.sort()
-            heapq.heappush(p_queue, (arr[0], (i, 0)))
-            
-        last_value, count, intersection = 0, 0, 0
-        while p_queue:
-            val, ind_tuple = heapq.heappop(p_queue)
-            if count == 0 or val != last_value:
-                if count == len(arrs):
-                    intersection += 1
-                last_value = val
-                count = 1
             else:
-                count += 1
-                
-            new_ind_tuple = (ind_tuple[0], ind_tuple[1] + 1)
-            if new_ind_tuple[1] < len(arrs[new_ind_tuple[0]]):
-                val = arrs[new_ind_tuple[0]][new_ind_tuple[1]]
-                heapq.heappush(p_queue, (val, new_ind_tuple))
-                
-        if count == len(arrs):
-            intersection += 1
-        return intersection
+                sub_head.sort()
+                heappush(heap, (sub_head[0], arr_idx, 0))
+
+        recorder_count, recorder_val = 0, 0
+        intersected = 0
+        while heap:
+
+            ele, arr_idx, ele_idx = heappop(heap)
+            if ele > recorder_val:
+                recorder_count, recorder_val = 1, ele
+            else: # ele == recorder_val
+                recorder_count = recorder_count+1
+                if recorder_count == len(arrs):
+                    intersected += 1
+
+            if ele_idx+1 < len(arrs[arr_idx]):
+                heappush(heap, (arrs[arr_idx][ele_idx+1], arr_idx, ele_idx+1))
+
+        return intersected
 ```
 #### Remark:
-- 
+- heap的元素由(值的內容, 是在第幾個array, 是在該array排第幾個位子）組成，同理[Lint577-Merge K Sorted Interval Lists](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_577_Merge-K-Sorted-Interval-Lists.md)
+- 因為minHeap元素值從小pop出來，所以**用if-else比較當前的值，只可能是大於或等於**。
 #### Submission:
 ```
+284 ms
+time cost
+·
+11.32 MB
+memory cost
+·
+Your submission beats
+8.60 %
+Submissions
 ```
 #### Complexity:
-- Time: O(nklogk + knlogn)
-- Space: O(nk)
+Assume there're k sublists; each sublist has n elements. \
+There're k*n = N elements in total.
+- Time: O(knlogn + klogk + nlogk)
+    - 前半段sublist in-place sort + push頭進去堆 = O(knlogn+klogk)
+    - 後半段while heap = O(nlogk)
+- Space: O(k) (堆維持著k個元素）
