@@ -14,10 +14,17 @@ class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         return list(set(nums1).intersection((set(nums2))))
 ```
-#### Remark:
-- 
 #### Submission:
 ```
+344 ms
+time cost
+·
+32.03 MB
+memory cost
+·
+Your submission beats
+67.80 %
+Submissions
 ```
 #### Complexity:
 - Time: O(m+n)，其中 m 和 n 分別是兩個數組的長度。使用兩個集合分別存儲兩個數組中的元素需要O(m+n)的時間，遍歷較小的集合併判斷元素是否在另一個集合中需要O(min(m,n))的時間，因此總時間複雜度是O(m+n)。
