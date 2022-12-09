@@ -2,94 +2,95 @@
 https://www.lintcode.com/problem/548/
 >
 
-## 1. Hash
+## 1. Hashmap (Counter)
 ```python
-class Solution:
-    # @param {int[]} nums1 an integer array
-    # @param {int[]} nums2 an integer array
-    # @return {int[]} an integer array
-    def intersection(self, nums1, nums2):
-        # Write your code here
-        counts = collections.Counter(nums1)
-        result = []
+from typing import (
+    List,
+)
+from collections import Counter
 
-        for num in nums2:
-            if counts[num] > 0:
-                result.append(num)
-                counts[num] -= 1
-
-        return result
-```
-#### Remark:
-- 用dict维护前一个数组中每个值出现的次数
-然后遍历第二个数组，对于每个遍历到的数，在dict中将这个数出现的次数-1
-#### Submission:
-```
-```
-#### Complexity:
-- Time: O(m+n)
-- Space: O(m)
-
-## 2. Sort + Merge
-```python
 class Solution:
     """
     @param nums1: an integer array
     @param nums2: an integer array
     @return: an integer array
+             we will sort your return value in output
     """
-    def intersection(self, nums1, nums2):
-        nums1.sort()
-        nums2.sort()
-        p1, p2 = 0, 0
-        result = []
-        while p1 != len(nums1) and p2 != len(nums2):
-            if nums1[p1] < nums2[p2]:
-                p1 += 1
-            elif nums2[p2] < nums1[p1]:
-                p2 += 1
-            else:
-                result.append(nums1[p1])
-                p1 += 1
-                p2 += 1
-        return result
+    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        counter = Counter(nums1)
+        output_list = []
+        for num in nums2:
+            if counter[num] > 0:
+                output_list.append(num)
+                counter[num] -= 1
+        return output_list
 ```
 #### Remark:
-- 
+- 用dict維護前一個數組中每個值出現的次數，然後遍歷第二個數組，對於每個遍歷到的數，在dict中將這個數出現的次數-1
+- 空間複雜度劣於下面的方法，但是時間複雜度較優秀。
 #### Submission:
 ```
+424 ms
+time cost
+·
+31.93 MB
+memory cost
+·
+Your submission beats
+77.00 %
+Submissions
 ```
 #### Complexity:
-- Time: O(mlogm+nlogn)
-- Space: O(1)
+- Time: O(m+n)
+- Space: O(m), where m=len(nums1)
 
-## 3. Two pointers
+## 2. Two In-place Sorts + Two Pointers (數組合併)
 ```python
+from typing import (
+    List,
+)
+from collections import Counter
+
 class Solution:
+    """
+    @param nums1: an integer array
+    @param nums2: an integer array
+    @return: an integer array
+             we will sort your return value in output
+    """
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1.sort()
         nums2.sort()
-
-        length1, length2 = len(nums1), len(nums2)
-        intersection = list()
-        index1 = index2 = 0
-        while index1 < length1 and index2 < length2:
-            if nums1[index1] < nums2[index2]:
-                index1 += 1
-            elif nums1[index1] > nums2[index2]:
-                index2 += 1
+        ptr_1, ptr_2 = 0, 0
+        list_out = []
+        while ptr_1 < len(nums1) and ptr_2 < len(nums2):
+            num1, num2 = nums1[ptr_1], nums2[ptr_2]
+            if num1 == num2:
+                list_out.append(num1)
+                ptr_1, ptr_2 = ptr_1 + 1, ptr_2 + 1
+            elif num1 < num2:
+                ptr_1 += 1
             else:
-                intersection.append(nums1[index1])
-                index1 += 1
-                index2 += 1
-        
-        return intersection
+                ptr_2 += 1
+        return list_out
 ```
 #### Remark:
-- 
+- 運用數組合併技巧，優點是除了雙指針，沒有額外空間，但sort in place時間複雜度可能會是bottleneck
+- 和[Lint547-Intersions I](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md#2-two-in-place-sorts--two-pointers-%E6%95%B8%E7%B5%84%E5%90%88%E4%BD%B5)幾乎一模一樣，除了這裡允許duplication，少了一句if statement: `if not list_out or num1 != list_out[-1]: list_out.append(num1)`
 #### Submission:
 ```
+634 ms
+time cost
+·
+26.54 MB
+memory cost
+·
+Your submission beats
+21.00 %
+Submissions
 ```
 #### Complexity:
 - Time: O(mlogm+nlogn)
 - Space: O(1)
+
+### 註：不能用[Lint547-Intersions I](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md#3-one-in-place-sort--binary-search)裡面的binary search方法，因為這題需要duplication，binary search一個個找缺少標記方法。
