@@ -82,4 +82,4 @@ Beats
 ```
 #### Complexity:
 - Time: O(n)
-- Space: O(n) (max depth of the tree)
+- Space: O(n)
