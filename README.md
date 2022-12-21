@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Oct 29, 2022
+> Last Updated on Dec 22, 2022
 
 ## Language
 Python3
@@ -50,9 +50,12 @@ Python3
 | 144 | Binary Tree Preorder Traversal | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_144_Binary-Tree-Preorder-Traversal.md) |
 | 145 | Binary Tree Postorder Traversal | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md) | 
 | 147 | Insertion Sort List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_147_Insertion-Sort-List.md) |
+| 155 | Min Stack | Medium | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_155_Min-Stack.md) |
 | 173 | Binary Search Tree Iterator | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_173_Binary-Search-Tree-Iterator.md) |
 | 215 | Kth Largest Element in an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_215_Kth-Largest-Element-in-an-Array_QuickSelect.md)|
+| 225 | Implement Stack using Queues | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LeetCode_225_Implement-Stack-using-Queues.md) |
 | 230 | Kth Smallest Element in a BST | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_230_Kth-Smallest-Element-in-a-BST.md) |
+| 232 | Implement Queue using Stacks | Medium | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_232_Implement-Queue-using-Stacks.md) |
 | 257 | Binary Tree Paths | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_257_Binary-Tree-Paths.md) |
 | 259 | 3Sum Smaller | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_259_3Sum-Smaller.md)|
 | 263 | Ugly Number | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/8b01966f0d4aaabc6c934cc202b0f403cacbac0e/Array/LeetCode_263_Ugly-Number.md) |
@@ -60,9 +63,11 @@ Python3
 | 270 | Closest Binary Search Tree Value I | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md) |
 | 272 | Closest Binary Search Tree Value II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) |
 | 380 | Insert Delete GetRandom O(1) | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_380_Insert-Delete-GetRandom-O(1).md) |
+| 451 | Sort Characters By Frequency | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_451_Sort-Characters-By-Frequency.md) |
 | 454 | 4Sum II | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_454_4Sum-II.md)|
 | 611 | Valid Triangle Number | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_611_Valid-Triangle-Number.md)|
 | 658 | Find K Closest Elements | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_658_Find-K-Closest-Elements.md) | 
+| 716 | Max Stack | Hard | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_716_Max-Stack.md) |
 | 763 | Partition Lables | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_763_Partition-Labels.md) |
 | 913 | Sort an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) |
 | 922 | Sort Array By Parity II | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_922_Sort-Array-By-Parity-II.md) |
@@ -70,6 +75,7 @@ Python3
 | 1429 | First Unique Number (online algo) | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md) |
 | 2161 | Partition Array According to Given Pivot | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_2161_Partition-Array-According-to-Given-Pivot.md) |
 | 2031 | Count Subarrays With More Ones Than Zeros | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) |
+| 2256 | Minimum Average Difference | Medium | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2256_Minimum-Average-Difference.md) |
 | 2449 | Minimum Number of Operations to Make Arrays Similar | Hard | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) |
 
 #### LintCode
@@ -110,6 +116,7 @@ Python3
 | 148 | Sort Colors | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_148_Sort-Colors.md) | 
 | 159 | Find Minimum in Rotated Sorted Array | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_159_Find-Minimum-in-Rotated-Sorted-Array.md) |
 | 160 | Find Minimum in Rotated Sorted Array II | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_160_Find-Minimum-in-Rotated-Sorted-Array-II.md) |
+| 172 | Remove Element | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_172_Remove-Element.md) |
 | 175 | Invert Binary Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_175_Invert-Binary-Tree.md) |
 | 178 | Graph Valid Tree | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_178_Graph-Valid-Tree.md) | 
 | 183 | Wood Cut | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_183_Wood-Cut.md) |
@@ -127,6 +134,7 @@ Python3
 | 458 | Last Position of Target | Easy | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_458_Last-Position-of-Target.md) | 
 | 460 | Find K Closest Elements | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_460_Find-K-Closest-Elements.md) | 
 | 464 | Sort Integers II | Easy | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_464_Sort-Integers-II_QuickSort.md) |
+| 471 | Top K Frequent Words | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_471_Top-K-Frequent-Words.md) |
 | 474 | Lowest Common Ancestor II | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_474_Lowest-Common-Ancestor-II.md) |
 | 479 | Second Max of Array | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_479_Second-Max-of-Array.md) |
 | 492 | Implement Queue by Linked List | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_492_Implement-Queue-by-Linked-List.md) |
@@ -166,6 +174,7 @@ Python3
 | 1144 | Range Addition II | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_1144_Range-Addition-II.md) |
 | 1179 | Friend Circles | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_1179_Friend-Circles.md) |
 | 1226 | Minimum Moves to Equal Array Elements II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_1226_Minimum-Moves-to-Equal-Array-Elements-II.md) |
+| 1253 | Convert a Number to Hexadecimal | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1253_Convert-a-Number-to-Hexadecimal.md) |
 | 1359 | Convert Sorted Array to Binary Search Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1359_Convert-Sorted-Array-to-Binary-Search-Tree.md) |
 | 1524 | Search in a Binary Search Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1524_Search-in-a-Binary-Search-Tree.md) |
 | 1665 | Calculate number | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1665_Calculate-number.md) |
@@ -308,5 +317,14 @@ Python3
 | Leet | 264 | Ugly Number II | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_264_Ugly-Number-II.md) | Medium | |
 | Lint | 612 | K Closest Points | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#quick-select--sort-top-k--on--klogk); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#heap--onlogk) | Medium | |
 | Lint | 545 | Top k Largest Numbers II | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#quick-select--sort-top-k--on--klogk-topk-o1-add); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#heap--onlogk-topk-ologn-add) | Medium | |
+| Lint | 471 | Top K Frequent Words | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_471_Top-K-Frequent-Words.md) | Medium | |
+| Lint | 1253 | Convert a Number to Hexadecimal | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1253_Convert-a-Number-to-Hexadecimal.md) | Easy | |
+| Lint | 172 | Remove Element | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_172_Remove-Element.md) | Easy | |
+| Leet | 451 | Sort Characters By Frequency | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_451_Sort-Characters-By-Frequency.md) | Medium | |
+| Leet | 155 | Min Stack | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_155_Min-Stack.md) | Medium | |
+| Leet | 716 | Max Stack | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_716_Max-Stack.md) | Hard | |
+| Leet | 232 | Implement Queue using Stacks | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_232_Implement-Queue-using-Stacks.md) | Medium | |
+| Leet | 225 | Implement Stack using Queues | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LeetCode_225_Implement-Stack-using-Queues.md) | Easy | |
+| Leet | 2256 | Minimum Average Difference | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2256_Minimum-Average-Difference.md) | Medium | |
 
 (^: Attempted; partially solved)
