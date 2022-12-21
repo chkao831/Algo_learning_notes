@@ -8,11 +8,12 @@ Python3
 ## Categories
 #### Algorithms
 - [Two pointers（雙指針）](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers)
-- [Divide-and-Conquer（DnC, 分治）](https://github.com/chkao831/Algo_learning_notes/tree/main/DnC)
+- [Divide-and-Conquer（DnC, 分治）](https://github.com/chkao831/Algo_learning_notes/tree/main/DnC) (including Quick Sort, Quick Select, Merge Sort, etc.)
 - [Binary Search（二分法）](https://github.com/chkao831/Algo_learning_notes/tree/main/BinarySearch)
 - [Breadth First Search (BFS, 寬度優先搜索)](https://github.com/chkao831/Algo_learning_notes/tree/main/BFS)
 - [Depth First Search (DFS, 深度優先搜索）](https://github.com/chkao831/Algo_learning_notes/tree/main/DFS)
 - [Operator](https://github.com/chkao831/Algo_learning_notes/tree/main/Operator)
+- [Dynamic Programming（DP, 動態規劃）](https://github.com/chkao831/Algo_learning_notes/tree/main/DP)
 - Sorting（排序）
   | Type | Average Time | Space | Algorithm Demo | Application | 
   |  ----  | ----  | ----  | ----  | ----  | 
@@ -20,12 +21,15 @@ Python3
   | Quick Sort | O(nlogn) | O(logn) | [Lint464](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_464_Sort-Integers-II_QuickSort.md) | 1. [[Lint31](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md)] Partition highly resembles Quick Sort, except that the left-right partition is strict.<br/>2. [[Lint143](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_143_Sort-Colors-II.md)] Recursion highly resembles Quick Sort, while the pivot (middle color) partition is strict.|
   | Quick Select | O(n) | O(1) | [Leet215](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_215_Kth-Largest-Element-in-an-Array_QuickSelect.md) | Quick Select highly resembles [Quick Sort](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_464_Sort-Integers-II_QuickSort.md), except that one knows which part to search for the subsequent recursive call, so the time complexity reduces to O(n). |
   | Merge Sort | O(nlogn) | O(n) | [Leet913](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) | |
+  | External Sorting (外排序算法) | | | [Text](https://github.com/chkao831/Algo_learning_notes/blob/main/notes/backup_CH48text.md) | [Repo](https://github.com/chkao831/Algo_learning_notes/tree/main/ExternalSorting) |
   
  #### Data Structures
 - [Hashmap (哈希表)](https://github.com/chkao831/Algo_learning_notes/tree/main/Hashmap)
 - [Array (數組)](https://github.com/chkao831/Algo_learning_notes/tree/main/Array)
 - [Linked List (鏈表)](https://github.com/chkao831/Algo_learning_notes/tree/main/LinkedList)
 - [Queue（隊列）](https://github.com/chkao831/Algo_learning_notes/tree/main/Queue)
+- [Heap（堆）](https://github.com/chkao831/Algo_learning_notes/tree/main/Heap)
+- [Stack（棧）](https://github.com/chkao831/Algo_learning_notes/tree/main/Stack)
 
 #### Notes
 - [Stack Space vs. Heap Space](https://chkao831.github.io/files/algo/StackVSHeap.pdf)
