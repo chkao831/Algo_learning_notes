@@ -357,13 +357,13 @@ Python3
 | Leet | 2256 | Minimum Average Difference | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2256_Minimum-Average-Difference.md) | Medium | |
 | Lint | 6 | Merge Two Sorted Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_6_Merge-Two-Sorted-Arrays.md) | Easy | |
 | Lint | 165 | Merge Two Sorted Lists | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_165_Merge-Two-Sorted-Lists.md) | Easy | |
-| Lint | 104 | Merge K Sorted Lists | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_104_Merge-K-Sorted-Lists.md)(Heap/PairwiseMerge/MergeSort) | Medium | |
+| Lint | 104 | Merge K Sorted Lists | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_104_Merge-K-Sorted-Lists.md)<br/>(Heap/PairwiseMerge/MergeSort) | Medium | |
 | Lint | 64 | Merge Sorted Array | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_64_Merge-Sorted-Array.md) | Easy | |
 | Lint | 839 | Merge Two Sorted Interval Lists | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_839_Merge-Two-Sorted-Interval-Lists.md) | Easy | |
-| Lint | 577 | Merge K Sorted Interval Lists | [ExternalSorting(Heap)](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_577_Merge-K-Sorted-Interval-Lists.md) | Medium | |
-| Lint | 547 | Intersection of Two Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md)(TwoPointers/BinarySearch) | Easy | |
-| Lint | 548 | Intersection of Two Arrays II | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_548_Intersection-of-Two-Arrays-II.md)(Hashmap/TwoPointers) | Easy | |
-| Lint | 793 | Intersection of Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_793_Intersection-of-Arrays.md)(Hashmap/Heap) | Medium | |
+| Lint | 577 | Merge K Sorted Interval Lists | [ExternalSorting<br/>(Heap)](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_577_Merge-K-Sorted-Interval-Lists.md) | Medium | |
+| Lint | 547 | Intersection of Two Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md)<br/>(TwoPointers/BinarySearch) | Easy | |
+| Lint | 548 | Intersection of Two Arrays II | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_548_Intersection-of-Two-Arrays-II.md)<br/>(Hashmap/TwoPointers) | Easy | |
+| Lint | 793 | Intersection of Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_793_Intersection-of-Arrays.md)<br/>(Hashmap/Heap) | Medium | |
 | Lint | 654 | Sparse Matrix Multiplication | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_654_Sparse-Matrix-Multiplication.md) | Medium | | 
 | Leet | 872 | Leaf-Similar Trees | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_872_Leaf-Similar-Trees.md) | Easy | |
 | Leet | 328 | Odd Even Linked List | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_328_Odd-Even-Linked-List.md) | Medium | |
