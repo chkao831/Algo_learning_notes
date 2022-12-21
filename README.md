@@ -47,11 +47,14 @@ Python3
 | 102 | Binary Tree Level Order Traversal | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md) |
 | 104 | Maximum Depth of Binary Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_104_Maximum-Depth-of-Binary-Tree.md) |
 | 110 | Balanced Binary Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_110_Balanced-Binary-Tree.md) |
+| 124 | Binary Tree Maximum Path Sum | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_124_Binary%20Tree-Maximum-Path-Sum.md) |
 | 144 | Binary Tree Preorder Traversal | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_144_Binary-Tree-Preorder-Traversal.md) |
 | 145 | Binary Tree Postorder Traversal | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md) | 
 | 147 | Insertion Sort List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_147_Insertion-Sort-List.md) |
+150 | Evaluate Reverse Polish Notation | Medium | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_150_Evaluate-Reverse-Polish-Notation.md) |
 | 155 | Min Stack | Medium | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_155_Min-Stack.md) |
 | 173 | Binary Search Tree Iterator | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_173_Binary-Search-Tree-Iterator.md) |
+| 198 | House Robber | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_198_House-Robber.md) |
 | 215 | Kth Largest Element in an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_215_Kth-Largest-Element-in-an-Array_QuickSelect.md)|
 | 225 | Implement Stack using Queues | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LeetCode_225_Implement-Stack-using-Queues.md) |
 | 230 | Kth Smallest Element in a BST | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_230_Kth-Smallest-Element-in-a-BST.md) |
@@ -62,16 +65,24 @@ Python3
 | 264 | Ugly Number II | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_264_Ugly-Number-II.md) |
 | 270 | Closest Binary Search Tree Value I | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md) |
 | 272 | Closest Binary Search Tree Value II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) |
+| 328 | Odd Even Linked List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_328_Odd-Even-Linked-List.md) |
 | 380 | Insert Delete GetRandom O(1) | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_380_Insert-Delete-GetRandom-O(1).md) |
 | 451 | Sort Characters By Frequency | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_451_Sort-Characters-By-Frequency.md) |
 | 454 | 4Sum II | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_454_4Sum-II.md)|
 | 611 | Valid Triangle Number | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_611_Valid-Triangle-Number.md)|
 | 658 | Find K Closest Elements | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_658_Find-K-Closest-Elements.md) | 
 | 716 | Max Stack | Hard | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_716_Max-Stack.md) |
+| 739 | Daily Temperatures | Medium | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_739_Daily-Temperatures.md) |
 | 763 | Partition Lables | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_763_Partition-Labels.md) |
+| 872 | Leaf-Similar Trees | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_872_Leaf-Similar-Trees.md) |
+| 886 | Possible Bipartition | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_886_Possible-Bipartition.md) |
 | 913 | Sort an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) |
 | 922 | Sort Array By Parity II | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_922_Sort-Array-By-Parity-II.md) |
+| 931 | Minimum Falling Path Sum | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_931_Minimum-Falling-Path-Sum.md) |
+| 1026 | Maximum Difference Between Node and Ancestor | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1026_Maximum-Difference-Between-Node-and-Ancestor.md) |
 | 1120 | Maximum Average Subtree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md) |
+| 1143 | Longest Common Subsequence | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1143_Longest-Common-Subsequence.md) |
+| 1339 | Maximum Product of Splitted Binary Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1339_Maximum-Product-of-Splitted-Binary-Tree.md) |
 | 1429 | First Unique Number (online algo) | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md) |
 | 2161 | Partition Array According to Given Pivot | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_2161_Partition-Array-According-to-Given-Pivot.md) |
 | 2031 | Count Subarrays With More Ones Than Zeros | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) |
@@ -85,6 +96,7 @@ Python3
 | 7 | Serialize and Deserialize Binary Tree | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_7_Serialize-and-Deserialize-Binary-Tree.md) |
 | 10 | String Permutation II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_10_String-Permutation-II.md) |
 | 11 | Search Range in Binary Search Tree  | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_11_Search-Range-in-Binary-Search-Tree.md) |
+| 13 | Implement strStr() | Naive | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_13_Implement-strStr().md) |
 | 15 | Permutations | Medium | DFS ([Recursive](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_15_Permutations.md#dfs-recursive-approach)/[Iterative](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_15_Permutations.md#dfs-%E9%9D%9E%E9%81%9E%E6%AD%B8%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AF%A6%E7%8F%BE%E6%8E%92%E5%88%97%E5%92%8C%E7%B5%84%E5%90%88%E9%A1%9Edfs)) |
 | 16 | Permutations II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_16_Permutations-II.md) |
 | 18 | Subsets II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md) |
@@ -143,6 +155,7 @@ Python3
 | 479 | Second Max of Array | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_479_Second-Max-of-Array.md) |
 | 492 | Implement Queue by Linked List | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_492_Implement-Queue-by-Linked-List.md) |
 | 493 | Implement Queue by Linked List II | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_493_Implement-Queue-by-Linked-List-II.md) |
+| 514 | Paint Fence | Easy | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LintCode_514_Paint-Fence.md) |
 | 539 | Move Zeroes | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_539_move-zeroes.md) | 
 | 545 | Top k Largest Numbers II | Medium | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#quick-select--sort-top-k--on--klogk-topk-o1-add); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#heap--onlogk-topk-ologn-add) |
 | 547 | Intersection of Two Arrays | Easy | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md)(TwoPointers/BinarySearch) |
@@ -175,12 +188,14 @@ Python3
 | 802 | Sudoku Solver | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_802_Sudoku-Solver.md) |
 | 816 | Traveling Salesman Problem (TSP) | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_816_Traveling-Salesman-Problem.md) |
 | 839 | Merge Two Sorted Interval Lists | Easy | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_839_Merge-Two-Sorted-Interval-Lists.md) |
+| 841 | Keys and Rooms | Medium | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_841_Keys-and-Rooms.md) |
 | 868 | Maximum Average Subarray | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_868_Maximum-Average-Subarray.md) |
 | 891 | Valid Palindrome II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) |
 | 892 | Alien Dictionary | Hard | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_892_Alien-Dictionary.md) | 
 | 924 | Shortest Word Distance | Easy | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_924_Shortest-Word-Distance.md) |
 | 955 | Implement Queue by Circular Array | Medium | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_955_Implement-Queue-by-Circular-Array.md) |
 | 1027 | Similar RGB Color | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1017_Similar-RGB-Color.md) |
+| 1032 | Letter Case Permutation | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1032_Letter-Case-Permutation.md) |
 | 1144 | Range Addition II | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_1144_Range-Addition-II.md) |
 | 1179 | Friend Circles | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_1179_Friend-Circles.md) |
 | 1226 | Minimum Moves to Equal Array Elements II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_1226_Minimum-Moves-to-Equal-Array-Elements-II.md) |
@@ -193,7 +208,7 @@ Python3
 | 2929 | Find the most expensive items | Naive | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_2929_Find-the-most-expensive-items.md) |
 
 ## Problems (chronologically ordered)
-| Source |  Index  | Topic  |  Link | Difficulty | Submission Date |
+| Source |  Index  | Topic  |  Link | Difficulty | Timestamp |
 |  ----  |  ----  | ----  | ----  | ----  | ----  | 
 | Lint | 415 | Valid Palindrome | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_415_Valid-Palindrome.md) | Medium | 20220910 |
 | Lint | 891 | Valid Palindrome II | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) | Medium |  |
@@ -346,5 +361,21 @@ Python3
 | Lint | 548 | Intersection of Two Arrays II | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_548_Intersection-of-Two-Arrays-II.md)(Hashmap/TwoPointers) | Easy | |
 | Lint | 793 | Intersection of Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_793_Intersection-of-Arrays.md)(Hashmap/Heap) | Medium | |
 | Lint | 654 | Sparse Matrix Multiplication | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_654_Sparse-Matrix-Multiplication.md) | Medium | | 
+| Leet | 872 | Leaf-Similar Trees | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_872_Leaf-Similar-Trees.md) | Easy | |
+| Leet | 328 | Odd Even Linked List | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_328_Odd-Even-Linked-List.md) | Medium | |
+| Lint | 13 | Implement strStr() | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_13_Implement-strStr().md) | Naive | |
+| Leet | 1026 | Maximum Difference Between Node and Ancestor | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1026_Maximum-Difference-Between-Node-and-Ancestor.md) | Medium | |
+| Leet | 1339 | Maximum Product of Splitted Binary Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1339_Maximum-Product-of-Splitted-Binary-Tree.md) | Medium | |
+| Leet | 124 | Binary Tree Maximum Path Sum | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_124_Binary%20Tree-Maximum-Path-Sum.md) | Hard | |
+| Leet | 70 | Climbing Stairs | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_70_Climbing-Stairs.md#dfs-brute-force)/[DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_70_Climbing-Stairs.md#dp) | Easy | |
+| Leet | 931 | Minimum Falling Path Sum | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_931_Minimum-Falling-Path-Sum.md) | Medium | |
+| Lint | 1032 | Letter Case Permutation | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1032_Letter-Case-Permutation.md) | Easy | |
+| Leet | 198 | House Robber | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_198_House-Robber.md) | Medium | |
+| Lint | 514 | Paint Fence | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LintCode_514_Paint-Fence.md) | Easy | |
+| Leet | 1143 | Longest Common Subsequence | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1143_Longest-Common-Subsequence.md) | Medium | |
+| Leet | 150 | Evaluate Reverse Polish Notation | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_150_Evaluate-Reverse-Polish-Notation.md) | Medium | |
+| Leet | 739 | Daily Temperatures | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_739_Daily-Temperatures.md) | Medium | |
+| Leet | 841 | Keys and Rooms | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_841_Keys-and-Rooms.md) | Medium | |
+| Leet | 886 | Possible Bipartition | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_886_Possible-Bipartition.md) | Medium | |
 
 (^: Attempted; partially solved)
