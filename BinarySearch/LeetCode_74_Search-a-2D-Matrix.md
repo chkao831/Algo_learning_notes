@@ -38,6 +38,7 @@ class Solution:
 ```
 #### Remark:
 - Intuition: could do binary search twice (on row and column), which also yields O(logn) complexity.
+- key: [2Dto1D conversion](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_74_Search-a-2D-Matrix.md)
 - Some dimensional transformation illlustration:\
     1D to 2D:
     ```
