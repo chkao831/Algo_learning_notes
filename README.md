@@ -55,8 +55,11 @@ Python3
 | 230 | Kth Smallest Element in a BST | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_230_Kth-Smallest-Element-in-a-BST.md) |
 | 257 | Binary Tree Paths | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_257_Binary-Tree-Paths.md) |
 | 259 | 3Sum Smaller | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_259_3Sum-Smaller.md)|
+| 263 | Ugly Number | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/8b01966f0d4aaabc6c934cc202b0f403cacbac0e/Array/LeetCode_263_Ugly-Number.md) |
+| 264 | Ugly Number II | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_264_Ugly-Number-II.md) |
 | 270 | Closest Binary Search Tree Value I | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md) |
 | 272 | Closest Binary Search Tree Value II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) |
+| 380 | Insert Delete GetRandom O(1) | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_380_Insert-Delete-GetRandom-O(1).md) |
 | 454 | 4Sum II | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_454_4Sum-II.md)|
 | 611 | Valid Triangle Number | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_611_Valid-Triangle-Number.md)|
 | 658 | Find K Closest Elements | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_658_Find-K-Closest-Elements.md) | 
@@ -64,6 +67,7 @@ Python3
 | 913 | Sort an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) |
 | 922 | Sort Array By Parity II | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_922_Sort-Array-By-Parity-II.md) |
 | 1120 | Maximum Average Subtree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md) |
+| 1429 | First Unique Number (online algo) | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md) |
 | 2161 | Partition Array According to Given Pivot | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_2161_Partition-Array-According-to-Given-Pivot.md) |
 | 2031 | Count Subarrays With More Ones Than Zeros | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) |
 | 2449 | Minimum Number of Operations to Make Arrays Similar | Hard | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) |
@@ -95,7 +99,10 @@ Python3
 | 120 | Word Ladder | Hard | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_120_Word-Ladder.md) |
 | 127 | Topological Sorting | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_127_Topological-Sorting.md) |
 | 128 | Hash Function | Easy | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_128_Hash-Function.md) | 
+| 129 | Rehashing | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_129_Rehashing.md) |
+| 130 | Heapify | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_130_Heapify.md) |
 | 132 | Word Search II | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_132_Word-Search-II.md) |
+| 134 | LRU Cache | Hard | [LinkedList(Hash)](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LintCode_134_LRU-Cache.md) |
 | 135 | Combination Sum | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_135_Combination-Sum.md) |
 | 137 | Clone Graph | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_137_Clone-Graph.md) |
 | 143 | Sort Colors II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_143_Sort-Colors-II.md) | 
@@ -125,6 +132,7 @@ Python3
 | 492 | Implement Queue by Linked List | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_492_Implement-Queue-by-Linked-List.md) |
 | 493 | Implement Queue by Linked List II | Easy | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_493_Implement-Queue-by-Linked-List-II.md) |
 | 539 | Move Zeroes | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_539_move-zeroes.md) | 
+| 545 | Top k Largest Numbers II | Medium | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#quick-select--sort-top-k--on--klogk-topk-o1-add); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#heap--onlogk-topk-ologn-add) |
 | 573 | Build Post Office II | Hard | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_573_Build-Post-Office-II.md) |
 | 578 | Lowest Common Ancestor III | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_578_Lowest-Common-Ancestor-III.md) |
 | 585 | Maximum Number in Mountain Sequence | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_585_Maximum-Number-in-Mountain-Sequence.md) |
@@ -135,18 +143,21 @@ Python3
 | 607 | Two Sum III - Data structure design | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_607_Two-Sum-III-Data-structure-design.md); <br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_607_Two-Sum-III-Data-structure-design.md) |
 | 609 | Two sum - Less than or equal to target | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_609_Two-Sum-Less-than-or-equal-to-target.md) |
 | 611 | Knight Shortest Path | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_611_Knight-Shortest-Path.md) | 
+| 612 | K Closest Points | Medium | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#quick-select--sort-top-k--on--klogk); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#heap--onlogk) |
 | 615 | Course Schedule | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_615_Course-Schedule.md) | 
 | 616 | Course Schedule II | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_616_Course-Schedule-II.md) | 
 | 618 | Search Graph Nodes | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_618_Search-Graph-Nodes.md) | 
 | 625 | Partition Array II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_625_Partition-Array-II.md) |
 | 628 | Maximum Subtree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_628_Maximum-Subtree.md) |
 | 630 | Knight Shortest Path II | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_630_Knight-Shortest-Path-II.md) |
+| 685 | First Unique Number in Data Stream (offline algo) | Medium |  [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_685_First-Unique-Number-in-Data-Stream.md) |
 | 689 | Two Sum IV - Input is a BST | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_689_Two-Sum-IV-Input-is-a-BST.md) |
 | 701 | Trim a Binary Search Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_701_Trim-a-Binary-Search-Tree.md) |
 | 716 | Add and Search | Easy | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_716_Add-and-Search.md);<br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md) |
 | 792 | Kth Prime Number | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_792_Kth-Prime-Number.md) |
 | 802 | Sudoku Solver | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_802_Sudoku-Solver.md) |
 | 816 | Traveling Salesman Problem (TSP) | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_816_Traveling-Salesman-Problem.md) |
+| 868 | Maximum Average Subarray | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_868_Maximum-Average-Subarray.md) |
 | 891 | Valid Palindrome II | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_891_Valid-Palindrome-II.md) |
 | 892 | Alien Dictionary | Hard | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_892_Alien-Dictionary.md) | 
 | 924 | Shortest Word Distance | Easy | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_924_Shortest-Word-Distance.md) |
@@ -160,6 +171,7 @@ Python3
 | 1665 | Calculate number | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1665_Calculate-number.md) |
 | 1881 | Aircraft seat | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_1881_Aircraft-seat.md) |
 | 1820 | Find Letter | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1820_Find-Letter.md) |
+| 2929 | Find the most expensive items | Naive | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_2929_Find-the-most-expensive-items.md) |
 
 ## Problems (chronologically ordered)
 | Source |  Index  | Topic  |  Link | Difficulty | Submission Date |
@@ -284,7 +296,17 @@ Python3
 | Lint | 197 | Permutation Index | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_197_Permutation-Index.md) (Iterative) | Medium | |
 | Leet | 2449 | Minimum Number of Operations to Make Arrays Similar | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) | Hard | |
 | Lint | 128 | Hash Function | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_128_Hash-Function.md) | Easy | |
-
-
+| Lint | 129 | Rehashing | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_129_Rehashing.md) | Medium | |
+| Lint | 868 | Maximum Average Subarray | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_868_Maximum-Average-Subarray.md) | Easy | |
+| Lint | 2929 | Find the most expensive items | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_2929_Find-the-most-expensive-items.md) | Naive | |
+| Lint | 134 | LRU Cache | [LinkedList(Hash)](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LintCode_134_LRU-Cache.md) | Hard | |
+| Leet | 380 | Insert Delete GetRandom O(1) | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_380_Insert-Delete-GetRandom-O(1).md) | Medium | |
+| Lint | 685 | First Unique Number in Data Stream (offline algo) | [Queue](https://github.com/chkao831/Algo_learning_notes/blob/main/Queue/LintCode_685_First-Unique-Number-in-Data-Stream.md) | Medium | |  
+| Leet | 1429 | First Unique Number (online algo) | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md) | Medium | |
+| Lint | 130 | Heapify | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_130_Heapify.md) | Medium | |
+| Leet | 263 | Ugly Number | [Array](https://github.com/chkao831/Algo_learning_notes/blob/8b01966f0d4aaabc6c934cc202b0f403cacbac0e/Array/LeetCode_263_Ugly-Number.md) | Easy | |
+| Leet | 264 | Ugly Number II | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_264_Ugly-Number-II.md) | Medium | |
+| Lint | 612 | K Closest Points | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#quick-select--sort-top-k--on--klogk); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#heap--onlogk) | Medium | |
+| Lint | 545 | Top k Largest Numbers II | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#quick-select--sort-top-k--on--klogk-topk-o1-add); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#heap--onlogk-topk-ologn-add) | Medium | |
 
 (^: Attempted; partially solved)
