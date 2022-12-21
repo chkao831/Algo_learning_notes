@@ -94,6 +94,7 @@ Python3
 | 121 | Word Ladder II | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_121_Word-Ladder-II.md) |
 | 120 | Word Ladder | Hard | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_120_Word-Ladder.md) |
 | 127 | Topological Sorting | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_127_Topological-Sorting.md) |
+| 128 | Hash Function | Easy | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_128_Hash-Function.md) | 
 | 132 | Word Search II | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_132_Word-Search-II.md) |
 | 135 | Combination Sum | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_135_Combination-Sum.md) |
 | 137 | Clone Graph | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_137_Clone-Graph.md) |
@@ -282,10 +283,8 @@ Python3
 | Leet | 31 | Next Permutation | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md) (Iterative) | Medium | |
 | Lint | 197 | Permutation Index | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_197_Permutation-Index.md) (Iterative) | Medium | |
 | Leet | 2449 | Minimum Number of Operations to Make Arrays Similar | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) | Hard | |
+| Lint | 128 | Hash Function | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_128_Hash-Function.md) | Easy | |
 
-(^: Attempted; partially resolved)
 
-```
-Lint129
-Lint128
-```
+
+(^: Attempted; partially solved)
