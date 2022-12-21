@@ -240,7 +240,7 @@ Python3
 | Lint | 65 | Median of two Sorted Arrays | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_65_Median-of-two-Sorted-Arrays.md) | Hard |  |
 | Lint | 1226 | Minimum Moves to Equal Array Elements II | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_1226_Minimum-Moves-to-Equal-Array-Elements-II.md) | Medium |  |
 | Lint | 625 | Partition Array II | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_625_Partition-Array-II.md) | Medium |  |
-| Lint | 479 | Second Max of Array | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_479_Second-Max-of-Array.md) | Easy | 20220915 |
+| Lint | 479 | Second Max of Array | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_479_Second-Max-of-Array.md) | Easy | |
 | Leet | 913 | Sort an Array | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) | Medium |  |
 | Leet | 2031 | Count Subarrays With More Ones Than Zeros | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) | Medium |  |
 | Lint | 716 | Add and Search | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_716_Add-and-Search.md);<br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md) | Easy |  |
@@ -312,7 +312,7 @@ Python3
 | Lint | 474 | Lowest Common Ancestor II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_474_Lowest-Common-Ancestor-II.md) | Easy | |
 | Lint | 578 | Lowest Common Ancestor III | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_578_Lowest-Common-Ancestor-III.md) | Medium | |
 | Lint | 175 | Invert Binary Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_175_Invert-Binary-Tree.md) | Easy | |
-| Lint | 453 | Flatten Binary Tree to Linked List | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_453_Flatten-Binary-to-Linked-List.md) | Easy | 20221015 |
+| Lint | 453 | Flatten Binary Tree to Linked List | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_453_Flatten-Binary-to-Linked-List.md) | Easy | |
 | Lint | 18 | Subsets II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md) | Medium | | 
 | Lint | 425 | Letter Combinations of a Phone Number | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_425_Letter-Combinations-of-a-Phone-Number.md) | Medium | | 
 | Lint | 90 | k Sum II | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_90_k-Sum-II.md) | Medium | |
@@ -329,7 +329,7 @@ Python3
 | Leet | 31 | Next Permutation | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md) (Iterative) | Medium | |
 | Lint | 197 | Permutation Index | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_197_Permutation-Index.md) (Iterative) | Medium | |
 | Leet | 2449 | Minimum Number of Operations to Make Arrays Similar | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) | Hard | |
-| Lint | 128 | Hash Function | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_128_Hash-Function.md) | Easy | |
+| Lint | 128 | Hash Function | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_128_Hash-Function.md) | Easy | 20221101 |
 | Lint | 129 | Rehashing | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_129_Rehashing.md) | Medium | |
 | Lint | 868 | Maximum Average Subarray | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_868_Maximum-Average-Subarray.md) | Easy | |
 | Lint | 2929 | Find the most expensive items | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LintCode_2929_Find-the-most-expensive-items.md) | Naive | |
@@ -340,7 +340,7 @@ Python3
 | Lint | 130 | Heapify | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_130_Heapify.md) | Medium | |
 | Leet | 263 | Ugly Number | [Array](https://github.com/chkao831/Algo_learning_notes/blob/8b01966f0d4aaabc6c934cc202b0f403cacbac0e/Array/LeetCode_263_Ugly-Number.md) | Easy | |
 | Leet | 264 | Ugly Number II | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_264_Ugly-Number-II.md) | Medium | |
-| Lint | 612 | K Closest Points | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#quick-select--sort-top-k--on--klogk); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#heap--onlogk) | Medium | |
+| Lint | 612 | K Closest Points | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#quick-select--sort-top-k--on--klogk); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_612_K-Closest-Points.md#heap--onlogk) | Medium | 20221201 |
 | Lint | 545 | Top k Largest Numbers II | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#quick-select--sort-top-k--on--klogk-topk-o1-add); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#heap--onlogk-topk-ologn-add) | Medium | |
 | Lint | 471 | Top K Frequent Words | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_471_Top-K-Frequent-Words.md) | Medium | |
 | Lint | 1253 | Convert a Number to Hexadecimal | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1253_Convert-a-Number-to-Hexadecimal.md) | Easy | |
