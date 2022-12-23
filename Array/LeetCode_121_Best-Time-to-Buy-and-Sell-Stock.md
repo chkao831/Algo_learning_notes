@@ -18,7 +18,7 @@ class Solution:
         return max_profit
 ```
 #### Remark:
-- 
+- The points of interest are the peaks and valleys in the given graph. We need to find the largest price following each valley, which difference could be the max profit. We can maintain two variables - minprice and maxprofit corresponding to the smallest valley and maximum profit (maximum difference between selling price and minprice) obtained so far respectively.
 #### Submission:
 ```
 Runtime
