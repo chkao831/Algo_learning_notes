@@ -7,14 +7,12 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/desc
 >After you sell your stock, you cannot buy stock on the next day (i.e., cooldown one day).
 >Note: You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again)
 
+<p>
+    <img src="../images/309_notes.png" width="700" />
+</p>
 
 <p>
     <img src="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/601810/Figures/309/309_graph.png" width="800" />
-</p>
-
-
-<p>
-    <img src="../images/309_notes.png" width="500" />
 </p>
 
 ```python
