@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Dec 22, 2022
+> Last Updated on Dec 23, 2022
 
 ## Language
 Python3
@@ -51,6 +51,8 @@ Python3
 | 102 | Binary Tree Level Order Traversal | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md) |
 | 104 | Maximum Depth of Binary Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_104_Maximum-Depth-of-Binary-Tree.md) |
 | 110 | Balanced Binary Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_110_Balanced-Binary-Tree.md) |
+| 121 | Best Time to Buy and Sell Stock | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_121_Best-Time-to-Buy-and-Sell-Stock.md) |
+| 122 | Best Time to Buy and Sell Stock II | Medium | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_122_Best-Time-to-Buy-and-Sell-Stock-II.md) |
 | 124 | Binary Tree Maximum Path Sum | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_124_Binary%20Tree-Maximum-Path-Sum.md) |
 | 144 | Binary Tree Preorder Traversal | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_144_Binary-Tree-Preorder-Traversal.md) |
 | 145 | Binary Tree Postorder Traversal | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md) | 
@@ -69,6 +71,7 @@ Python3
 | 264 | Ugly Number II | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_264_Ugly-Number-II.md) |
 | 270 | Closest Binary Search Tree Value I | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md) |
 | 272 | Closest Binary Search Tree Value II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) |
+| 309 | Best Time to Buy and Sell Stock with Cooldown | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_309_Best-Time-to-Buy-and-Sell-Stock-with-Cooldown.md) |
 | 328 | Odd Even Linked List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_328_Odd-Even-Linked-List.md) |
 | 380 | Insert Delete GetRandom O(1) | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_380_Insert-Delete-GetRandom-O(1).md) |
 | 451 | Sort Characters By Frequency | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_451_Sort-Characters-By-Frequency.md) |
@@ -78,6 +81,7 @@ Python3
 | 716 | Max Stack | Hard | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_716_Max-Stack.md) |
 | 739 | Daily Temperatures | Medium | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_739_Daily-Temperatures.md) |
 | 763 | Partition Lables | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_763_Partition-Labels.md) |
+| 834 | Sum of Distances in Tree | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_834_Sum-of-Distances-in-Tree.md) |
 | 872 | Leaf-Similar Trees | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_872_Leaf-Similar-Trees.md) |
 | 886 | Possible Bipartition | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_886_Possible-Bipartition.md) |
 | 913 | Sort an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) |
@@ -381,5 +385,9 @@ Python3
 | Leet | 739 | Daily Temperatures | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_739_Daily-Temperatures.md) | Medium | |
 | Leet | 841 | Keys and Rooms | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_841_Keys-and-Rooms.md) | Medium | |
 | Leet | 886 | Possible Bipartition | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_886_Possible-Bipartition.md) | Medium | |
+| Leet | 834 | Sum of Distances in Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_834_Sum-of-Distances-in-Tree.md) | Hard | |
+| Leet | 121 | Best Time to Buy and Sell Stock | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_121_Best-Time-to-Buy-and-Sell-Stock.md) | Easy | |
+| Leet | 122 | Best Time to Buy and Sell Stock II | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_122_Best-Time-to-Buy-and-Sell-Stock-II.md) | Medium | |
+| Leet | 309 | Best Time to Buy and Sell Stock with Cooldown | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_309_Best-Time-to-Buy-and-Sell-Stock-with-Cooldown.md) | Medium | |
 
 (^: Attempted; partially solved)
