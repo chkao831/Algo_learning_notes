@@ -4,7 +4,10 @@ https://leetcode.com/problems/longest-subsequence-with-limited-sum/description/
 >
 >Return an array answer of length `m` where `answer[i]` is the maximum size of a subsequence that you can take from nums such that the sum of its elements is less than or equal to `queries[i]`.
 
-
+**Key: Order Indepedency**
+- A subsequence is an array that can be derived from another array **by deleting some or no elements without changing the order of the remaining elements**.
+- For each query query, we want the maximize the size of the subsequence, which means we want to collect as many numbers as possible before their sum exceeds the limit query. 
+- Another key observation is that the target we look for **does not depend on the order of the "subsequence"**, and it becomes a "set" of element necessarily. In this case, we are allowed to sort since it is order-independent.
 
 ### PrefixSum + BinarySearch (written)
 ```python
