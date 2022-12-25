@@ -8,7 +8,7 @@ https://leetcode.com/problems/domino-and-tromino-tiling/description/
 >Given an integer `n`, return the number of ways to tile an `2 x n` board. Since the answer may be very large, return it modulo `10^9 + 7`.
 
 <p>
-    <img src="../images/790_Tromino.jpg" width="500" />
+    <img src="../images/790_Tromino.jpg" width="800" />
 </p>
 
 
