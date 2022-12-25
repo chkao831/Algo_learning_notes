@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Dec 23, 2022
+> Last Updated on Dec 25, 2022
 
 ## Language
 Python3
@@ -95,6 +95,7 @@ Python3
 | 2161 | Partition Array According to Given Pivot | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_2161_Partition-Array-According-to-Given-Pivot.md) |
 | 2031 | Count Subarrays With More Ones Than Zeros | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) |
 | 2256 | Minimum Average Difference | Medium | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2256_Minimum-Average-Difference.md) |
+| 2389 | Longest Subsequence With Limited Sum | Easy | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_2389_Longest-Subsequence-With-Limited-Sum.md) |
 | 2449 | Minimum Number of Operations to Make Arrays Similar | Hard | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) |
 
 #### LintCode
@@ -191,6 +192,7 @@ Python3
 | 689 | Two Sum IV - Input is a BST | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_689_Two-Sum-IV-Input-is-a-BST.md) |
 | 701 | Trim a Binary Search Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_701_Trim-a-Binary-Search-Tree.md) |
 | 716 | Add and Search | Easy | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_716_Add-and-Search.md);<br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md) |
+| 790 | Domino and Tromino Tiling | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_790_Domino-and-Tromino-Tiling.md) |
 | 792 | Kth Prime Number | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_792_Kth-Prime-Number.md) |
 | 793 | Intersection of Arrays | Medium | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_793_Intersection-of-Arrays.md)(Hashmap/Heap) |
 | 802 | Sudoku Solver | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_802_Sudoku-Solver.md) |
@@ -389,5 +391,7 @@ Python3
 | Leet | 121 | Best Time to Buy and Sell Stock | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_121_Best-Time-to-Buy-and-Sell-Stock.md) | Easy | |
 | Leet | 122 | Best Time to Buy and Sell Stock II | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_122_Best-Time-to-Buy-and-Sell-Stock-II.md) | Medium | |
 | Leet | 309 | Best Time to Buy and Sell Stock with Cooldown | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_309_Best-Time-to-Buy-and-Sell-Stock-with-Cooldown.md) | Medium | |
+| Leet | 790 | Domino and Tromino Tiling | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_790_Domino-and-Tromino-Tiling.md) | Medium | |
+| Leet | 2389 | Longest Subsequence With Limited Sum | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_2389_Longest-Subsequence-With-Limited-Sum.md) | Easy | |
 
 (^: Attempted; partially solved)
