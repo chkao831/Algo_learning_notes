@@ -18,7 +18,7 @@ class Solution:
             if stones <= 3:
                 return True
             for feasible_stones in range(1, 4):
-                if dfs(stones+feasible_stones):
+                if dfs(stones-feasible_stones) is False:
                     return True
             return False
 
