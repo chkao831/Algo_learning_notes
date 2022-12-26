@@ -40,7 +40,7 @@ Beats
 - Time: O(2^N)
 
 <p>
-    <img src="../images/55_timeComplexity.png" width="500" />
+    <img src="../images/55_timeComplexity.png" width="700" />
 </p>
 
 - Space: O(N)
