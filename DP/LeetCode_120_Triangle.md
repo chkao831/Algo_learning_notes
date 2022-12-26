@@ -11,7 +11,6 @@ class Solution:
         self.global_min = sys.maxsize
 
     def minimumTotal(self, triangle: List[List[int]]) -> int:
-        @lru_cache(None)
         def dfs(x: int, y: int, cur_min: int):
             if x == len(triangle):
                 if cur_min < self.global_min:
@@ -33,7 +32,12 @@ TLE
 
 
 ## DFS (Bottom Up)
-關鍵
+關鍵：數字三角形左右是有重複計算的部分的，不是分開的二叉樹，所以可以用cache or memo降低時間複雜度 (from 2^N to N^2)
+
+<p>
+    <img src="https://leetcode.com/problems/triangle/solutions/1167943/Figures/120/upside_down_triangle_coordinates.png" width="600" />
+</p>
+                                                      
 ```python
 class Solution:
 
@@ -68,7 +72,8 @@ Beats
 ## Memoization
 使用一個哈希表，進行遞歸之前，先去看之前算過沒有。\
 Key: 使用hashmap紀錄搜索的中間結果，下次通過同樣的參數訪問時，直接返回保存下來的結果。\
-通過局部最優解，找全局最優解。
+通過局部最優解，找全局最優解。\
+記憶化搜索是DP的實現方式之一。
 ```python
 from typing import List, Dict
 
