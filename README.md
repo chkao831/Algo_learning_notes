@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Dec 25, 2022
+> Last Updated on Jan 1, 2023
 
 ## Language
 Python3
@@ -44,6 +44,7 @@ Python3
 | 18 | 4Sum | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_18_4Sum.md)|
 | 31 | Next Permutation | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md) (Iterative) | 
 | 51 | N-Queens | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_51_N-Queens.md) |
+| 55 | Jump Game | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_55_Jump-Game.md) |
 | 74 | Search a 2D Matrix | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_74_Search-a-2D-Matrix.md) | 
 | 86 | Partition List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_86-Partition-List.md) |
 | 91 | Decode Ways | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_91_Decode-Ways.md) |
@@ -51,6 +52,7 @@ Python3
 | 102 | Binary Tree Level Order Traversal | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md) |
 | 104 | Maximum Depth of Binary Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_104_Maximum-Depth-of-Binary-Tree.md) |
 | 110 | Balanced Binary Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_110_Balanced-Binary-Tree.md) |
+| 120 | Triangle | Medium | [DFS/DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_120_Triangle.md) |
 | 121 | Best Time to Buy and Sell Stock | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_121_Best-Time-to-Buy-and-Sell-Stock.md) |
 | 122 | Best Time to Buy and Sell Stock II | Medium | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_122_Best-Time-to-Buy-and-Sell-Stock-II.md) |
 | 124 | Binary Tree Maximum Path Sum | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_124_Binary%20Tree-Maximum-Path-Sum.md) |
@@ -71,6 +73,7 @@ Python3
 | 264 | Ugly Number II | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_264_Ugly-Number-II.md) |
 | 270 | Closest Binary Search Tree Value I | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_270_Closest-Binary-Search-Tree-Value.md) |
 | 272 | Closest Binary Search Tree Value II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_272_Closest-Binary-Search-Tree-Value-II.md) |
+| 290 | Word Pattern | Easy | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_290_Word-Pattern.md) |
 | 309 | Best Time to Buy and Sell Stock with Cooldown | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_309_Best-Time-to-Buy-and-Sell-Stock-with-Cooldown.md) |
 | 328 | Odd Even Linked List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_328_Odd-Even-Linked-List.md) |
 | 380 | Insert Delete GetRandom O(1) | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_380_Insert-Delete-GetRandom-O(1).md) |
@@ -87,14 +90,18 @@ Python3
 | 913 | Sort an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) |
 | 922 | Sort Array By Parity II | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_922_Sort-Array-By-Parity-II.md) |
 | 931 | Minimum Falling Path Sum | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_931_Minimum-Falling-Path-Sum.md) |
+| 980 | Unique Paths III | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_980_Unique-Paths-III.md) |
 | 1026 | Maximum Difference Between Node and Ancestor | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1026_Maximum-Difference-Between-Node-and-Ancestor.md) |
 | 1120 | Maximum Average Subtree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md) |
 | 1143 | Longest Common Subsequence | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1143_Longest-Common-Subsequence.md) |
 | 1339 | Maximum Product of Splitted Binary Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1339_Maximum-Product-of-Splitted-Binary-Tree.md) |
 | 1429 | First Unique Number (online algo) | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md) |
+| 1834 | Single-Threaded CPU | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1834_Single-Threaded-CPU.md) |
+| 1962 | Remove Stones to Minimize the Total | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1962_Remove-Stones-to-Minimize-the-Total.md) |
 | 2161 | Partition Array According to Given Pivot | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_2161_Partition-Array-According-to-Given-Pivot.md) |
 | 2031 | Count Subarrays With More Ones Than Zeros | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) |
 | 2256 | Minimum Average Difference | Medium | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2256_Minimum-Average-Difference.md) |
+| 2279 | Maximum Bags With Full Capacity of Rocks | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_2279_Maximum-Bags-With-Full-Capacity-of-Rocks.md) |
 | 2389 | Longest Subsequence With Limited Sum | Easy | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_2389_Longest-Subsequence-With-Limited-Sum.md) |
 | 2449 | Minimum Number of Operations to Make Arrays Similar | Hard | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) |
 
@@ -210,6 +217,7 @@ Python3
 | 1179 | Friend Circles | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_1179_Friend-Circles.md) |
 | 1226 | Minimum Moves to Equal Array Elements II | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LintCode_1226_Minimum-Moves-to-Equal-Array-Elements-II.md) |
 | 1253 | Convert a Number to Hexadecimal | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1253_Convert-a-Number-to-Hexadecimal.md) |
+| 130 | Bash Game | Easy | [DP(math)](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LintCode_1300_Bash-Game.md) |
 | 1359 | Convert Sorted Array to Binary Search Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1359_Convert-Sorted-Array-to-Binary-Search-Tree.md) |
 | 1524 | Search in a Binary Search Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1524_Search-in-a-Binary-Search-Tree.md) |
 | 1665 | Calculate number | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1665_Calculate-number.md) |
@@ -393,5 +401,13 @@ Python3
 | Leet | 309 | Best Time to Buy and Sell Stock with Cooldown | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_309_Best-Time-to-Buy-and-Sell-Stock-with-Cooldown.md) | Medium | |
 | Leet | 790 | Domino and Tromino Tiling | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_790_Domino-and-Tromino-Tiling.md) | Medium | |
 | Leet | 2389 | Longest Subsequence With Limited Sum | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_2389_Longest-Subsequence-With-Limited-Sum.md) | Easy | |
+| Leet | 55 | Jump Game | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_55_Jump-Game.md) | Medium | |
+| Leet | 120 | Triangle | [DFS/DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_120_Triangle.md) | Medium | |
+| Lint | 1300 | Bash Game | [DP(math)](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LintCode_1300_Bash-Game.md) | Easy | |
+| Leet | 2279 | Maximum Bags With Full Capacity of Rocks | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_2279_Maximum-Bags-With-Full-Capacity-of-Rocks.md) | Medium | |  
+| Leet | 1962 | Remove Stones to Minimize the Total | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1962_Remove-Stones-to-Minimize-the-Total.md) | Medium | |
+| Leet | 1834 | Single-Threaded CPU | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1834_Single-Threaded-CPU.md) | Medium | |
+| Leet | 980 | Unique Paths III | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_980_Unique-Paths-III.md) | Hard | |
+| Leet | 290 | Word Pattern | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_290_Word-Pattern.md) | Easy | 202301 |
 
 (^: Attempted; partially solved)
