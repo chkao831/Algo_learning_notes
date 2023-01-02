@@ -114,3 +114,93 @@ Beats
 #### Complexity:
 - Time: O(N^2)
 - Space: O(N^2) (額外緩存空間）
+
+## DP (Bottom Up)
+
+<p>
+    <img src="../images/120_DPTriangle.jpg" width="600" />
+</p>
+
+
+```python
+from typing import List, Dict
+
+class Solution:
+    """
+    @param triangle: a list of lists of integers
+    @return: An integer, minimum path sum
+    """
+    def minimumTotal(self, triangle: List[List[int]]):
+    
+        n = len(triangle)
+        # state
+        dp = [[0]*(i+1) for i in range(n)]
+
+        # init
+        for last_row_idx in range(n):
+            dp[n-1][last_row_idx] = triangle[n-1][last_row_idx]
+
+        # func
+        for row in range(n-2, -1, -1):
+            for entry in range(0, row+1):
+                dp[row][entry] = min(dp[row+1][entry], dp[row+1][entry+1]) + triangle[row][entry]
+
+        return dp[0][0]
+```
+#### Submission:
+```
+Runtime
+69 ms
+Beats
+89.74%
+
+Memory
+15.1 MB
+Beats
+38.85%
+```
+#### Complexity:
+- Time: O(N^2)
+- Space: O(N^2) (or could do in-place without initializing an additional dp state matrix, would result in O(1) space)
+
+## DP (Top Down)
+
+```python
+from typing import List, Dict
+
+class Solution:
+    """
+    @param triangle: a list of lists of integers
+    @return: An integer, minimum path sum
+    """
+    def minimumTotal(self, triangle: List[List[int]]):
+    
+        n = len(triangle)
+
+        # init, in-place
+        for row in range(1, n):
+            triangle[row][0] = triangle[row-1][0] + triangle[row][0]
+            triangle[row][row] = triangle[row-1][row-1] + triangle[row][row]
+
+        # func
+        for row in range(2, n):
+            for entry in range(1, row):
+                triangle[row][entry] = min(triangle[row-1][entry-1], triangle[row-1][entry]) + triangle[row][entry]
+
+        return min(triangle[n-1])
+```
+#### Submission:
+```
+Runtime
+58 ms
+Beats
+99.56%
+
+Memory
+14.9 MB
+Beats
+63.76%
+```
+#### Complexity:
+- Time: O(N^2)
+- Space: O(1)
