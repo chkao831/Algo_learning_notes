@@ -29,7 +29,7 @@ class Solution:
     - 構建一個heap的時間複雜度？O(N), heapify by sifting down
 
     Python: `heapq.heapify([...])`
-    ```
+    ```python
     heap = [-num for num in piles]
     heapq.heapify(heap)
     ```
