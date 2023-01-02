@@ -84,17 +84,19 @@ class Solution:
 ```
 #### Submission:
 ```
-class Solution:
-    def uniquePaths(self, m: int, n: int) -> int:
+Runtime
+31 ms
+Beats
+90.29%
 
-        dp = [[1]*n for _ in range(m)]
-        for row in range(m-2, -1, -1):
-            for col in range(n-2, -1, -1):
-                dp[row][col] = dp[row+1][col] + dp[row][col+1]
-        return dp[0][0]
+Memory
+13.8 MB
+Beats
+73.61%
 ```
 
 ## Math (Binomial Coefficient)
+Time better than O(MN)
 
 <p>
     <img src="../images/62_UniquePathsMath.jpg" width="500" />
