@@ -25,11 +25,14 @@ class Solution:
         return -sum(heap)
 ```
 #### Remark:
-- An array can alternatively be converted to a heap in linear time O(n) using a method like Python's `heapq.heapify()`
-```
-heap = [-num for num in piles]
-heapq.heapify(heap)
-```
+- An array can be converted to a heap in linear time O(n) using a method like Python's `heapq.heapify()`. Recap from README.md.
+    - 構建一個heap的時間複雜度？O(N), heapify by sifting down
+
+    Python: `heapq.heapify([...])`
+    ```
+    heap = [-num for num in piles]
+    heapq.heapify(heap)
+    ```
 #### Submission:
 ```
 Runtime
