@@ -3,7 +3,7 @@
 >Gas
 
 <p>
-    <img src="../images/134_gas.jpg" width="500" />
+    <img src="../images/134_gas.jpg" width="800" />
 </p>
 
 ```python
