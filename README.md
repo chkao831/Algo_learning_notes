@@ -45,10 +45,12 @@ Python3
 | 31 | Next Permutation | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md) (Iterative) | 
 | 51 | N-Queens | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_51_N-Queens.md) |
 | 55 | Jump Game | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_55_Jump-Game.md) |
+| 62 | Unique Path | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_62_Unique-Paths.md) |
 | 74 | Search a 2D Matrix | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_74_Search-a-2D-Matrix.md) | 
 | 86 | Partition List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_86-Partition-List.md) |
 | 91 | Decode Ways | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_91_Decode-Ways.md) |
 | 94 | Binary Tree Inorder Traversal | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_94_Binary-Tree-Inorder-Traversal.md) |
+| 100 | Same Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_100_Same-Tree.md) |
 | 102 | Binary Tree Level Order Traversal | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_102_Binary-Tree-Level-Order-Traversal.md) |
 | 104 | Maximum Depth of Binary Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_104_Maximum-Depth-of-Binary-Tree.md) |
 | 110 | Balanced Binary Tree | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_110_Balanced-Binary-Tree.md) |
@@ -56,9 +58,11 @@ Python3
 | 121 | Best Time to Buy and Sell Stock | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_121_Best-Time-to-Buy-and-Sell-Stock.md) |
 | 122 | Best Time to Buy and Sell Stock II | Medium | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_122_Best-Time-to-Buy-and-Sell-Stock-II.md) |
 | 124 | Binary Tree Maximum Path Sum | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_124_Binary%20Tree-Maximum-Path-Sum.md) |
+| 134 | Gas Station | Medium | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_134_Gas-Station.md) | Medium |
 | 144 | Binary Tree Preorder Traversal | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_144_Binary-Tree-Preorder-Traversal.md) |
 | 145 | Binary Tree Postorder Traversal | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_145_Binary-Tree-Postorder-Traversal.md) | 
 | 147 | Insertion Sort List | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_147_Insertion-Sort-List.md) |
+| 149 | Max Points on a Line | Hard | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_149_Max-Points-on-a-Line.md) |
 150 | Evaluate Reverse Polish Notation | Medium | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_150_Evaluate-Reverse-Polish-Notation.md) |
 | 155 | Min Stack | Medium | [Stack](https://github.com/chkao831/Algo_learning_notes/blob/main/Stack/LeetCode_155_Min-Stack.md) |
 | 173 | Binary Search Tree Iterator | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_173_Binary-Search-Tree-Iterator.md) |
@@ -100,6 +104,7 @@ Python3
 | 1962 | Remove Stones to Minimize the Total | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1962_Remove-Stones-to-Minimize-the-Total.md) |
 | 2161 | Partition Array According to Given Pivot | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_2161_Partition-Array-According-to-Given-Pivot.md) |
 | 2031 | Count Subarrays With More Ones Than Zeros | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) |
+| 2244 | Minimum Rounds to Complete All Tasks | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_2244_Minimum-Rounds-to-Complete-All-Tasks.md) |
 | 2256 | Minimum Average Difference | Medium | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2256_Minimum-Average-Difference.md) |
 | 2279 | Maximum Bags With Full Capacity of Rocks | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_2279_Maximum-Bags-With-Full-Capacity-of-Rocks.md) |
 | 2389 | Longest Subsequence With Limited Sum | Easy | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_2389_Longest-Subsequence-With-Limited-Sum.md) |
@@ -131,6 +136,7 @@ Python3
 | 88 | Lowest Common Ancestor of a Binary Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_88_Lowest-Common-Ancestor-of-a-Binary-Tree.md) |
 | 90 | k Sum II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_90_k-Sum-II.md) |
 | 95 | Validate Binary Search Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_95_Validate-Binary-Search-Tree.md) |
+| 101 | Remove Duplicates from Sorted Array II | Easy | [Two Pointer](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_101_Remove-Duplicates-from-Sorted-Array-II.md) |
 | 104 | Merge K Sorted Lists | Medium | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_104_Merge-K-Sorted-Lists.md)(Heap/PairwiseMerge/MergeSort) |
 | 121 | Word Ladder II | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_121_Word-Ladder-II.md) |
 | 120 | Word Ladder | Hard | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_120_Word-Ladder.md) |
@@ -409,5 +415,12 @@ Python3
 | Leet | 1834 | Single-Threaded CPU | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1834_Single-Threaded-CPU.md) | Medium | |
 | Leet | 980 | Unique Paths III | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_980_Unique-Paths-III.md) | Hard | |
 | Leet | 290 | Word Pattern | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_290_Word-Pattern.md) | Easy | 202301 |
+| Leet | 62 | Unique Path | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_62_Unique-Paths.md) | Medium | |
+| Leet | 2244 | Minimum Rounds to Complete All Tasks | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_2244_Minimum-Rounds-to-Complete-All-Tasks.md) | Medium | |
+| Leet | 452 | Minimum Number of Arrows to Burst Balloons | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LeetCode_452_Minimum-Number-of-Arrows-to-Burst-Balloons.md) | Medium | |
+| Leet | 134 | Gas Station | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_134_Gas-Station.md) | Medium | |
+| Leet | 149 | Max Points on a Line | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_149_Max-Points-on-a-Line.md) | Hard | |
+| Leet | 100 | Same Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_100_Same-Tree.md) | Easy | |
+| Lint | 101 | Remove Duplicates from Sorted Array II | [Two Pointer](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_101_Remove-Duplicates-from-Sorted-Array-II.md) | Easy | |
 
 (^: Attempted; partially solved)
