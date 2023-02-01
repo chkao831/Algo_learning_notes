@@ -96,15 +96,19 @@ Python3
 | 931 | Minimum Falling Path Sum | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_931_Minimum-Falling-Path-Sum.md) |
 | 980 | Unique Paths III | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_980_Unique-Paths-III.md) |
 | 1026 | Maximum Difference Between Node and Ancestor | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1026_Maximum-Difference-Between-Node-and-Ancestor.md) |
+| 1061 | Lexicographically Smallest Equivalent String | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1061_Lexicographically-Smallest-Equivalent-String.md) |
 | 1120 | Maximum Average Subtree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md) |
 | 1143 | Longest Common Subsequence | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1143_Longest-Common-Subsequence.md) |
 | 1339 | Maximum Product of Splitted Binary Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1339_Maximum-Product-of-Splitted-Binary-Tree.md) |
 | 1429 | First Unique Number (online algo) | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md) |
+| 1443 | Minimum Time to Collect All Apples in a Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1443_Minimum-Time-to-Collect-All-Apples-in-a-Tree.md) |
+| 1519 | Number of Nodes in the Sub-Tree With the Same Label | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1519_Number-of-Nodes-in-the-Sub-Tree-With-the-Same-Label.md) |
 | 1834 | Single-Threaded CPU | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1834_Single-Threaded-CPU.md) |
 | 1962 | Remove Stones to Minimize the Total | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1962_Remove-Stones-to-Minimize-the-Total.md) |
 | 2161 | Partition Array According to Given Pivot | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_2161_Partition-Array-According-to-Given-Pivot.md) |
 | 2031 | Count Subarrays With More Ones Than Zeros | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_2031_Count-Subarrays-With-More-Ones-Than-Zeros.md) |
 | 2244 | Minimum Rounds to Complete All Tasks | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_2244_Minimum-Rounds-to-Complete-All-Tasks.md) |
+| 2246 | Longest Path With Different Adjacent Characters | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_2246_Longest-Path-With-Different-Adjacent-Characters.md) |
 | 2256 | Minimum Average Difference | Medium | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2256_Minimum-Average-Difference.md) |
 | 2279 | Maximum Bags With Full Capacity of Rocks | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_2279_Maximum-Bags-With-Full-Capacity-of-Rocks.md) |
 | 2389 | Longest Subsequence With Limited Sum | Easy | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_2389_Longest-Subsequence-With-Limited-Sum.md) |
@@ -422,5 +426,9 @@ Python3
 | Leet | 149 | Max Points on a Line | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_149_Max-Points-on-a-Line.md) | Hard | |
 | Leet | 100 | Same Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_100_Same-Tree.md) | Easy | |
 | Lint | 101 | Remove Duplicates from Sorted Array II | [Two Pointer](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_101_Remove-Duplicates-from-Sorted-Array-II.md) | Easy | |
+| Leet | 1443 | Minimum Time to Collect All Apples in a Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1443_Minimum-Time-to-Collect-All-Apples-in-a-Tree.md) | Medium | |
+| Leet | 1519 | Number of Nodes in the Sub-Tree With the Same Label | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1519_Number-of-Nodes-in-the-Sub-Tree-With-the-Same-Label.md) | Medium | |
+| Leet | 2246 | Longest Path With Different Adjacent Characters | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_2246_Longest-Path-With-Different-Adjacent-Characters.md) | Hard | |
+| Leet | 1061 | Lexicographically Smallest Equivalent String | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1061_Lexicographically-Smallest-Equivalent-String.md) | Medium | |
 
 (^: Attempted; partially solved)
