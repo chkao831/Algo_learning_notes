@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Jan 1, 2023
+> Last Updated on Feb 1, 2023
 
 ## Language
 Python3
@@ -97,12 +97,14 @@ Python3
 | 980 | Unique Paths III | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_980_Unique-Paths-III.md) |
 | 1026 | Maximum Difference Between Node and Ancestor | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1026_Maximum-Difference-Between-Node-and-Ancestor.md) |
 | 1061 | Lexicographically Smallest Equivalent String | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1061_Lexicographically-Smallest-Equivalent-String.md) |
+| 1071 | Greatest Common Divisor of Strings | Easy | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_1071_Greatest-Common-Divisor-of-Strings.md) |
 | 1120 | Maximum Average Subtree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1120_Maximum-Average-Subtree.md) |
 | 1143 | Longest Common Subsequence | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1143_Longest-Common-Subsequence.md) |
 | 1339 | Maximum Product of Splitted Binary Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1339_Maximum-Product-of-Splitted-Binary-Tree.md) |
 | 1429 | First Unique Number (online algo) | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md) |
 | 1443 | Minimum Time to Collect All Apples in a Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1443_Minimum-Time-to-Collect-All-Apples-in-a-Tree.md) |
 | 1519 | Number of Nodes in the Sub-Tree With the Same Label | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1519_Number-of-Nodes-in-the-Sub-Tree-With-the-Same-Label.md) |
+| 1626 | Best Team With No Conflicts | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1626_Best-Team-With-No-Conflicts.md) |
 | 1834 | Single-Threaded CPU | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1834_Single-Threaded-CPU.md) |
 | 1962 | Remove Stones to Minimize the Total | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1962_Remove-Stones-to-Minimize-the-Total.md) |
 | 2161 | Partition Array According to Given Pivot | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_2161_Partition-Array-According-to-Given-Pivot.md) |
@@ -430,5 +432,7 @@ Python3
 | Leet | 1519 | Number of Nodes in the Sub-Tree With the Same Label | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1519_Number-of-Nodes-in-the-Sub-Tree-With-the-Same-Label.md) | Medium | |
 | Leet | 2246 | Longest Path With Different Adjacent Characters | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_2246_Longest-Path-With-Different-Adjacent-Characters.md) | Hard | |
 | Leet | 1061 | Lexicographically Smallest Equivalent String | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1061_Lexicographically-Smallest-Equivalent-String.md) | Medium | |
+| Leet | 1626 | Best Team With No Conflicts | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1626_Best-Team-With-No-Conflicts.md) | Medium | | 
+| Leet | 1071 | Greatest Common Divisor of Strings | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_1071_Greatest-Common-Divisor-of-Strings.md) | Easy | 202302 |
 
 (^: Attempted; partially solved)
