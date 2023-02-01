@@ -64,5 +64,5 @@ Beats
 #### Complexity:
 
 <p>
-    <img src="../images/1061_dfs.png" width="500" />
+    <img src="../images/1061_dfs.png" width="800" />
 </p>
