@@ -1,6 +1,6 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Feb 1, 2023
+> Last Updated on Feb 2, 2023
 
 ## Language
 Python3
@@ -94,6 +94,7 @@ Python3
 | 913 | Sort an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) |
 | 922 | Sort Array By Parity II | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_922_Sort-Array-By-Parity-II.md) |
 | 931 | Minimum Falling Path Sum | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_931_Minimum-Falling-Path-Sum.md) |
+| 953 |  Verifying an Alien Dictionary | Easy | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_953_Verifying-an-Alien-Dictionary.md) |
 | 980 | Unique Paths III | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_980_Unique-Paths-III.md) |
 | 1026 | Maximum Difference Between Node and Ancestor | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1026_Maximum-Difference-Between-Node-and-Ancestor.md) |
 | 1061 | Lexicographically Smallest Equivalent String | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1061_Lexicographically-Smallest-Equivalent-String.md) |
@@ -434,5 +435,6 @@ Python3
 | Leet | 1061 | Lexicographically Smallest Equivalent String | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1061_Lexicographically-Smallest-Equivalent-String.md) | Medium | |
 | Leet | 1626 | Best Team With No Conflicts | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1626_Best-Team-With-No-Conflicts.md) | Medium | | 
 | Leet | 1071 | Greatest Common Divisor of Strings | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_1071_Greatest-Common-Divisor-of-Strings.md) | Easy | 202302 |
+| Leet | 953 |  Verifying an Alien Dictionary | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_953_Verifying-an-Alien-Dictionary.md) | Easy | |
 
 (^: Attempted; partially solved)
