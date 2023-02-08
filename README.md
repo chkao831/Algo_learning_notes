@@ -128,7 +128,7 @@ Python3
 | 15 | Permutations | Medium | DFS ([Recursive](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_15_Permutations.md#dfs-recursive-approach)/[Iterative](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_15_Permutations.md#dfs-%E9%9D%9E%E9%81%9E%E6%AD%B8%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AF%A6%E7%8F%BE%E6%8E%92%E5%88%97%E5%92%8C%E7%B5%84%E5%90%88%E9%A1%9Edfs)) |
 | 16 | Permutations II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_16_Permutations-II.md) |
 | 18 | Subsets II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_18_Subsets-II.md) |
-| 17 | Subsets | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#bfs); [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#dfs); [Binary Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#binary-operator) | 
+| 17 | Subsets | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#bfs); <br/>[DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#dfs); <br/> [Binary Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#binary-operator) | 
 | 31 | Partition Array | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_31_Partition-Array.md) |
 | 38 | Search a 2D Matrix II | Medium | [Binary Search](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LintCode_38_Search-a-2D-Matrix-II.md) | 
 | 49 | Sort Letters by Case | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/tree/main/Two-pointers) |
@@ -144,7 +144,7 @@ Python3
 | 90 | k Sum II | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_90_k-Sum-II.md) |
 | 95 | Validate Binary Search Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_95_Validate-Binary-Search-Tree.md) |
 | 101 | Remove Duplicates from Sorted Array II | Easy | [Two Pointer](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_101_Remove-Duplicates-from-Sorted-Array-II.md) |
-| 104 | Merge K Sorted Lists | Medium | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_104_Merge-K-Sorted-Lists.md)(Heap/PairwiseMerge/MergeSort) |
+| 104 | Merge K Sorted Lists | Medium | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_104_Merge-K-Sorted-Lists.md) |
 | 121 | Word Ladder II | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_121_Word-Ladder-II.md) |
 | 120 | Word Ladder | Hard | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_120_Word-Ladder.md) |
 | 127 | Topological Sorting | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_127_Topological-Sorting.md) |
@@ -187,8 +187,8 @@ Python3
 | 514 | Paint Fence | Easy | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LintCode_514_Paint-Fence.md) |
 | 539 | Move Zeroes | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_539_move-zeroes.md) | 
 | 545 | Top k Largest Numbers II | Medium | [QuickSelect](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#quick-select--sort-top-k--on--klogk-topk-o1-add); [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LintCode_545_Top-k-Largest-Numbers-II.md#heap--onlogk-topk-ologn-add) |
-| 547 | Intersection of Two Arrays | Easy | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md)(TwoPointers/BinarySearch) |
-| 548 | Intersection of Two Arrays II | Easy | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_548_Intersection-of-Two-Arrays-II.md)(Hashmap/TwoPointers) |
+| 547 | Intersection of Two Arrays | Easy | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md) |
+| 548 | Intersection of Two Arrays II | Easy | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_548_Intersection-of-Two-Arrays-II.md)|
 | 573 | Build Post Office II | Hard | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_573_Build-Post-Office-II.md) |
 | 577 | Merge K Sorted Interval Lists | Medium | [ExternalSorting(Heap)](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_577_Merge-K-Sorted-Interval-Lists.md) |
 | 578 | Lowest Common Ancestor III | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_578_Lowest-Common-Ancestor-III.md) |
@@ -214,7 +214,7 @@ Python3
 | 716 | Add and Search | Easy | [Two Pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LintCode_716_Add-and-Search.md);<br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LintCode_716_Add-and-Search.md) |
 | 790 | Domino and Tromino Tiling | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_790_Domino-and-Tromino-Tiling.md) |
 | 792 | Kth Prime Number | Easy | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_792_Kth-Prime-Number.md) |
-| 793 | Intersection of Arrays | Medium | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_793_Intersection-of-Arrays.md)(Hashmap/Heap) |
+| 793 | Intersection of Arrays | Medium | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_793_Intersection-of-Arrays.md) |
 | 802 | Sudoku Solver | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_802_Sudoku-Solver.md) |
 | 816 | Traveling Salesman Problem (TSP) | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_816_Traveling-Salesman-Problem.md) |
 | 839 | Merge Two Sorted Interval Lists | Easy | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_839_Merge-Two-Sorted-Interval-Lists.md) |
@@ -314,7 +314,7 @@ Python3
 | Lint | 616 | Course Schedule II | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_616_Course-Schedule-II.md) | Medium |  |
 | Lint | 605 | Sequence Reconstruction | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_605_Sequence-Reconstruction.md) | Medium |  |
 | Lint | 892 | Alien Dictionary | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_892_Alien-Dictionary.md) | Hard |  |
-| Lint | 17 | Subsets | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#bfs); [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#dfs); [Binary Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#binary-operator) | Medium |  |
+| Lint | 17 | Subsets | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#bfs); <br/>[DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#dfs); <br/>[Binary Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_17_Subsets.md#binary-operator) | Medium |  |
 | Lint | 7 | Serialize and Deserialize Binary Tree | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LintCode_7_Serialize-and-Deserialize-Binary-Tree.md) | Medium |  |
 | Lint | 1820 | Find Letter | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1820_Find-Letter.md) | Easy | 20221001 | 
 | Lint | 1027 | Similar RGB Color | [Operator](https://github.com/chkao831/Algo_learning_notes/blob/main/Operator/LintCode_1017_Similar-RGB-Color.md) | Easy |  |
@@ -384,13 +384,13 @@ Python3
 | Leet | 2256 | Minimum Average Difference | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2256_Minimum-Average-Difference.md) | Medium | |
 | Lint | 6 | Merge Two Sorted Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_6_Merge-Two-Sorted-Arrays.md) | Easy | |
 | Lint | 165 | Merge Two Sorted Lists | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_165_Merge-Two-Sorted-Lists.md) | Easy | |
-| Lint | 104 | Merge K Sorted Lists | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_104_Merge-K-Sorted-Lists.md)<br/>(Heap/PairwiseMerge/MergeSort) | Medium | |
+| Lint | 104 | Merge K Sorted Lists | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_104_Merge-K-Sorted-Lists.md)<br/> | Medium | |
 | Lint | 64 | Merge Sorted Array | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_64_Merge-Sorted-Array.md) | Easy | |
 | Lint | 839 | Merge Two Sorted Interval Lists | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_839_Merge-Two-Sorted-Interval-Lists.md) | Easy | |
 | Lint | 577 | Merge K Sorted Interval Lists | [ExternalSorting<br/>(Heap)](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_577_Merge-K-Sorted-Interval-Lists.md) | Medium | |
-| Lint | 547 | Intersection of Two Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md)<br/>(TwoPointers/BinarySearch) | Easy | |
-| Lint | 548 | Intersection of Two Arrays II | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_548_Intersection-of-Two-Arrays-II.md)<br/>(Hashmap/TwoPointers) | Easy | |
-| Lint | 793 | Intersection of Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_793_Intersection-of-Arrays.md)<br/>(Hashmap/Heap) | Medium | |
+| Lint | 547 | Intersection of Two Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_547_Intersection-of-Two-Arrays.md) | Easy | |
+| Lint | 548 | Intersection of Two Arrays II | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_548_Intersection-of-Two-Arrays-II.md) | Easy | |
+| Lint | 793 | Intersection of Arrays | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_793_Intersection-of-Arrays.md) | Medium | |
 | Lint | 654 | Sparse Matrix Multiplication | [ExternalSorting](https://github.com/chkao831/Algo_learning_notes/blob/main/ExternalSorting/LintCode_654_Sparse-Matrix-Multiplication.md) | Medium | | 
 | Leet | 872 | Leaf-Similar Trees | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_872_Leaf-Similar-Trees.md) | Easy | |
 | Leet | 328 | Odd Even Linked List | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_328_Odd-Even-Linked-List.md) | Medium | |
