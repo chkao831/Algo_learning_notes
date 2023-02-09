@@ -1,9 +1,9 @@
 # Algorithm Learning Notes
 > Since Sep 10, 2022\
-> Last Updated on Feb 2, 2023
+> Last Updated on Feb 9, 2023
 
 ## Language
-Python3
+Python3 & C++
 
 ## Categories
 #### Algorithms
@@ -43,6 +43,7 @@ Python3
 | 1 | Two Sum | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_1_Two-Sum.md); <br/>[Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_1_Two-sum.md)| |
 | 18 | 4Sum | Medium | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_18_4Sum.md)|  |
 | 31 | Next Permutation | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_31_Next-Permutation.md) (Iterative) |  |
+| 45 | Jump Game II | Medium | | [DFS](https://github.com/chkao831/Algo_learning_notes_C/blob/main/leetcode/LeetCode_45_Jump-Game-II.md) |
 | 51 | N-Queens | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_51_N-Queens.md) |  |
 | 55 | Jump Game | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_55_Jump-Game.md) |  |
 | 62 | Unique Path | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_62_Unique-Paths.md) |  |
@@ -91,9 +92,10 @@ Python3
 | 834 | Sum of Distances in Tree | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_834_Sum-of-Distances-in-Tree.md) |  |
 | 872 | Leaf-Similar Trees | Easy | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_872_Leaf-Similar-Trees.md) |  |
 | 886 | Possible Bipartition | Medium | [BFS](https://github.com/chkao831/Algo_learning_notes/blob/main/BFS/LeetCode_886_Possible-Bipartition.md) |  |
+| 904 | Fruit Into Baskets | Medium | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_904_Fruit-Into-Baskets.md) |  [Hashmap](https://github.com/chkao831/Algo_learning_notes_C/blob/main/leetcode/LeetCode_904_Fruit-Into-Baskets.md) |
 | 913 | Sort an Array | Medium | [DnC](https://github.com/chkao831/Algo_learning_notes/blob/main/DnC/LeetCode_913_Sort-an-Array.md) |  |
 | 922 | Sort Array By Parity II | Easy | [Two pointers](https://github.com/chkao831/Algo_learning_notes/blob/main/Two-pointers/LeetCode_922_Sort-Array-By-Parity-II.md) |  |
-| 931 | Minimum Falling Path Sum | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_931_Minimum-Falling-Path-Sum.md) |  |
+| 931 | Minimum Falling Path Sum | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_931_Minimum-Falling-Path-Sum.md) | [DFS](https://github.com/chkao831/Algo_learning_notes_C/blob/main/leetcode/LeetCode_931_Minimum-Falling-Path-Sum.md) |
 | 953 |  Verifying an Alien Dictionary | Easy | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_953_Verifying-an-Alien-Dictionary.md) |  |
 | 980 | Unique Paths III | Hard | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_980_Unique-Paths-III.md) |  |
 | 1026 | Maximum Difference Between Node and Ancestor | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1026_Maximum-Difference-Between-Node-and-Ancestor.md) |  |
@@ -104,6 +106,7 @@ Python3
 | 1339 | Maximum Product of Splitted Binary Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1339_Maximum-Product-of-Splitted-Binary-Tree.md) |  |
 | 1429 | First Unique Number (online algo) | Medium | [LinkedList](https://github.com/chkao831/Algo_learning_notes/blob/main/LinkedList/LeetCode_1429_First-Unique-Number.md) |  |
 | 1443 | Minimum Time to Collect All Apples in a Tree | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1443_Minimum-Time-to-Collect-All-Apples-in-a-Tree.md) |  |
+| 1470 | Shuffle the Array | Easy| | [Array/Two Pointer](https://github.com/chkao831/Algo_learning_notes_C/blob/main/leetcode/LeetCode_1470_Shuffle-the-Array.md) |
 | 1519 | Number of Nodes in the Sub-Tree With the Same Label | Medium | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1519_Number-of-Nodes-in-the-Sub-Tree-With-the-Same-Label.md) |  |
 | 1626 | Best Team With No Conflicts | Medium | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1626_Best-Team-With-No-Conflicts.md) |  |
 | 1834 | Single-Threaded CPU | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_1834_Single-Threaded-CPU.md) |  |
@@ -116,6 +119,7 @@ Python3
 | 2279 | Maximum Bags With Full Capacity of Rocks | Medium | [Heap](https://github.com/chkao831/Algo_learning_notes/blob/main/Heap/LeetCode_2279_Maximum-Bags-With-Full-Capacity-of-Rocks.md) |  |
 | 2389 | Longest Subsequence With Limited Sum | Easy | [BinarySearch](https://github.com/chkao831/Algo_learning_notes/blob/main/BinarySearch/LeetCode_2389_Longest-Subsequence-With-Limited-Sum.md) |  |
 | 2449 | Minimum Number of Operations to Make Arrays Similar | Hard | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_2449_Minimum-Number-of-Operations-to-Make-Arrays-Similar.md) |  |
+
 #### LintCode
 | Index | Topic | Difficulty | Link(s) |
 |  ----  | ----  | ----  | ----  |
@@ -398,7 +402,7 @@ Python3
 | Leet | 1339 | Maximum Product of Splitted Binary Tree | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_1339_Maximum-Product-of-Splitted-Binary-Tree.md) |   | Medium | |
 | Leet | 124 | Binary Tree Maximum Path Sum | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_124_Binary%20Tree-Maximum-Path-Sum.md) |   | Hard | |
 | Leet | 70 | Climbing Stairs | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_70_Climbing-Stairs.md#dfs-brute-force)/[DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_70_Climbing-Stairs.md#dp) |   | Easy | |
-| Leet | 931 | Minimum Falling Path Sum | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_931_Minimum-Falling-Path-Sum.md) |   | Medium | |
+| Leet | 931 | Minimum Falling Path Sum | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LeetCode_931_Minimum-Falling-Path-Sum.md) | [DFS](https://github.com/chkao831/Algo_learning_notes_C/blob/main/leetcode/LeetCode_931_Minimum-Falling-Path-Sum.md) | Medium | |
 | Lint | 1032 | Letter Case Permutation | [DFS](https://github.com/chkao831/Algo_learning_notes/blob/main/DFS/LintCode_1032_Letter-Case-Permutation.md) |   | Easy | |
 | Leet | 198 | House Robber | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_198_House-Robber.md) |   | Medium | |
 | Lint | 514 | Paint Fence | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LintCode_514_Paint-Fence.md) |   | Easy | |
@@ -435,5 +439,8 @@ Python3
 | Leet | 1626 | Best Team With No Conflicts | [DP](https://github.com/chkao831/Algo_learning_notes/blob/main/DP/LeetCode_1626_Best-Team-With-No-Conflicts.md) |   | Medium | | 
 | Leet | 1071 | Greatest Common Divisor of Strings | [Array](https://github.com/chkao831/Algo_learning_notes/blob/main/Array/LeetCode_1071_Greatest-Common-Divisor-of-Strings.md) |   | Easy | 202302 |
 | Leet | 953 |  Verifying an Alien Dictionary | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_953_Verifying-an-Alien-Dictionary.md) |   | Easy | |
+| Leet | 904 | Fruit Into Baskets | [Hashmap](https://github.com/chkao831/Algo_learning_notes/blob/main/Hashmap/LeetCode_904_Fruit-Into-Baskets.md) |[Hashmap](https://github.com/chkao831/Algo_learning_notes_C/blob/main/leetcode/LeetCode_904_Fruit-Into-Baskets.md) | Medium | |
+| Leet | 1470 | Shuffle the Array | | [Array/Two Pointer](https://github.com/chkao831/Algo_learning_notes_C/blob/main/leetcode/LeetCode_1470_Shuffle-the-Array.md) | Easy | |
+| Leet | 45 | Jump Game II | | [DFS](https://github.com/chkao831/Algo_learning_notes_C/blob/main/leetcode/LeetCode_45_Jump-Game-II.md) | Medium | |
 
 (^: Attempted; partially solved)
